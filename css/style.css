@@ -1,0 +1,370 @@
+/*
+@mixin big-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  text-align: left;
+  color: $colour-text-white;
+}
+
+@mixin img-top {
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: top left;
+}*/
+/*Img top responsive
+@mixin img-top-responsive {
+  background-size: contain;
+  background-position: top center;
+  height: 25vh;
+  margin-bottom: 3em;
+  padding: 0;
+}
+
+@mixin font-title {
+  font-size: 3em;
+  font-weight: 800;
+}
+
+@mixin img-long {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top left;
+  height: 450px;
+}*/
+/*Img long responsive
+@mixin img-long-responsive {
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+}
+
+@mixin text-banner {
+  color: $colour-text-white;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  padding: 3.7em 0;
+}*/
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon/icomoon.eot") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf") format("truetype"), url("../fonts/icomoon/icomoon.woff") format("woff"), url("../fonts/icomoon/icomoon.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "Now";
+  src: url("../fonts/Now-Regular.otf") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+@font-face {
+  font-family: "MADE Bon Voyage";
+  src: url("../fonts/made-bon-voyage.otf") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 18px;
+  color: #828282;
+  font-family: "Now", sans-serif;
+  font-weight: 300;
+  margin-top: 4.7em;
+}
+
+/*Navbar*/
+.navbar {
+  box-shadow: 2px 2px 18px -6px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 3px;
+}
+
+.dropdown-toggle::after {
+  color: #7D9693;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #AF831B;
+}
+
+.navbar-collapse {
+  justify-content: space-around;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.nav-link {
+  margin-right: 32px;
+}
+
+.navbar-brand:active {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.dropdown-item:active {
+  background-color: #7D9693;
+}
+
+.dropdown-menu {
+  text-align: left;
+  font-size: 13px;
+  border-radius: 0;
+  border: 0;
+  box-shadow: 2px 2px 18px -6px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu a {
+  color: #828282;
+  font-weight: 500;
+}
+
+.bg-pink {
+  background-color: #FFFBF9;
+  height: 90vh;
+  padding-top: 5rem;
+  overflow-x: hidden;
+}
+
+.img-home {
+  background-image: url(../img/img-paty.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
+  height: 30rem;
+}
+
+.container-text-home {
+  margin: auto;
+}
+
+.container-text-home h1 {
+  font-family: "MADE Bon Voyage", sans-serif;
+  color: black;
+  font-size: 4rem;
+  width: 80%;
+}
+
+/*Cards*/
+.margin-card {
+  margin-right: 2rem;
+}
+
+.bg-cards-home .row {
+  background-color: #FFFBF9;
+  margin-top: 17rem;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarjeta-one {
+  position: relative;
+  transform-style: preserve-3d;
+  height: 30rem;
+}
+
+.adelante,
+.atras {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.atras {
+  display: none;
+}
+
+.adelante h1 {
+  width: 70%;
+  font-family: "MADE Bon Voyage", sans-serif;
+  color: black;
+  font-size: 2rem;
+}
+
+.atras h1, .atras-two h1, .atras-three h1 {
+  width: 60%;
+  font-family: "MADE Bon Voyage", sans-serif;
+  color: white;
+  font-size: 2rem;
+}
+
+.atras-three h5 {
+  width: 60%;
+  font-family: "MADE Bon Voyage", sans-serif;
+  color: white;
+  font-size: 1rem;
+}
+
+.atras-two, .atras-three {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.atras-two, .atras-three {
+  display: none;
+}
+
+/*card-01*/
+.img-front-card-01 {
+  background-image: url(../img/card-home-01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-back-card-01 {
+  background-image: url(../img/card-home-01-back.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*card-02*/
+.img-front-card-02 {
+  background-image: url(../img/card-home-02.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-back-card-02 {
+  background-image: url(../img/card-home-02-back.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*card-03*/
+.img-front-card-03 {
+  background-image: url(../img/card-home-03.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-back-card-03 {
+  background-image: url(../img/card-home-03-back.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button-rounded {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 1rem 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  width: 70%;
+}
+.button-rounded:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/***Testimonios***/
+.wrapper {
+  width: 100%;
+  background: #FFFBF9;
+  padding: 40px 0 1px 0;
+  position: relative;
+  margin-top: 17rem;
+}
+
+.ssslide img {
+  margin: auto !important;
+}
+
+.slider-testimonial {
+  width: 85%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.testimonial-client {
+  margin-bottom: 15px;
+}
+
+.testimonial-client img {
+  width: 10rem;
+  position: absolute;
+  margin: auto;
+}
+
+.client-name {
+  text-align: center;
+  color: white;
+  font-family: "MADE Bon Voyage", sans-serif;
+  font-size: 2rem;
+}
+
+.testimonial-text {
+  padding: 71px 60px 30px 60px;
+  color: black;
+  position: relative;
+  top: -65px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.testimonial-text:first-child {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  font-style: italic;
+}
+
+.testimonial-text p {
+  margin: auto;
+  text-align: center;
+  width: 90%;
+}
+
+.sssnext, .sssprev {
+  opacity: 50%;
+}
