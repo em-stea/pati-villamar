@@ -7,6 +7,7 @@
     <meta name="description" content="Soy Paty Villamar. Terapeuta Holística y facilitadora de consciencia y energía."/>
     <meta name="keywords" content="pati villamar coach holistica access counsciousness facilitadora de consciencia y energía eneagrama mindfulness barras de access facelift procesos corporales metodo oneness ecuador terapeuta"/>
     <title>Pati Villamar</title>
+    <link rel="icon" type="img/png" href="img/favicon.png">
 
     <!--Bootstrap CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -128,10 +129,11 @@
 
   <!--Cards-->
   <section>
-    <div class="container-fluid bg-cards-home">
+    <div class="container-fluid box-cards-home">
       <div class="row">
+        <div class="bg-pink-cards"></div>
         <!--card-01-->
-        <div class="col-12 col-md-3 px-0 margin-card">
+        <div class="col-12 col-md-3 px-0 margin-card" data-aos="fade-up" data-aos-duration="900">
           <div class="wrap">
             <div class="tarjeta-wrap">
               <div class="tarjeta-one">
@@ -149,7 +151,7 @@
           </div>
         </div>
         <!--card-02-->
-        <div class="col-12 col-md-3 px-0 margin-card">
+        <div class="col-12 col-md-3 px-0 margin-card" data-aos="fade-up" data-aos-delay="300" data-aos-duration="900">
           <div class="wrap">
             <div class="tarjeta-wrap">
               <div class="tarjeta-one">
@@ -169,7 +171,7 @@
           </div>
         </div>
         <!--card-03-->
-        <div class="col-12 col-md-3 px-0">
+        <div class="col-12 col-md-3 px-0"  data-aos="fade-up" data-aos-delay="600" data-aos-duration="900">
           <div class="wrap">
             <div class="tarjeta-wrap">
               <div class="tarjeta-one">
@@ -204,9 +206,9 @@
               <img src="img/comillas.png" alt="">
             </div>
             <div class="testimonial-text">
-              <p>Conocí a Alejandra en una etapa de mi vida dónde no sabía qué rumbo tomar, acababa de divorciarme, mi vida personal y laboral no me hacían feliz. Hoy puedo decir que me atreví a estudiar lo que quería, cambié de profesión y estoy trabajando en mis vínculos y en sanar el pasado. Hoy puedo decir que gracias a Ale, aprendí a construir mi felicidad.</p>
+              <p>Me corrieron barras por primera vez y el cambio ha sido muy notorio. Se me quitó el cansancio, tengo más energía. Ahora le pregunto a mi cuerpo qué se le antoja.</p>
               <br>
-              <p class="client-name">Ana Zambrano</p>
+              <p class="client-name">Ángeles Ivania Ochoa Rico</p>
             </div>
           </div>
           <div class="testimonial-item">
@@ -214,9 +216,9 @@
               <img src="img/comillas.png" alt="">
             </div>
             <div class="testimonial-text">
-                <p>Ya no callo para evitar conflictos. Ya no permito dañar mi salud mental ni física por guardarme lo que siento y lo que me lastima. Trabajo sobre ello y  elijo cómo comunicar lo que me está haciendo daño, sin cargarlo de sentimientos ni herir al otro.
+                <p>Yo llevo 2 años corriéndome barras por lo menos 3 veces a la semana. Se me fue la histeria y el insomnio. Vivo en la gozadera día a día y desapareció el miedo a la soledad.</p>
                 <br>
-                <p class="client-name">Carla Garcia</p>
+                <p class="client-name">Ivette Ching Gutiérrez</p>
             </div>
           </div>
           <div class="testimonial-item">
@@ -224,15 +226,76 @@
               <img src="img/comillas.png" alt="">
             </div>
             <div class="testimonial-text">
-                <p>Gracias a Alejandra entendí a relacionarme desde otro lugar con mi equipo de trabajo, ya no me pesa mi espacio de liderazgo ni delegar tareas. Trabajamos sobre mis fortalezas y debilidades y enseguida noté que mi desempeño y el de mi equipo mejoró muchísimo.</p>
+                <p>He visto una notable mejora en mi economía. Siento paz mental. Cosas que no fluían ahora se me dan más rápido</p>
                 <br>
-                <p class="client-name">Fernando Cedeno</p>
+                <p class="client-name">Mayra Pulido</p>
+            </div>
+          </div>
+          <div class="testimonial-item">
+            <div class="testimonial-client">
+              <img src="img/comillas.png" alt="">
+            </div>
+            <div class="testimonial-text">
+                <p>¡Las barras son el mejor regalo que te puedes dar! Yo llevo casi 5 meses y es una maravilla, es expansión y explosión de posibilidades. Sales de la mente para abrirte a los regalos del universo.</p>
+                <br>
+                <p class="client-name">Mary Esco</p>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+    <!--Contacto-->
+    <div class="container-fluid bg-contactame text-white text-center" id="contactame">
+      <h1 class="" data-aos="fade-up" data-aos-duration="1000">Contacto</h1>
+      <p class="text-contact">Mi compromiso es liberarte.
+        <span class="fst-italic" >
+          ¡Conversa conmigo! 
+        </span>
+      </p>
+      <!--Form-->
+      <form method="post" action="form-email.php" class="col-12 m-auto">
+        <div class="wrapper-input">
+          <div class="mb-3">
+            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" required>
+          </div>
+          <div class="mb-3">
+              <input type="email" class="form-control" id="email" name="email"  placeholder="Email" required>
+          </div>
+          <div class="mb-3">
+              <textarea class="form-control" id="mensaje" name="mensaje" rows="3" placeholder="Mensaje" required></textarea>
+          </div>
+        </div>
+        <input type="submit" class="text-center btn-send" name="enviar">
+      </form>  
+    </div>
+
+    <!--Footer-->
+    <footer>
+      <div class="container-fluid bg-footer">
+        <div class="rrss-footer">
+          <a href="https://www.instagram.com/patyvillamar.terapeuta/" class="icon-instagram"
+          target="_blank"></a>
+          <a href="https://www.facebook.com/patyvillamar.terapeuta/" class="icon-facebook"
+          target="_blank"></a>
+        </div>
+        <div class="box-two-footer">
+          <a href="politica-de-privacidad.html" class="link-footer">
+            Políticas de Privacidad
+          </a>
+          <a href="mailto:hola@pativillamar.com.ec">
+          hola@pativillamar.com.ec
+          </a>
+        </div>
+        <hr>
+        <div class="cpr">
+          <a href="https://www.telocreo.studio/" target="_blank">
+            © 2022 Telocreo.studio
+          </a>
+        </div>
+      </div>
+    </footer>
   
 
 

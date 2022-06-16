@@ -56,8 +56,7 @@
 body {
   font-size: 16px;
   color: #828282;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
+  font-family: "Now", sans-serif;
 }
 
 @media screen and (max-width: 425px) {
@@ -157,7 +156,7 @@ body {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: -80px;
+    top: 0px;
     left: 0;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -180,7 +179,7 @@ body {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: -80px;
+    top: 0px;
     left: 0;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -200,7 +199,7 @@ body {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: -80px;
+    top: 0px;
     left: 0;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -213,6 +212,28 @@ body {
 
   .atras-three {
     transform: rotateY(180deg);
+  }
+
+  /*Sobre mi*/
+  .contenedor-tarjetas-padre {
+    height: auto;
+  }
+
+  .bg-initiatives h1 {
+    font-size: 2.5rem;
+  }
+
+  .tarjeta {
+    width: auto;
+    height: 308px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .tarjeta:hover {
+    height: 580px;
+    width: auto;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
   }
 }
 @media screen and (max-width: 992px) {
