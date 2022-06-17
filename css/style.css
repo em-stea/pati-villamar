@@ -420,7 +420,7 @@ body {
   margin: 0 2rem;
 }
 
-.form-control {
+.wrapper-input .form-control {
   background-color: transparent;
   border: none;
   border-bottom: 1px solid white;
@@ -430,35 +430,35 @@ body {
   overflow-y: hidden;
 }
 
-.form-control::-moz-placeholder {
+.wrapper-input .form-control::-moz-placeholder {
   color: white !important;
   font-size: 1rem;
 }
 
-.form-control:-ms-input-placeholder {
+.wrapper-input .form-control:-ms-input-placeholder {
   color: white !important;
   font-size: 1rem;
 }
 
-.form-control::placeholder {
+.wrapper-input .form-control::placeholder {
   color: white !important;
   font-size: 1rem;
 }
 
 /* IE 10+ */
-.form-control:-ms-input-placeholder {
+.wrapper-input .form-control:-ms-input-placeholder {
   color: white;
   font-size: 1rem;
 }
 
 /* WebKit */
-.form-control::-webkit-input-placeholder {
+.wrapper-input .form-control::-webkit-input-placeholder {
   color: white;
   font-size: 1rem;
 }
 
 /* Firefox 19+ */
-.form-control::-moz-placeholder {
+.wrapper-input .form-control::-moz-placeholder {
   color: white;
   font-size: 1rem;
 }
@@ -484,16 +484,17 @@ textarea.form-control {
 
 .mail-sent {
   background-color: white;
-  padding: 2rem 0;
-  margin-top: 2em;
+  padding: 3rem 0;
   text-align: center;
   font-weight: 400;
 }
 
 .mail-sent p {
   width: 100%;
-  color: #7D9693;
+  color: #AF831B;
+  text-decoration: underline;
   font-weight: 900;
+  font-size: 1.4rem;
   margin-bottom: 0;
 }
 
@@ -903,9 +904,385 @@ textarea.form-control {
   color: white;
   text-decoration: none;
   margin-top: 0.5rem;
+  -webkit-animation-name: vibracion;
+          animation-name: vibracion;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
-.box-contacto-sobreMi a:hover {
-  transform: scale(1.2);
-  transition: ease-in;
-  transition-duration: 0.3s;
+
+@-webkit-keyframes vibracion {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  10% {
+    transform: translate(3px, 0px);
+  }
+  20% {
+    transform: translate(0px, 0px);
+  }
+  30% {
+    transform: translate(3px, 0px);
+  }
+  40% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(3px, 0px);
+  }
+  60% {
+    transform: translate(0px, 0px);
+  }
+  70% {
+    transform: translate(3px, 0px);
+  }
+  80% {
+    transform: translate(0px, 0px);
+  }
+  90% {
+    transform: translate(3px, 0px);
+  }
+  80% {
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes vibracion {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  10% {
+    transform: translate(3px, 0px);
+  }
+  20% {
+    transform: translate(0px, 0px);
+  }
+  30% {
+    transform: translate(3px, 0px);
+  }
+  40% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(3px, 0px);
+  }
+  60% {
+    transform: translate(0px, 0px);
+  }
+  70% {
+    transform: translate(3px, 0px);
+  }
+  80% {
+    transform: translate(0px, 0px);
+  }
+  90% {
+    transform: translate(3px, 0px);
+  }
+  80% {
+    transform: translate(0px, 0px);
+  }
+}
+/*Cafe con Proposito*/
+.container-coffee {
+  margin: 10rem 0;
+}
+
+.coffee-image {
+  width: 50%;
+}
+
+.box-coffee {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+}
+
+.box-coffee h1 {
+  font-family: "MADE Bon Voyage", sans-serif;
+  color: #7D9693;
+}
+
+.box-coffee p {
+  margin: 2rem 0;
+}
+
+.btn-suscribe {
+  background-color: #AF831B;
+  border-radius: 30px 0px;
+  padding: 1rem 2rem;
+  color: white;
+}
+.btn-suscribe:hover {
+  background-color: #7D9693;
+  color: white;
+}
+
+.wrapper-input-cafe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.wrapper-input-cafe .form-control {
+  color: #707070;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #707070;
+  font-size: 0.8rem;
+  width: auto;
+  margin-top: 1rem;
+}
+
+.box-input {
+  margin-right: 3rem;
+  width: auto;
+}
+
+.box-input .form-control {
+  padding: 0.1rem 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.header-cafe {
+  border-bottom: none;
+}
+
+.btn-send-coffee {
+  text-decoration: none;
+  color: white;
+  background-color: #7D9693;
+  border: none;
+  border-radius: 30px 0px;
+  padding: 14px 80px;
+  margin: auto;
+  display: flex;
+}
+.btn-send-coffee:hover {
+  color: white;
+  background-color: #614651;
+}
+
+.modal-cafe {
+  --bs-modal-width: 800px ;
+}
+
+.coffee-sent {
+  background-color: #D9E1E4;
+  padding: 3rem 0;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.coffee-sent p {
+  width: 100%;
+  color: #AF831B;
+  text-decoration: underline;
+  font-weight: 900;
+  font-size: 1.4rem;
+  margin-bottom: 0;
+}
+
+/*Cocina tus sueños*/
+.container-cocina {
+  background-color: #FFFBF9;
+}
+
+.box-cocina {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  height: 90vh;
+  width: 60%;
+}
+
+.box-cocina h1 {
+  font-family: "MADE Bon Voyage", sans-serif;
+  color: #7D9693;
+}
+
+.box-cocina p {
+  margin: 2rem 0;
+}
+
+/*Encuentros*/
+.bg-pink-proximamente {
+  background-color: #FFFBF9;
+  height: 90vh;
+  overflow-x: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bg-pink-proximamente h1 {
+  font-family: "MADE Bon Voyage", sans-serif;
+  color: black;
+  font-size: 3rem;
+}
+
+/*Certificaciones*/
+.certificaciones-image {
+  background-image: url(../img/img-certificaciones.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container-certificaciones {
+  height: 90vh;
+}
+
+.certificaciones-image {
+  width: 50%;
+}
+
+.box-certificaciones-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box-certificaciones-page h1 {
+  font-family: "MADE Bon Voyage", sans-serif;
+  color: #614651;
+}
+
+.box-certificaciones-page h3 {
+  margin: 2rem 0;
+  font-family: "MADE Bon Voyage", sans-serif;
+  color: #AF831B;
+  text-align: center;
+  width: 60%;
+}
+
+.btn-suscribe-barras {
+  background-color: #7D9693;
+  border-radius: 30px 0px;
+  padding: 1rem 2rem;
+  color: white;
+  text-decoration: none;
+}
+.btn-suscribe-barras:hover {
+  background-color: #AF831B;
+  color: white;
+}
+
+/*Mindfulness*/
+.bg-green-proximamente {
+  background-color: #7D9693;
+  height: 90vh;
+  overflow-x: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.bg-green-proximamente h1 {
+  font-family: "MADE Bon Voyage", sans-serif;
+  font-size: 3rem;
+}
+
+/*Pausas Conscientes*/
+.bg-gold-proximamente {
+  background-color: #AF831B;
+  height: 90vh;
+  overflow-x: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.bg-gold-proximamente h1 {
+  font-family: "MADE Bon Voyage", sans-serif;
+  font-size: 3rem;
+}
+
+/*Eneagramas*/
+/*Certificaciones*/
+.eneagramas-image {
+  background-image: url(../img/img-eneagramas.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container-eneagramas {
+  height: 90vh;
+}
+
+.box-eneagramas-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box-eneagramas-page h1 {
+  font-family: "MADE Bon Voyage", sans-serif;
+  color: #614651;
+}
+
+.box-eneagramas-page h3 {
+  margin: 2rem 0;
+  color: black;
+  text-align: center;
+  width: 60%;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.img-eneagramas-01 {
+  width: 50%;
+}
+
+.container-text-eneagramas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container-text-eneagramas p {
+  width: 60%;
+}
+
+.bg-eneagrama {
+  background-color: #FAF2EE;
+  height: 23rem;
+}
+
+.cont-02 {
+  height: 23rem;
+}
+
+.box-potencia {
+  background-color: #7D9693;
+  padding: 7rem 0;
+  font-family: "MADE Bon Voyage", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.box-potencia h1 {
+  font-size: 2rem;
+  width: 45%;
+  margin: auto;
+}
+
+.container-img-eneagramas {
+  position: relative;
+  top: -5rem;
 }
