@@ -990,6 +990,7 @@ textarea.form-control {
 
 .coffee-image {
   width: 50%;
+  overflow: hidden;
 }
 
 .box-coffee {
