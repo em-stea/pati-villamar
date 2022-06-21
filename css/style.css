@@ -227,7 +227,7 @@ body {
 .adelante h1 {
   width: 70%;
   font-family: "MADE Bon Voyage", sans-serif;
-  color: black;
+  color: white;
   font-size: 2rem;
 }
 
@@ -536,7 +536,7 @@ textarea.form-control {
 
 /*Sobre mi*/
 .container-sobremi {
-  margin: 6rem 0;
+  margin: 4rem 0;
 }
 
 .bg-sobreMi {
@@ -556,7 +556,7 @@ textarea.form-control {
 
 .container-text-sobreMi h1 {
   font-family: "MADE Bon Voyage", sans-serif;
-  color: black;
+  color: white;
   font-size: 4rem;
   width: 80%;
 }
@@ -776,7 +776,7 @@ textarea.form-control {
 
 /*Facilitadora de Consciencia y Energía*/
 .box-facilitadora {
-  background-color: #AF831B;
+  background-color: #7D9693;
   padding: 4rem 0;
 }
 
@@ -805,7 +805,7 @@ textarea.form-control {
 }
 
 .box-grafico {
-  padding: 3rem 0;
+  padding: 3rem 0 8rem 0;
 }
 
 .box-grafico h1 {
@@ -884,7 +884,6 @@ textarea.form-control {
 /*Contactame*/
 .box-contacto-sobreMi {
   background-color: #A4798D;
-  margin-top: 7rem;
   padding: 4rem 0;
   display: flex;
   justify-content: center;
@@ -1381,7 +1380,7 @@ textarea.form-control {
 .adelante-barras h1 {
   width: 70%;
   font-family: "MADE Bon Voyage", sans-serif;
-  color: black;
+  color: white;
   font-size: 2rem;
   text-align: center;
 }
@@ -1523,7 +1522,7 @@ textarea.form-control {
 
 /*Facelift*/
 .bg-facelift {
-  background-image: url(../img/img-sobre-mi.jpg);
+  background-image: url(../img/img-facelift.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 90vh;
@@ -1541,13 +1540,13 @@ textarea.form-control {
 
 .container-text-facelift h1 {
   font-family: "MADE Bon Voyage", sans-serif;
-  color: #614651;
+  color: white;
   font-size: 4rem;
   width: 80%;
 }
 
 .container-text-facelift p {
-  color: #614651;
+  color: white;
   width: 30%;
 }
 
@@ -1615,4 +1614,10 @@ textarea.form-control {
   text-align: center;
   font-weight: 700;
   color: #7D9693;
+}
+
+/*Metodo Oneness*/
+.text-oneness {
+  width: 50%;
+  margin: 0 auto;
 }

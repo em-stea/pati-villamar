@@ -59,19 +59,1711 @@ body {
   font-family: "Now", sans-serif;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 300px) {
   /*Home*/
+  .img-home {
+    height: 28rem;
+    width: 90%;
+    margin: auto;
+  }
+
+  .container-text-home h1 {
+    font-size: 2.5rem;
+    width: auto;
+    margin-bottom: 6rem;
+  }
+
+  /*Cards*/
+  .bg-pink {
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  .box-cards-home {
+    height: 82rem;
+  }
+
+  .box-cards-home .row {
+    margin-top: 0;
+  }
+
+  .margin-card {
+    margin-right: 0;
+  }
+
+  .atras-three h5 {
+    width: 70%;
+  }
+
+  /*Testimonios*/
+  .wrapper {
+    height: 31rem;
+  }
+
+  .testimonial-text {
+    width: auto;
+    padding: 71px 38px 30px 38px;
+  }
+
+  .slider-testimonial {
+    width: 90%;
+  }
+
+  /*Contacto*/
+  .text-contact {
+    padding: 0 0.9rem;
+  }
+
+  /*Footer*/
+  .bg-footer {
+    height: 17rem;
+  }
+
+  /*Sobre mi*/
+  .bg-sobreMi {
+    background-size: cover;
+    background-position: top center;
+    height: 38vh;
+  }
+
+  .container-text-sobreMi {
+    height: 38vh;
+  }
+
+  .container-text-sobreMi h1 {
+    font-size: 1.8rem;
+  }
+
+  .img-sobremi {
+    width: 100%;
+  }
+
+  .container-sobremi div:nth-child(2) {
+    width: auto;
+    margin-top: 2rem;
+  }
+
+  .box-facilitadora h1 {
+    font-size: 2rem;
+  }
+
+  .container-pill {
+    flex-direction: column;
+  }
+
+  .pill {
+    width: 90%;
+    margin: 0.6rem;
+  }
+
+  .contenedor-tarjetas-padre {
+    height: auto;
+    margin-bottom: 41rem;
+  }
+
+  .botones {
+    background-color: #7D9693;
+    color: white;
+  }
+
+  .tarjeta-contenido .agrandar {
+    margin-top: 2rem;
+  }
+
+  .accordion-button {
+    font-size: 1.1rem;
+  }
+
+  .tarjeta {
+    margin-bottom: 1.5rem;
+  }
+
+  .circle {
+    margin: auto;
+  }
+
+  .flex-box-left, .flex-box-right {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .btn-right {
+    margin-left: 0;
+  }
+
+  .box-left h2, .box-right h2 {
+    width: auto;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+  }
+
+  .modal-dialog {
+    margin-top: 15rem;
+  }
+
+  .box-grafico h1 {
+    width: 90%;
+    margin: 5rem auto;
+  }
+
+  .box-image-sobreMi {
+    left: 0;
+    position: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-paty-two {
+    width: 90%;
+  }
+
+  .container-pill-two {
+    margin-left: 0;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+
+  .box-pill {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  .hover, .actived {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 301px) and (max-width: 425px) {
+  /*Home*/
+  .bg-pink {
+    height: auto;
+  }
+
+  .container-text-home h1 {
+    font-size: 2.8rem;
+    width: 100%;
+    padding: 5rem 0.5rem;
+  }
+
+  .margin-card {
+    margin-right: 0;
+  }
+
+  .box-cards-home .row {
+    height: auto;
+    margin-top: 0;
+  }
+
+  .bg-pink {
+    margin-bottom: 0;
+  }
+
+  .wrapper {
+    margin-top: 11rem;
+    height: 35rem;
+  }
+
+  .testimonial-text {
+    padding: 71px 45px 30px 45px;
+  }
+
+  .text-contact {
+    padding: 0rem 1rem;
+  }
+
+  /*Sobre mi*/
+  .bg-sobreMi {
+    background-size: cover;
+    background-position: top center;
+    height: 38vh;
+  }
+
+  .container-text-sobreMi {
+    height: 38vh;
+  }
+
+  .container-text-sobreMi h1 {
+    font-size: 2.5rem;
+  }
+
+  .img-sobremi {
+    width: 100%;
+  }
+
+  .container-sobremi div:nth-child(2) {
+    width: auto;
+    margin-top: 2rem;
+  }
+
+  .box-facilitadora h1 {
+    font-size: 2rem;
+    width: 90%;
+    margin: auto;
+  }
+
+  .container-pill {
+    flex-direction: column;
+  }
+
+  .pill {
+    width: 90%;
+    margin: 0.6rem;
+  }
+
+  .contenedor-tarjetas-padre {
+    height: auto;
+    margin-bottom: 41rem;
+  }
+
+  .botones {
+    background-color: #7D9693;
+    color: white;
+  }
+
+  .tarjeta-contenido .agrandar {
+    margin-top: 2rem;
+  }
+
+  .accordion-button {
+    font-size: 1.8rem;
+  }
+
+  .tarjeta {
+    margin-bottom: 1.5rem;
+  }
+
+  .circle {
+    margin: auto;
+  }
+
+  .flex-box-left, .flex-box-right {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .btn-right, .btn-left {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .box-left, .box-right {
+    text-align: center;
+  }
+
+  .box-left h2, .box-right h2 {
+    width: auto;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+  }
+
+  .modal-dialog {
+    margin-top: 15rem;
+  }
+
+  .box-grafico h1 {
+    width: 90%;
+    margin: 5rem auto;
+  }
+
+  .box-image-sobreMi {
+    left: 0;
+    position: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-paty-two {
+    width: 90%;
+  }
+
+  .container-pill-two {
+    margin-left: 0;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+
+  .box-pill {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  .hover, .actived {
+    width: 100%;
+  }
+
+  .box-contacto-sobreMi h1 {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  /*Footer*/
+  .bg-footer {
+    height: 18rem;
+  }
 }
 @media screen and (min-width: 426px) and (max-width: 500px) {
   /*Home*/
+  .bg-pink {
+    height: auto;
+  }
+
+  .container-text-home h1 {
+    font-size: 2.8rem;
+    width: 100%;
+    padding: 5rem 0.5rem;
+  }
+
+  .margin-card {
+    margin-right: 0;
+  }
+
+  .box-cards-home .row {
+    height: auto;
+    margin-top: 0;
+  }
+
+  .bg-pink {
+    margin-bottom: 0;
+  }
+
+  .adelante h1 {
+    font-size: 2.5rem;
+  }
+
+  .wrapper {
+    margin-top: 11rem;
+    height: 24rem;
+  }
+
+  .testimonial-text {
+    padding: 71px 30px 30px 30px;
+  }
+
+  .text-contact {
+    padding: 0rem 2rem;
+  }
+
+  /*Sobre mi*/
+  .bg-sobreMi {
+    background-size: cover;
+    background-position: top center;
+    height: 38vh;
+  }
+
+  .container-text-sobreMi {
+    height: 38vh;
+  }
+
+  .container-text-sobreMi h1 {
+    font-size: 2.5rem;
+  }
+
+  .img-sobremi {
+    width: 100%;
+  }
+
+  .container-sobremi div:nth-child(2) {
+    width: auto;
+    margin-top: 2rem;
+  }
+
+  .box-facilitadora h1 {
+    font-size: 2rem;
+    width: 90%;
+    margin: auto;
+  }
+
+  .container-pill {
+    flex-direction: column;
+  }
+
+  .pill {
+    width: 90%;
+    margin: 0.6rem;
+  }
+
+  .contenedor-tarjetas-padre {
+    height: auto;
+    margin-bottom: 41rem;
+  }
+
+  .botones {
+    background-color: #7D9693;
+    color: white;
+  }
+
+  .tarjeta-contenido .agrandar {
+    margin-top: 2rem;
+  }
+
+  .accordion-button {
+    font-size: 1.8rem;
+  }
+
+  .tarjeta {
+    margin-bottom: 1.5rem;
+  }
+
+  .circle {
+    margin: auto;
+  }
+
+  .flex-box-left, .flex-box-right {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .btn-right, .btn-left {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .box-left, .box-right {
+    text-align: center;
+  }
+
+  .box-left h2, .box-right h2 {
+    width: auto;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+  }
+
+  .modal-dialog {
+    margin-top: 15rem;
+  }
+
+  .box-grafico h1 {
+    width: 90%;
+    margin: 5rem auto;
+  }
+
+  .box-image-sobreMi {
+    left: 0;
+    position: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-paty-two {
+    width: 90%;
+  }
+
+  .container-pill-two {
+    margin-left: 0;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+
+  .box-pill {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  .hover, .actived {
+    width: 100%;
+  }
+
+  .box-contacto-sobreMi h1 {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  /*Footer*/
+  .bg-footer {
+    height: 18rem;
+  }
 }
 @media screen and (min-width: 451px) and (max-width: 540px) {
   /*Home*/
+  .bg-pink {
+    height: auto;
+  }
+
+  .container-text-home h1 {
+    font-size: 2.8rem;
+    width: 100%;
+    padding: 5rem 0.5rem;
+  }
+
+  .margin-card {
+    margin-right: 0;
+  }
+
+  .box-cards-home .row {
+    height: auto;
+    margin-top: 0;
+  }
+
+  .bg-pink {
+    margin-bottom: 0;
+  }
+
+  .adelante h1 {
+    font-size: 2.5rem;
+  }
+
+  .wrapper {
+    margin-top: 11rem;
+    height: 24rem;
+  }
+
+  .testimonial-text {
+    padding: 71px 30px 30px 30px;
+  }
+
+  .text-contact {
+    padding: 0rem 2rem;
+  }
+
+  /*Sobre mi*/
+  .bg-sobreMi {
+    background-size: cover;
+    background-position: top center;
+    height: 38vh;
+  }
+
+  .container-text-sobreMi {
+    height: 38vh;
+  }
+
+  .container-text-sobreMi h1 {
+    font-size: 2.5rem;
+  }
+
+  .img-sobremi {
+    width: 100%;
+  }
+
+  .container-sobremi div:nth-child(2) {
+    width: auto;
+    margin-top: 2rem;
+  }
+
+  .box-facilitadora h1 {
+    font-size: 2rem;
+    width: 90%;
+    margin: auto;
+  }
+
+  .container-pill {
+    flex-direction: column;
+  }
+
+  .pill {
+    width: 90%;
+    margin: 0.6rem;
+  }
+
+  .contenedor-tarjetas-padre {
+    height: auto;
+    margin-bottom: 41rem;
+  }
+
+  .botones {
+    background-color: #7D9693;
+    color: white;
+  }
+
+  .tarjeta-contenido .agrandar {
+    margin-top: 2rem;
+  }
+
+  .accordion-button {
+    font-size: 1.8rem;
+  }
+
+  .tarjeta {
+    margin-bottom: 1.5rem;
+  }
+
+  .circle {
+    margin: auto;
+  }
+
+  .flex-box-left, .flex-box-right {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .btn-right, .btn-left {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .box-left, .box-right {
+    text-align: center;
+  }
+
+  .box-left h2, .box-right h2 {
+    width: auto;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+  }
+
+  .modal-dialog {
+    margin-top: 15rem;
+  }
+
+  .box-grafico h1 {
+    width: 90%;
+    margin: 5rem auto;
+  }
+
+  .box-image-sobreMi {
+    left: 0;
+    position: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-paty-two {
+    width: 90%;
+  }
+
+  .container-pill-two {
+    margin-left: 0;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+
+  .box-pill {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  .hover, .actived {
+    width: 100%;
+  }
+
+  .box-contacto-sobreMi h1 {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  /*Footer*/
+  .bg-footer {
+    height: 18rem;
+  }
 }
 @media screen and (min-width: 541px) and (max-width: 600px) {
   /*Home*/
+  .bg-pink {
+    height: auto;
+  }
+
+  .container-text-home h1 {
+    font-size: 2.8rem;
+    width: 100%;
+    padding: 5rem 0.5rem;
+  }
+
+  .margin-card {
+    margin-right: 0;
+  }
+
+  .box-cards-home .row {
+    height: auto;
+    margin-top: 0;
+  }
+
+  .bg-pink {
+    margin-bottom: 0;
+  }
+
+  .adelante h1 {
+    font-size: 2.5rem;
+  }
+
+  .wrapper {
+    margin-top: 11rem;
+    height: 24rem;
+  }
+
+  .testimonial-text {
+    padding: 71px 30px 30px 30px;
+  }
+
+  .text-contact {
+    padding: 0rem 2rem;
+  }
+
+  /*Sobre mi*/
+  .bg-sobreMi {
+    background-size: cover;
+    background-position: top center;
+    height: 38vh;
+  }
+
+  .container-text-sobreMi {
+    height: 38vh;
+  }
+
+  .container-text-sobreMi h1 {
+    font-size: 2.5rem;
+  }
+
+  .img-sobremi {
+    width: 100%;
+  }
+
+  .container-sobremi div:nth-child(2) {
+    width: auto;
+    margin-top: 2rem;
+  }
+
+  .box-facilitadora h1 {
+    font-size: 2rem;
+    width: 90%;
+    margin: auto;
+  }
+
+  .container-pill {
+    flex-direction: column;
+  }
+
+  .pill {
+    width: 90%;
+    margin: 0.6rem;
+  }
+
+  .contenedor-tarjetas-padre {
+    height: auto;
+    margin-bottom: 41rem;
+  }
+
+  .botones {
+    background-color: #7D9693;
+    color: white;
+  }
+
+  .tarjeta-contenido .agrandar {
+    margin-top: 2rem;
+  }
+
+  .accordion-button {
+    font-size: 1.8rem;
+  }
+
+  .tarjeta {
+    margin-bottom: 1.5rem;
+  }
+
+  .circle {
+    margin: auto;
+  }
+
+  .flex-box-left, .flex-box-right {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .btn-right, .btn-left {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .box-left, .box-right {
+    text-align: center;
+  }
+
+  .box-left h2, .box-right h2 {
+    width: auto;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+  }
+
+  .modal-dialog {
+    margin-top: 15rem;
+  }
+
+  .box-grafico h1 {
+    width: 90%;
+    margin: 5rem auto;
+  }
+
+  .box-image-sobreMi {
+    left: 0;
+    position: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-paty-two {
+    width: 90%;
+  }
+
+  .container-pill-two {
+    margin-left: 0;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+
+  .box-pill {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  .hover, .actived {
+    width: 100%;
+  }
+
+  .box-contacto-sobreMi h1 {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  /*Footer*/
+  .bg-footer {
+    height: 18rem;
+  }
 }
-@media screen and (max-width: 570px) {
+@media screen and (min-width: 601px) and (max-width: 765px) {
+  /*Home*/
+  .img-home {
+    height: 44rem;
+  }
+
+  .bg-pink {
+    height: auto;
+  }
+
+  .container-text-home h1 {
+    font-size: 3.8rem;
+    width: 100%;
+    padding: 5rem 0.5rem;
+  }
+
+  .margin-card {
+    margin-right: 0;
+  }
+
+  .box-cards-home .row {
+    height: auto;
+    margin-top: 0;
+  }
+
+  .bg-pink {
+    margin-bottom: 0;
+  }
+
+  .adelante h1 {
+    font-size: 3.1rem;
+  }
+
+  .atras-three h5 {
+    width: auto;
+  }
+
+  .wrapper {
+    margin-top: 11rem;
+    height: 20rem;
+  }
+
+  .testimonial-text {
+    padding: 71px 30px 30px 30px;
+  }
+
+  .text-contact {
+    padding: 0rem 2rem;
+  }
+
+  /*Sobre mi*/
+  .bg-sobreMi {
+    background-size: cover;
+    background-position: top center;
+    height: 38vh;
+  }
+
+  .container-text-sobreMi {
+    height: 38vh;
+  }
+
+  .container-text-sobreMi h1 {
+    font-size: 2.5rem;
+  }
+
+  .img-sobremi {
+    width: 80%;
+  }
+
+  .container-sobremi div:nth-child(2) {
+    width: auto;
+    margin-top: 2rem;
+  }
+
+  .box-facilitadora h1 {
+    font-size: 2rem;
+    width: 90%;
+    margin: auto;
+  }
+
+  .container-pill {
+    flex-direction: column;
+  }
+
+  .pill {
+    width: 90%;
+    margin: 0.6rem;
+  }
+
+  .contenedor-tarjetas-padre {
+    height: auto;
+    margin-bottom: 41rem;
+  }
+
+  .botones {
+    background-color: #7D9693;
+    color: white;
+  }
+
+  .tarjeta-contenido .agrandar {
+    margin-top: 2rem;
+  }
+
+  .accordion-button {
+    font-size: 1.8rem;
+  }
+
+  .tarjeta {
+    margin-bottom: 1.5rem;
+  }
+
+  .circle {
+    margin: auto;
+  }
+
+  .flex-box-left, .flex-box-right {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .btn-right, .btn-left {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .box-left, .box-right {
+    text-align: center;
+  }
+
+  .box-left h2, .box-right h2 {
+    width: auto;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+  }
+
+  .modal-dialog {
+    margin-top: 15rem;
+  }
+
+  .box-grafico h1 {
+    width: 90%;
+    margin: 5rem auto;
+  }
+
+  .box-image-sobreMi {
+    left: 0;
+    position: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-paty-two {
+    width: 90%;
+  }
+
+  .container-pill-two {
+    margin-left: 0;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+
+  .box-pill {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  .hover, .actived {
+    width: 100%;
+  }
+
+  .box-contacto-sobreMi h1 {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  /*Footer*/
+  .bg-footer {
+    height: 18rem;
+  }
+}
+@media screen and (min-width: 766px) and (max-width: 1000px) {
+  /*Home*/
+  .img-home {
+    height: 24rem;
+  }
+
+  .bg-pink {
+    height: auto;
+    padding-bottom: 5rem;
+  }
+
+  .container-text-home h1 {
+    font-size: 3.8rem;
+    width: 100%;
+    padding: 0rem 0.5rem;
+  }
+
+  .margin-card {
+    margin-right: 0;
+  }
+
+  .box-cards-home .row {
+    height: auto;
+    margin-top: 0;
+  }
+
+  .bg-pink {
+    margin-bottom: 0;
+  }
+
+  .adelante h1 {
+    width: 90%;
+    font-size: 1.5rem;
+  }
+
+  .atras-three h5 {
+    width: auto;
+  }
+
+  .wrapper {
+    margin-top: 11rem;
+    height: 20rem;
+  }
+
+  .testimonial-text {
+    padding: 71px 30px 30px 30px;
+  }
+
+  .text-contact {
+    padding: 0rem 2rem;
+  }
+
+  /*Sobre mi*/
+  .bg-sobreMi {
+    background-size: cover;
+    background-position: top center;
+    height: 38vh;
+  }
+
+  .container-text-sobreMi {
+    height: 38vh;
+  }
+
+  .container-text-sobreMi h1 {
+    font-size: 2.5rem;
+  }
+
+  .img-sobremi {
+    width: 80%;
+  }
+
+  .container-sobremi div:nth-child(2) {
+    width: auto;
+    margin-top: 2rem;
+  }
+
+  .box-facilitadora h1 {
+    font-size: 2rem;
+    width: 90%;
+    margin: auto;
+  }
+
+  .container-pill {
+    flex-direction: column;
+  }
+
+  .pill {
+    width: 70%;
+    margin: 0.6rem;
+  }
+
+  .contenedor-tarjetas-padre {
+    height: auto;
+    margin-bottom: 41rem;
+  }
+
+  .botones {
+    background-color: #7D9693;
+    color: white;
+  }
+
+  .tarjeta-contenido .agrandar {
+    margin-top: 2rem;
+  }
+
+  .accordion-button {
+    font-size: 1.8rem;
+  }
+
+  .tarjeta {
+    margin-bottom: 1.5rem;
+  }
+
+  .box-left h2, .box-right h2 {
+    width: 75%;
+  }
+
+  .modal-dialog {
+    margin-top: 15rem;
+  }
+
+  .box-grafico h1 {
+    width: 90%;
+    margin: 5rem auto;
+  }
+
+  .box-image-sobreMi {
+    left: 0;
+    position: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-paty-two {
+    width: 90%;
+  }
+
+  .container-pill-two {
+    margin-left: 0;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+
+  .box-pill {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  .hover, .actived {
+    width: 100%;
+  }
+
+  .box-contacto-sobreMi h1 {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+
+  /*Footer*/
+  .bg-footer {
+    height: 18rem;
+  }
+}
+@media screen and (min-width: 1001px) and (max-width: 1254px) {
+  /*Sobre mi*/
+  .bg-sobreMi {
+    background-size: cover;
+    background-position: top center;
+    height: 38vh;
+  }
+
+  .container-text-sobreMi {
+    height: 38vh;
+  }
+
+  .container-text-sobreMi h1 {
+    font-size: 4.5rem;
+  }
+
+  .img-sobremi {
+    width: 80%;
+  }
+
+  .container-sobremi div:nth-child(2) {
+    width: 50%;
+    margin-top: 2rem;
+  }
+
+  .tarjeta:hover {
+    height: 600px !important;
+  }
+
+  .box-facilitadora h1 {
+    font-size: 2rem;
+    width: 90%;
+    margin: auto;
+  }
+
+  .container-pill {
+    flex-direction: row;
+  }
+
+  .pill {
+    width: 21%;
+    margin: 0.6rem;
+  }
+
+  .contenedor-tarjetas-padre {
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  .botones {
+    background-color: #7D9693;
+    color: white;
+  }
+
+  .tarjeta-contenido .agrandar {
+    margin-top: 2rem;
+  }
+
+  .accordion-button {
+    font-size: 1.8rem;
+  }
+
+  .tarjeta {
+    margin-bottom: 1.5rem;
+  }
+
+  .box-left h2, .box-right h2 {
+    width: 75%;
+  }
+
+  .modal-dialog {
+    margin-top: 15rem;
+  }
+
+  .box-grafico h1 {
+    width: 90%;
+    margin: 5rem auto;
+  }
+
+  .box-image-sobreMi {
+    left: 0;
+    position: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-paty-two {
+    width: 40%;
+  }
+
+  .container-pill-two {
+    margin-left: 0;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: 4rem;
+  }
+
+  .box-pill {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  .hover, .actived {
+    width: 100%;
+  }
+
+  .box-contacto-sobreMi h1 {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (min-width: 1255px) and (max-width: 1800px) {
+  /*Sobre mi*/
+  .container-pill {
+    flex-direction: row;
+  }
+
+  .pill {
+    width: 21%;
+    margin: 0.6rem;
+  }
+
+  .contenedor-tarjetas-padre {
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  .botones {
+    background-color: #7D9693;
+    color: white;
+  }
+
+  .box-left h2, .box-right h2 {
+    width: 75%;
+  }
+
+  .modal-dialog {
+    margin-top: 15rem;
+  }
+
+  .box-grafico h1 {
+    width: 90%;
+    margin: 5rem auto;
+  }
+
+  .box-image-sobreMi {
+    position: absolute;
+    left: 38%;
+  }
+
+  .img-paty-two {
+    width: 40%;
+  }
+
+  .container-pill-two {
+    margin-left: 11rem;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .box-pill {
+    position: relative;
+    margin-bottom: 1.5em;
+    padding: 0;
+    margin-right: 15rem;
+  }
+
+  .hover, .actived {
+    width: 300px;
+  }
+
+  .box-contacto-sobreMi h1 {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (min-width: 1801px) and (max-width: 1817px) {
+  /*Sobre mi*/
+  .container-pill {
+    flex-direction: row;
+  }
+
+  .pill {
+    width: 21%;
+    margin: 0.6rem;
+  }
+
+  .contenedor-tarjetas-padre {
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  .botones {
+    background-color: #7D9693;
+    color: white;
+  }
+
+  .box-left h2, .box-right h2 {
+    width: 75%;
+  }
+
+  .modal-dialog {
+    margin-top: 15rem;
+  }
+
+  .box-grafico h1 {
+    width: 90%;
+    margin: 5rem auto;
+  }
+
+  .box-image-sobreMi {
+    position: absolute;
+    left: 41%;
+  }
+
+  .img-paty-two {
+    width: 40%;
+  }
+
+  .container-pill-two {
+    margin-left: 13rem;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .box-pill {
+    position: relative;
+    margin-bottom: 1.5em;
+    padding: 0;
+    margin-right: 15rem;
+  }
+
+  .hover, .actived {
+    width: 300px;
+  }
+
+  .box-contacto-sobreMi h1 {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (min-width: 1818px) and (max-width: 1953px) {
+  /*Sobre mi*/
+  .box-image-sobreMi {
+    position: absolute;
+    left: 41%;
+  }
+
+  .img-paty-two {
+    width: 40%;
+  }
+
+  .container-pill-two {
+    margin-left: 18rem;
+    margin-right: 3rem;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .box-pill {
+    position: relative;
+    margin-bottom: 1.5em;
+    padding: 0;
+    margin-right: 15rem;
+  }
+}
+@media screen and (min-width: 1954px) and (max-width: 1990px) {
+  /*Sobre mi*/
+  .box-image-sobreMi {
+    position: absolute;
+    left: 41%;
+  }
+
+  .img-paty-two {
+    width: 40%;
+  }
+
+  .container-pill-two {
+    margin-left: 19rem;
+    margin-right: 4rem;
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .box-pill {
+    position: relative;
+    margin-bottom: 1.5em;
+    padding: 0;
+    margin-right: 15rem;
+  }
+}
+@media screen and (min-width: 1991px) and (max-width: 2010px) {
+  /*Sobre mi*/
+  .box-image-sobreMi {
+    position: absolute;
+    left: 41%;
+  }
+
+  .img-paty-two {
+    width: 50%;
+  }
+
+  .container-pill-two {
+    margin-left: 20rem;
+    margin-right: 5rem;
+    margin-top: 13rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .box-pill {
+    position: relative;
+    margin-bottom: 1.5em;
+    padding: 0;
+    margin-right: 15rem;
+  }
+
+  .box-grafico {
+    padding: 3rem 0 15rem 0;
+  }
+}
+@media screen and (min-width: 2011px) and (max-width: 2100px) {
+  /*Sobre mi*/
+  .box-image-sobreMi {
+    position: absolute;
+    left: 41%;
+  }
+
+  .img-paty-two {
+    width: 50%;
+  }
+
+  .container-pill-two {
+    margin-left: 25rem;
+    margin-right: 7rem;
+    margin-top: 13rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .box-pill {
+    position: relative;
+    margin-bottom: 1.5em;
+    padding: 0;
+    margin-right: 15rem;
+  }
+
+  .box-grafico {
+    padding: 3rem 0 15rem 0;
+  }
+}
+@media screen and (min-width: 1001px) and (max-width: 2500px) {
+  /*Home*/
+  .bg-pink {
+    height: auto;
+    padding-bottom: 5rem;
+  }
+
+  .container-text-home h1 {
+    font-size: 3rem;
+    width: 100%;
+    padding: 0rem 0.5rem;
+  }
+
+  .margin-card {
+    margin-right: 0;
+  }
+
+  .box-cards-home .row {
+    height: auto;
+    margin-top: 0;
+  }
+
+  .bg-pink {
+    margin-bottom: 9rem;
+  }
+
+  .adelante h1 {
+    width: 90%;
+    font-size: 2rem;
+  }
+
+  .atras-three h5 {
+    width: auto;
+  }
+
+  .wrapper {
+    margin-top: 11rem;
+    height: 18rem;
+  }
+
+  .testimonial-text {
+    padding: 71px 30px 30px 30px;
+  }
+
+  .text-contact {
+    padding: 0rem 2rem;
+  }
+
+  /*Footer*/
+  .bg-footer {
+    height: 18rem;
+  }
+}
+@media screen and (min-width: 2501px) {
+  /*Home*/
+  .bg-pink {
+    height: auto;
+    padding-bottom: 5rem;
+    margin-bottom: 9rem;
+  }
+
+  .container-text-home h1 {
+    width: 70%;
+    padding: 0rem 0.5rem;
+  }
+
+  .margin-card {
+    margin-right: 0;
+  }
+
+  .box-cards-home .row {
+    height: auto;
+    margin-top: 0;
+  }
+
+  .bg-pink {
+    margin-bottom: 0;
+  }
+
+  .adelante h1 {
+    width: 90%;
+    font-size: 2rem;
+  }
+
+  .atras-three h5 {
+    width: auto;
+  }
+
+  .wrapper {
+    margin-top: 11rem;
+    height: 18rem;
+  }
+
+  .testimonial-text {
+    padding: 71px 30px 30px 30px;
+  }
+
+  .text-contact {
+    padding: 0rem 2rem;
+  }
+
+  /*Footer*/
+  .bg-footer {
+    height: 18rem;
+  }
+}
+@media screen and (max-width: 992px) {
   /*Navbar*/
   .navbar {
     position: fixed;
@@ -96,16 +1788,29 @@ body {
   .nav-link {
     margin-right: 6px;
   }
+
+  /*Proximamente*/
+  .bg-gold-proximamente, .bg-green-proximamente, .bg-pink-proximamente {
+    height: 75vh;
+  }
+
+  .bg-green-proximamente p {
+    padding: 0 2rem;
+  }
+
+  .text-oneness {
+    width: 90%;
+  }
 }
-@media screen and (max-width: 669px) {
+@media screen and (max-width: 740px) {
   /*index.html*/
-  /*card-01*/
   .icon-plus,
 .icon-minus {
     display: block;
     font-size: 1.5rem;
     text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -114,13 +1819,69 @@ body {
     height: 55px;
   }
 
+  .icon-minus-one-card {
+    margin-top: 2rem;
+  }
+
+  .icon-plus-one-card {
+    position: absolute;
+    bottom: 6rem;
+  }
+
+  /*card-02*/
+  .icon-plus-two-card {
+    position: absolute;
+    bottom: 55px;
+    color: white;
+  }
+
+  .icon-minus-two-card {
+    margin-top: 3rem;
+    color: white;
+  }
+
+  /*card-03*/
+  .icon-plus-three-card {
+    position: absolute;
+    bottom: 55px;
+    color: white;
+  }
+
+  .icon-minus-three-card {
+    margin-top: 3rem;
+    color: white;
+  }
+
+  .button-rounded {
+    width: 83%;
+  }
+
+  .adelante h1, .atras h1, .atras-two h1, .atras-three h1 {
+    width: 80%;
+    text-align: center;
+  }
+
+  .bg-contactame {
+    padding: 5rem 0;
+  }
+
+  .wrapper-input {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wrapper-input div {
+    width: 85%;
+  }
+
+  /*Barras de Access*/
   .icon-plus-one,
 .icon-minus-one {
     margin-top: 1rem;
     color: #7D9693;
   }
 
-  /*card-02*/
+  /*hover-02*/
   .icon-plus-two {
     position: absolute;
     bottom: 30px;
@@ -131,7 +1892,7 @@ body {
     color: #7D9693;
   }
 
-  /*card-03*/
+  /*hover-03*/
   .icon-plus-three {
     margin-top: 1rem;
     color: #7D9693;
@@ -143,7 +1904,7 @@ body {
   }
 }
 /*desktop*/
-@media screen and (min-width: 670px) {
+@media screen and (min-width: 741px) {
   /*index.html*/
   .icon-plus,
 .icon-minus {
