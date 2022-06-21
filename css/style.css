@@ -1287,3 +1287,332 @@ textarea.form-control {
   position: relative;
   top: -5rem;
 }
+
+/*Barras de Access*/
+.box-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  height: 90vh;
+}
+
+.wrapper-carousel {
+  width: 100%;
+  background: #FFFBF9;
+  padding: 40px 0 1px 0;
+  position: relative;
+  margin: auto;
+}
+
+.slider-carousel {
+  width: 85%;
+  max-width: 1400px;
+  margin: auto;
+  position: relative;
+  height: 15rem;
+}
+
+.carousel-text {
+  padding: 15px 48px;
+  color: black;
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.carousel-text > h1 {
+  font-family: "MADE Bon Voyage", sans-serif;
+  color: #614651;
+  font-size: 2.3rem;
+  text-align: center;
+}
+
+.carousel-text > h3 {
+  font-size: 23px;
+  font-weight: 400;
+  text-align: center;
+  font-style: italic;
+}
+
+.carousel-text p {
+  margin: auto;
+  text-align: center;
+  width: 90%;
+}
+
+.sssnext, .sssprev {
+  opacity: 50%;
+}
+
+/*tarjeta hover*/
+.tarjeta-barras {
+  position: relative;
+  transform-style: preserve-3d;
+  height: 30rem;
+}
+
+.tarjeta-one-barras {
+  position: relative;
+  transform-style: preserve-3d;
+  height: 30rem;
+}
+
+.adelante-barras,
+.atras-barras {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.atras-barras {
+  display: none;
+}
+
+.adelante-barras h1 {
+  width: 70%;
+  font-family: "MADE Bon Voyage", sans-serif;
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.atras-barras h1, .atras-two-barras h1, .atras-three-barras h1 {
+  width: 60%;
+  font-family: "MADE Bon Voyage", sans-serif;
+  color: black;
+  font-size: 2rem;
+}
+
+.atras-three-barras h5 {
+  width: 60%;
+  font-family: "MADE Bon Voyage", sans-serif;
+  color: white;
+  font-size: 1rem;
+}
+
+.atras-two-barras, .atras-three-barras {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.atras-two-barras, .atras-three-barras {
+  display: none;
+}
+
+.atras-barras p, .atras-two-barras p {
+  width: 80%;
+  text-align: center;
+}
+
+.img-barras {
+  background-image: url(../img/img-barras-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-barras-02 {
+  background-image: url(../img/img-barras-02.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-barras-03 {
+  background-image: url(../img/img-barras-03.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-barras-04 {
+  background-image: url(../img/img-barras-04.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.back-barras, .back-barras-04 {
+  background-color: #D9E1E4;
+  color: #614651;
+}
+
+.back-barras-02, .back-barras-03 {
+  background-color: #AF831B;
+}
+
+/*Cierre barras*/
+.box-cierre-barras {
+  background-color: #7D9693;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.box-cierre-barras h1 {
+  font-family: "MADE Bon Voyage", sans-serif;
+  color: white;
+  font-size: 2rem;
+  width: 45%;
+  margin: auto;
+}
+
+.box-cierre-barras p {
+  color: white;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+/*Sucribite*/
+.bg-suscribe {
+  padding: 5rem 0;
+}
+
+.bg-suscribe h1 {
+  color: #AF831B;
+  padding-bottom: 0.5rem;
+}
+
+.text-suscribe {
+  font-size: 1.2rem;
+  margin-bottom: 3rem !important;
+  margin-top: 1.3rem;
+  margin: auto;
+}
+
+.text-suscribe span {
+  font-weight: 800;
+}
+
+.wrapper-input-suscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  width: 40rem;
+}
+
+.wrapper-input-suscribe .form-control {
+  color: #707070;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #707070;
+  font-size: 0.8rem;
+  width: 20rem;
+  margin-top: 1rem;
+}
+
+/*Facelift*/
+.bg-facelift {
+  background-image: url(../img/img-sobre-mi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.container-text-facelift {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 2rem;
+  justify-content: center;
+  flex-direction: column;
+  height: 90vh;
+}
+
+.container-text-facelift h1 {
+  font-family: "MADE Bon Voyage", sans-serif;
+  color: #614651;
+  font-size: 4rem;
+  width: 80%;
+}
+
+.container-text-facelift p {
+  color: #614651;
+  width: 30%;
+}
+
+.box-facelift {
+  padding: 7rem 0;
+}
+
+.box-facelift h1 {
+  font-family: "MADE Bon Voyage", sans-serif;
+  font-size: 2rem;
+  color: #AF831B;
+  text-align: center;
+  width: 55%;
+  margin: auto;
+}
+
+.box-facelift p {
+  color: #7D9693;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 55%;
+  margin: auto;
+}
+
+.box-facelift span {
+  font-weight: 700;
+}
+
+/*Cards*/
+.tarjetilla {
+  box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.2);
+}
+.tarjetilla:hover {
+  transform: scale(1.1);
+  transition: 0.7s ease;
+}
+
+.card-box {
+  display: flex;
+  padding: 0 5rem 8rem 5rem;
+}
+
+.card-box .tarjetilla {
+  width: 25rem;
+  margin-right: 2rem;
+}
+
+.tarjetilla-body h1 {
+  font-family: "MADE Bon Voyage", sans-serif;
+  font-size: 2rem;
+  color: #AF831B;
+  padding: 1.6rem 0;
+  text-align: center;
+}
+
+.tarjetilla-text {
+  width: 100%;
+  margin-left: auto;
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.tarjetilla-body span {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 700;
+  color: #7D9693;
+}

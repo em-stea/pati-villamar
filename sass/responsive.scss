@@ -168,6 +168,67 @@ body {
     width: auto;
     height: 308px;
   }
+
+  /*Barras*/
+  .adelante-barras,
+  .atras-barras {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    -webkit-backface-visibility: hidden; //oculta la parte de atras cuando gira
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .atras-barras {
+    transform: rotateY(180deg);
+  }  
+  .tarjeta-wrap:hover .tarjeta-barras {
+    transform: rotateY(180deg);
+  }
+  .tarjeta-wrap:hover .tarjeta-one-barras {
+    transform: rotateY(180deg);
+  }
+  .atras-two-barras {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    -webkit-backface-visibility: hidden; //oculta la parte de atras cuando gira
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: rotateY(180deg);
+    //padding-left: 5rem;
+  }
+  .atras-two-barras {
+    transform: rotateY(180deg);
+  }
+  .atras-three-barras {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    -webkit-backface-visibility: hidden; //oculta la parte de atras cuando gira
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: rotateY(180deg);
+    //padding-left: 5rem;
+  }
+  .atras-three-barras {
+    transform: rotateY(180deg);
+  }
 }
 @media screen and (min-width: 769px) {
   .tarjeta {
