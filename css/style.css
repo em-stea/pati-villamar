@@ -1134,6 +1134,12 @@ textarea.form-control {
   font-size: 3rem;
 }
 
+.bg-pink-proximamente p {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
 /*Certificaciones*/
 .certificaciones-image {
   background-image: url(../img/img-certificaciones.jpg);
