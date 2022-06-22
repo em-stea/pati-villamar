@@ -116,9 +116,9 @@
     </header> 
 
     <div class="container-fluid">
-      <div class="row container-cocina">
+      <div class="row container-barras">
         <div class="col-12 col-md-6 text-center m-auto">
-            <img src="img/img-barras.png" alt="" class="coffee-image animate__animated animate__slideInLeft">
+            <img src="img/img-barras.png" alt="" class="barras-image animate__animated animate__slideInLeft">
         </div>
         <div class="col-12 col-md-6">
           <div class="box-carousel">
@@ -213,11 +213,11 @@
           <div class="wrap">
             <div class="tarjeta-wrap">
               <div class="tarjeta-barras">
-                <div class="adelante-barras img-barras-03"  id="frente">
+                <div class="adelante-barras img-barras-03"  id="frente-three">
                   <h1>¿En qué te beneficiará?</h1>
-                  <a href="javascript:void(0);" class="icon-plus icon-plus-one" onclick="mostrarTarjeta()"></a>
+                  <a href="javascript:void(0);" class="icon-plus icon-plus-three" onclick="mostrarTarjetaThree()"></a>
                 </div>
-                <div class="atras-barras back-barras-03"  id="dorso"> 
+                <div class="atras-barras back-barras-03"  id="dorso-three"> 
                   <ul class="text-white mb-0">
                     <li>Eliminará el ruido mental</li>
                     <li>Te traerá paz</li>
@@ -227,7 +227,7 @@
                     <li>Tendrás más creatividad</li>
                   </ul>
                   <br>
-                  <a href="javascript:void(0);" class="icon-minus icon-minus-one" onclick="ocultarTarjeta()"></a>
+                  <a href="javascript:void(0);" class="icon-minus icon-minus-three" onclick="ocultarTarjetaThree()"></a>
                 </div>
               </div>
             </div>
@@ -237,16 +237,16 @@
           <div class="wrap">
             <div class="tarjeta-wrap">
               <div class="tarjeta-one-barras">
-                <div class="adelante-barras img-barras-04"  id="frente-two">
+                <div class="adelante-barras img-barras-04"  id="frente-four">
                   <h1>¿Cómo es la sesión?</h1>
-                  <a href="javascript:void(0);" class="icon-plus icon-plus-two" onclick="mostrarTarjetaTwo()"></a>
+                  <a href="javascript:void(0);" class="icon-plus icon-plus-four" onclick="mostrarTarjetaFour()"></a>
                 </div>
-                <div class="atras-two-barras back-barras-04"  id="dorso-two"> 
+                <div class="atras-two-barras back-barras-04"  id="dorso-four"> 
                   <p> 
                     <span class="text-bold">La sesión de barras dura aproximadamente 1 hora</span> y se realiza acostado en camilla en un entorno muy cuidado para que puedas relajarte y disfrutar de recibir.
                   </p>
                   <div class="flex-icon">
-                    <a href="javascript:void(0);" class="icon-minus icon-minus-two" onclick="ocultarTarjetaTwo()"></a>
+                    <a href="javascript:void(0);" class="icon-minus icon-minus-four" onclick="ocultarTarjetaFour()"></a>
                   </div>
                 </div>
               </div>
@@ -272,11 +272,11 @@
       <!--Form-->
       <form method="post" action="form-submit-barras.php" class="col-12 d-flex flex-column justify-content-center align-items-center">
         <div class="wrapper-input-suscribe">
-            <div class="mb-3 box-input">
+            <div class="mb-md-3 box-input">
                 <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" required>
                 <input type="email" class="form-control" id="email" name="email"  placeholder="Email" required>
             </div>
-            <div class="mb-3 box-input">
+            <div class="mb-md-3 box-input">
                 <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Apellido" required>
                 <input type="tel" class="form-control" id="celular" name="celular"  placeholder="Celular" required>
             </div>

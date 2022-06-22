@@ -28,3 +28,13 @@ function ocultarTarjetaThree() {
   document.getElementById("dorso-three").style.display = "none";
   document.getElementById("frente-three").style.display = "flex";
 }
+
+//card-04
+function mostrarTarjetaFour() {
+  document.getElementById("frente-four").style.display = "none";
+  document.getElementById("dorso-four").style.display = "flex";
+}
+function ocultarTarjetaFour() {
+  document.getElementById("dorso-four").style.display = "none";
+  document.getElementById("frente-four").style.display = "flex";
+}

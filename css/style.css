@@ -1092,6 +1092,11 @@ textarea.form-control {
   background-color: #FFFBF9;
 }
 
+.cocina-image {
+  width: 50%;
+  overflow: hidden;
+}
+
 .box-cocina {
   display: flex;
   justify-content: center;
@@ -1211,7 +1216,10 @@ textarea.form-control {
 }
 
 /*Eneagramas*/
-/*Certificaciones*/
+.container-eneagrama {
+  height: 90vh;
+}
+
 .eneagramas-image {
   background-image: url(../img/img-eneagramas.jpg);
   background-repeat: no-repeat;
@@ -1288,6 +1296,15 @@ textarea.form-control {
 }
 
 /*Barras de Access*/
+.container-barras {
+  background-color: #FFFBF9;
+}
+
+.barras-image {
+  width: 50%;
+  overflow: hidden;
+}
+
 .box-carousel {
   display: flex;
   justify-content: center;
