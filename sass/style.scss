@@ -438,14 +438,15 @@ textarea.form-control {
 .container-text-sobreMi{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   height: 90vh
 }
 .container-text-sobreMi h1{
   font-family: "MADE Bon Voyage", sans-serif;
   color: white;
   font-size: 4rem;
-  width: 80%;
+  width: 50%;
+  padding-left: 2rem;
 }
 .img-sobremi{
   width: 70%;
