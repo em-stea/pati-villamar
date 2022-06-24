@@ -69,6 +69,13 @@
   font-style: normal;
   font-display: block;
 }
+@font-face {
+  font-family: "JulesColossal-Light";
+  src: url("../fonts/JulesColossal-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -168,7 +175,7 @@ body {
 }
 
 .container-text-home h1 {
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   color: black;
   font-size: 4rem;
   width: 80%;
@@ -226,21 +233,21 @@ body {
 
 .adelante h1 {
   width: 70%;
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   color: white;
   font-size: 2rem;
 }
 
 .atras h1, .atras-two h1, .atras-three h1 {
   width: 60%;
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   color: white;
   font-size: 2rem;
 }
 
 .atras-three h5 {
   width: 60%;
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   color: white;
   font-size: 1rem;
 }
@@ -360,7 +367,7 @@ body {
 .client-name {
   text-align: center;
   color: #A4798D;
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   font-size: 1.5rem;
 }
 
@@ -397,7 +404,7 @@ body {
 }
 
 .bg-contactame h1 {
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   font-size: 3.5rem;
   padding-bottom: 0.5rem;
 }
@@ -555,7 +562,7 @@ textarea.form-control {
 }
 
 .container-text-sobreMi h1 {
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   color: white;
   font-size: 4rem;
   width: 50%;
@@ -628,7 +635,7 @@ textarea.form-control {
 
 .tarjeta-encabezado h1 {
   color: #AF831B;
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   font-size: 1.5rem;
 }
 
@@ -684,7 +691,7 @@ textarea.form-control {
 /*Mis Certificaciones*/
 .accordion-button {
   margin: auto;
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   font-size: 2.5rem;
   background-color: #FFFBF9;
   justify-content: center;
@@ -735,7 +742,7 @@ textarea.form-control {
 }
 
 .box-left h2, .box-right h2 {
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   color: black;
   font-size: 1.3rem;
   margin-bottom: 1.3rem;
@@ -782,7 +789,7 @@ textarea.form-control {
 }
 
 .box-facilitadora h1 {
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   color: white;
   font-size: 2.5rem;
   text-align: center;
@@ -810,7 +817,7 @@ textarea.form-control {
 }
 
 .box-grafico h1 {
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   color: #7D9693;
   font-size: 1.7rem;
   margin: 8rem auto;
@@ -893,7 +900,7 @@ textarea.form-control {
 }
 
 .box-contacto-sobreMi h1 {
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   color: white;
   text-align: center;
   font-size: 2rem;
@@ -1002,7 +1009,7 @@ textarea.form-control {
 }
 
 .box-coffee h1 {
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   color: #7D9693;
 }
 
@@ -1109,7 +1116,7 @@ textarea.form-control {
 }
 
 .box-cocina h1 {
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   color: #7D9693;
 }
 
@@ -1129,7 +1136,7 @@ textarea.form-control {
 }
 
 .bg-pink-proximamente h1 {
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   color: black;
   font-size: 3rem;
 }
@@ -1164,13 +1171,13 @@ textarea.form-control {
 }
 
 .box-certificaciones-page h1 {
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   color: #614651;
 }
 
 .box-certificaciones-page h3 {
   margin: 2rem 0;
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   color: #AF831B;
   text-align: center;
   width: 60%;
@@ -1201,7 +1208,7 @@ textarea.form-control {
 }
 
 .bg-green-proximamente h1 {
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   font-size: 3rem;
 }
 
@@ -1218,7 +1225,7 @@ textarea.form-control {
 }
 
 .bg-gold-proximamente h1 {
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   font-size: 3rem;
 }
 
@@ -1246,7 +1253,7 @@ textarea.form-control {
 }
 
 .box-eneagramas-page h1 {
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   color: #614651;
 }
 
@@ -1286,7 +1293,7 @@ textarea.form-control {
 .box-potencia {
   background-color: #7D9693;
   padding: 7rem 0;
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   color: white;
   text-align: center;
 }
@@ -1346,7 +1353,7 @@ textarea.form-control {
 }
 
 .carousel-text > h1 {
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   color: #614651;
   font-size: 2.3rem;
   text-align: center;
@@ -1403,7 +1410,7 @@ textarea.form-control {
 
 .adelante-barras h1 {
   width: 70%;
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   color: white;
   font-size: 2rem;
   text-align: center;
@@ -1411,14 +1418,14 @@ textarea.form-control {
 
 .atras-barras h1, .atras-two-barras h1, .atras-three-barras h1 {
   width: 60%;
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   color: black;
   font-size: 2rem;
 }
 
 .atras-three-barras h5 {
   width: 60%;
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   color: white;
   font-size: 1rem;
 }
@@ -1492,7 +1499,7 @@ textarea.form-control {
 }
 
 .box-cierre-barras h1 {
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   color: white;
   font-size: 2rem;
   width: 45%;
@@ -1563,7 +1570,7 @@ textarea.form-control {
 }
 
 .container-text-facelift h1 {
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   color: white;
   font-size: 4rem;
   width: 80%;
@@ -1579,7 +1586,7 @@ textarea.form-control {
 }
 
 .box-facelift h1 {
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   font-size: 2rem;
   color: #AF831B;
   text-align: center;
@@ -1619,7 +1626,7 @@ textarea.form-control {
 }
 
 .tarjetilla-body h1 {
-  font-family: "MADE Bon Voyage", Serif;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   font-size: 2rem;
   color: #AF831B;
   padding: 1.6rem 0;
