@@ -525,6 +525,10 @@ textarea.form-control {
   margin-bottom: 1.5rem;
 }
 
+.rrss-footer .icon-instagram, .icon-facebook {
+  margin-right: 0.5rem;
+}
+
 .link-footer {
   margin-right: 1.5rem;
 }
