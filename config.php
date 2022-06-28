@@ -4,8 +4,8 @@
 ini_set('display_errors', 1);
 
 $db_host = 'localhost';
-$db_name = 'alejandraherrera_db';
-$db_user = 'admin_ah';
+$db_name = 'villamarpaty_db';
+$db_user = 'admin_vp';
 $db_pass = 'milmillonesdeeuros';
 
 // de acá para abajo, no tocar

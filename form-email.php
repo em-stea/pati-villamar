@@ -9,7 +9,7 @@ $email = $_POST['email'];
 $mensaje=$_POST['mensaje'];
 
 /*guardo los datos en la db*/
-$sql = 'insert into contacto (nombre, email) values (?, ?)'; //nombres de las columnas de la db
+$sql = 'insert into Contacto (nombre, email) values (?, ?)'; //nombres de las columnas de la db
 $sql_params = [$nombre, $email];
 
 $st = $db->prepare($sql);
@@ -17,9 +17,9 @@ $st->execute($sql_params);
 
 
 /*mail destinatario y contenido a recibir*/
-$email_to = "hola@alejandraherrera.com.ec";
-$contenido = "$nombre ha enviado un mensaje desde la web de alejandra.herrera<br /> Nombre: $nombre<br />Email: $email<br /> Mensaje: $mensaje";
-$asunto = "Consulta desde la Web pati.villamar";
+$email_to = "hola@patyvillamar.com";
+$contenido = "$nombre ha enviado un mensaje desde la web de patyvillamar.com<br /> Nombre: $nombre<br />Email: $email<br /> Mensaje: $mensaje";
+$asunto = "Consulta desde la Web patyvillamar.com";
 
 //Cabeceras del correo para que no llegue a spam
 $header = "MIME-Version: 1.0 \r\n";
