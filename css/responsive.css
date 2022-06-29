@@ -3620,6 +3620,36 @@ body {
     bottom: 6rem;
   }
 
+  .front-view, .back-view {
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 50px;
+    padding: 1rem 2rem;
+    display: block;
+  }
+
+  .front-view {
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 50px;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+  }
+
+  .back-view-two {
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 50px;
+    padding: 1rem 2rem;
+    display: block;
+  }
+
   /*card-02*/
   .icon-plus-two-card {
     position: absolute;
@@ -3646,6 +3676,7 @@ body {
 
   .button-rounded {
     width: 83%;
+    margin-bottom: 3rem;
   }
 
   .adelante h1, .atras h1, .atras-two h1, .atras-three h1 {
