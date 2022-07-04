@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?5hztld');
-  src:  url('fonts/icomoon.eot?5hztld#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?5hztld') format('truetype'),
-    url('fonts/icomoon.woff?5hztld') format('woff'),
-    url('fonts/icomoon.svg?5hztld#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?qddz3b');
+  src:  url('fonts/icomoon.eot?qddz3b#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?qddz3b') format('truetype'),
+    url('fonts/icomoon.woff?qddz3b') format('woff'),
+    url('fonts/icomoon.svg?qddz3b#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -34,6 +34,9 @@
 .icon-plus:before {
   content: "\e900";
 }
+.icon-location:before {
+  content: "\e947";
+}
 .icon-facebook:before {
   content: "\ea90";
 }
@@ -42,4 +45,10 @@
 }
 .icon-whatsapp:before {
   content: "\ea93";
+}
+.icon-calendar-check-o:before {
+  content: "\e903";
+}
+.icon-banknote:before {
+  content: "\e904";
 }

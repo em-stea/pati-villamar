@@ -1330,7 +1330,36 @@ textarea.form-control {
   text-align: center;
   width: 55%;
   margin: auto;
-  
+}
+.box-facelift h2{
+  color: $colour-text-green;
+  font-weight: 700;
+  text-align: center;
+}
+.box-facelift h3{
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
+  color: $colour-text-violet;
+  font-weight: 800;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: .3rem;
+}
+.box-facelift-02, .banner-facelift{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box-facelift-02 h3{
+  text-align: center;
+  color: $colour-text-violet;
+  font-size: 1.7rem;
+  width: 50%;
+  margin: 0 auto 8rem;
+}
+.star-img{
+  width: 5%;
+  margin-bottom: 2rem;
 }
 .box-facelift p{
   color: $colour-text-green;
@@ -1342,6 +1371,106 @@ textarea.form-control {
 .box-facelift span{
   font-weight: 700;
 }
+.banner-facelift{
+  padding: 3rem 0;
+}
+.banner-facelift h3{
+  text-align: center;
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
+  color: $colour-text-dark-violet;
+  width: 40%;
+}
+.box-button-facelift{
+  margin: 7rem 0;
+}
+.box-button-01{
+  padding: 1rem 2.5rem;
+  background-color: $colour-text-gold;
+  border-radius: 50px;
+  text-align: center;  
+  margin-right: 1rem;
+  margin-bottom: 1.5rem;
+  &:hover{
+    background-color: $colour-text-grey;
+  }
+}
+.box-button-01 a{
+  color: white;
+  text-decoration: none;
+  color: white;
+  font-size: .9rem;
+  font-weight: 500;
+}
+.box-button-fcl ul{
+  margin-bottom: 0;
+}
+.banner-certificacion{
+  background-color: $colour-text-green;
+  color: white;
+  padding: 5rem 0;
+}
+.banner-certificacion h1{
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
+  text-align: center;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.banner-certificacion h3{
+  text-align: center;
+}
+.banner-certificacion p{
+  margin-left: 2rem;
+  font-size: .8rem;
+}
+.banner-certificacion hr{
+  width: 90%;
+  margin: auto;
+  margin-bottom: 3.5rem;
+}
+.listado{
+  width: 40%;
+  margin: auto;
+}
+.listado li{
+  margin-bottom: 1rem;
+}
+.box-caja-icon{
+  margin: 7rem 0;
+}
+.caja-icon{
+  text-align: center;
+}
+.caja-icon h2{
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
+  color: $colour-text-gold;
+  font-size: 1.7rem;
+}
+.font-small{
+  font-size: .7rem;
+}
+
+.icon-calendar-check-o, .icon-location, .icon-banknote{
+  color: $colour-text-violet;
+  font-size: 2.5rem;
+  line-height: 2 !important;
+  transform: scale(1);
+  transition: transform 0.3s ease-in;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 50px;
+  box-shadow: 5px 3px 10px 1px rgba(0,0,0,0.2);
+}
+.container-scale{
+  width: 30%;
+  margin: auto;
+  margin-bottom: 2rem;
+  &:hover{
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in;
+  }
+}
+
+
 /*Cards*/
 .tarjetilla {
   box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, 0.2);
@@ -1352,7 +1481,7 @@ textarea.form-control {
 }
 .card-box {
   display: flex;
-  padding: 0 5rem 8rem 5rem;
+  padding: 0 5rem 6rem 5rem;
 }
 .card-box .tarjetilla {
   width: 25rem;
