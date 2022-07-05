@@ -259,6 +259,32 @@ body {
     margin-bottom: 0.5rem;
   }
 
+  .box-question-01 h1, .box-question-02 h4 {
+    width: 90%;
+  }
+
+  .box-question-02 h5, .box-question-02 h3 {
+    width: 80%;
+    text-align: center;
+  }
+
+  .box-title-button-barras {
+    padding: 7rem 1rem;
+  }
+
+  .box-title-button-barras h1 {
+    width: 90%;
+  }
+
+  .moon-img {
+    width: 40%;
+  }
+
+  .box-button-barras {
+    flex-direction: column;
+    margin-top: 0;
+  }
+
   /*Facelift*/
   .bg-facelift {
     background-position: top right;
@@ -331,7 +357,7 @@ body {
 
   .box-button-01 p {
     margin-right: 0;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     padding: 1.5rem 3rem;
   }
 
@@ -683,7 +709,7 @@ body {
 
   .carousel-text {
     width: 90%;
-    padding: 15px 33px;
+    padding: 15px 33px 25px 33px;
   }
 
   .slider-carousel {
@@ -739,6 +765,36 @@ body {
 
   .box-input .form-control {
     margin-bottom: 0.5rem;
+  }
+
+  .box-question-01 h1, .box-question-02 h4 {
+    width: 90%;
+  }
+
+  .box-question-02 h5, .box-question-02 h3 {
+    width: 80%;
+    text-align: center;
+  }
+
+  .box-title-button-barras {
+    padding: 7rem 1rem;
+  }
+
+  .box-title-button-barras h1 {
+    width: 90%;
+  }
+
+  .moon-img {
+    width: 40%;
+  }
+
+  .banner-certificacion-barras {
+    padding: 5rem 1rem;
+  }
+
+  .box-button-barras {
+    flex-direction: column;
+    margin-top: 0;
   }
 
   /*Facelift*/
@@ -1235,6 +1291,36 @@ body {
     margin-bottom: 0.5rem;
   }
 
+  .box-question-01 h1, .box-question-02 h4 {
+    width: 90%;
+  }
+
+  .box-question-02 h5, .box-question-02 h3 {
+    width: 80%;
+    text-align: center;
+  }
+
+  .box-title-button-barras {
+    padding: 7rem 1rem;
+  }
+
+  .box-title-button-barras h1 {
+    width: 90%;
+  }
+
+  .moon-img {
+    width: 40%;
+  }
+
+  .banner-certificacion-barras {
+    padding: 5rem 1rem;
+  }
+
+  .box-button-barras {
+    flex-direction: column;
+    margin-top: 0;
+  }
+
   /*Facelift*/
   .bg-facelift {
     background-position: top right;
@@ -1725,6 +1811,36 @@ body {
     margin-bottom: 0.5rem;
   }
 
+  .box-question-01 h1, .box-question-02 h4 {
+    width: 90%;
+  }
+
+  .box-question-02 h5, .box-question-02 h3 {
+    width: 80%;
+    text-align: center;
+  }
+
+  .box-title-button-barras {
+    padding: 7rem 1rem;
+  }
+
+  .box-title-button-barras h1 {
+    width: 90%;
+  }
+
+  .moon-img {
+    width: 40%;
+  }
+
+  .banner-certificacion-barras {
+    padding: 5rem 1rem;
+  }
+
+  .box-button-barras {
+    flex-direction: column;
+    margin-top: 0;
+  }
+
   /*Facelift*/
   .card-box {
     flex-direction: column;
@@ -2117,7 +2233,7 @@ body {
   }
 
   .box-carousel {
-    height: 21vh;
+    height: 41vh;
     margin-bottom: 0;
   }
 
@@ -2179,6 +2295,36 @@ body {
 
   .box-input .form-control {
     margin-bottom: 0.5rem;
+  }
+
+  .box-question-01 h1, .box-question-02 h4 {
+    width: 90%;
+  }
+
+  .box-question-02 h5, .box-question-02 h3 {
+    width: 80%;
+    text-align: center;
+  }
+
+  .box-title-button-barras {
+    padding: 7rem 1rem;
+  }
+
+  .box-title-button-barras h1 {
+    width: 90%;
+  }
+
+  .moon-img {
+    width: 20%;
+  }
+
+  .banner-certificacion-barras {
+    padding: 5rem 1rem;
+  }
+
+  .box-button-barras {
+    flex-direction: column;
+    margin-top: 0;
   }
 
   /*Facelift*/
@@ -2617,7 +2763,7 @@ body {
   }
 
   .box-carousel {
-    height: 25vh;
+    height: 33vh;
     margin-bottom: 2rem;
   }
 
@@ -2679,6 +2825,36 @@ body {
 
   .box-input .form-control {
     margin-bottom: 0.5rem;
+  }
+
+  .box-question-01 h1, .box-question-02 h4 {
+    width: 90%;
+  }
+
+  .box-question-02 h5, .box-question-02 h3 {
+    width: 80%;
+    text-align: center;
+  }
+
+  .box-title-button-barras {
+    padding: 7rem 1rem;
+  }
+
+  .box-title-button-barras h1 {
+    width: 90%;
+  }
+
+  .moon-img {
+    width: 20%;
+  }
+
+  .banner-certificacion-barras {
+    padding: 5rem 1rem;
+  }
+
+  .box-button-barras {
+    flex-direction: column;
+    margin-top: 0;
   }
 
   /*Facelift*/
@@ -3174,6 +3350,36 @@ body {
     margin-bottom: 1rem;
   }
 
+  .box-question-01 h1, .box-question-02 h4 {
+    width: 90%;
+  }
+
+  .box-question-02 h5, .box-question-02 h3 {
+    width: 80%;
+    text-align: center;
+  }
+
+  .box-title-button-barras {
+    padding: 7rem 1rem;
+  }
+
+  .box-title-button-barras h1 {
+    width: 90%;
+  }
+
+  .moon-img {
+    width: 20%;
+  }
+
+  .banner-certificacion-barras {
+    padding: 5rem 1rem;
+  }
+
+  .box-button-barras {
+    flex-direction: column;
+    margin-top: 0;
+  }
+
   /*Facelift*/
   .bg-facelift {
     background-position: top right;
@@ -3244,7 +3450,7 @@ body {
   }
 
   .listado {
-    width: 50%;
+    width: 80%;
   }
 
   .container-scale {
@@ -3979,6 +4185,11 @@ body {
     padding: 0rem 2rem;
   }
 
+  /*Barras*/
+  .container-barras {
+    height: 90vh;
+  }
+
   /*Footer*/
   .bg-footer {
     height: 18rem;
@@ -4030,6 +4241,11 @@ body {
 
   .text-contact {
     padding: 0rem 2rem;
+  }
+
+  /*Barras*/
+  .container-barras {
+    height: 90vh;
   }
 
   /*Footer*/

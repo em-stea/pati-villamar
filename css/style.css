@@ -1270,12 +1270,12 @@ textarea.form-control {
 /*Barras de Access*/
 .container-barras {
   background-color: #FFFBF9;
-  height: 90vh;
 }
 
 .barras-image {
   width: 50%;
   overflow: hidden;
+  margin-bottom: 4rem;
 }
 
 .box-carousel {
@@ -1534,6 +1534,10 @@ textarea.form-control {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.box-button-barras {
+  margin-top: 4rem;
 }
 
 /*Cierre barras*/
