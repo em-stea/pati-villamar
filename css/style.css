@@ -1270,6 +1270,7 @@ textarea.form-control {
 /*Barras de Access*/
 .container-barras {
   background-color: #FFFBF9;
+  height: 90vh;
 }
 
 .barras-image {
@@ -1449,23 +1450,107 @@ textarea.form-control {
   background-color: #AF831B;
 }
 
+.box-question-01 {
+  background-color: #ECDBD4;
+  padding: 1rem 0 3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-question-01 h1 {
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
+  color: #614651;
+  text-align: center;
+  width: 35%;
+  margin: auto;
+  font-size: 2rem;
+}
+
+.box-question-01 h1 > span {
+  font-family: "Now", sans-serif;
+}
+
+.moon-img {
+  width: 10%;
+}
+
+.box-question-02 {
+  padding: 3rem 0 5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-question-02 h4 {
+  color: #7D9693;
+  text-align: center;
+  width: 35%;
+  margin: auto;
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+
+.box-question-02 h5 {
+  margin-top: 2rem;
+  font-weight: 300;
+}
+
+.box-question-02 h3 {
+  font-family: "Now", sans-serif;
+  color: #AF831B;
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  font-weight: 300;
+}
+
+.text-color {
+  color: #AF831B;
+}
+
+.box-title-button-barras {
+  padding: 7rem;
+  background-color: #ECDBD4;
+}
+
+.box-title-button-barras h1 {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  font-weight: 300;
+  color: #614651;
+}
+
+.box-title-button-barras h4 {
+  font-weight: 300;
+  text-align: center;
+  margin: auto;
+  font-size: 1.3rem;
+  color: #71726D;
+}
+
+.img-barras-05 {
+  background-image: url(../img/img-barras-05.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /*Cierre barras*/
 .box-cierre-barras {
-  background-color: #7D9693;
   padding: 5rem 0;
   text-align: center;
 }
 
 .box-cierre-barras h1 {
   font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
-  color: white;
+  color: #614651;
   font-size: 2rem;
-  width: 45%;
   margin: auto;
 }
 
 .box-cierre-barras p {
-  color: white;
+  color: #7D9693;
   font-weight: 700;
   font-size: 1.3rem;
 }
@@ -1705,23 +1790,29 @@ textarea.form-control {
   padding: 5rem 0;
 }
 
-.banner-certificacion h1 {
+.banner-certificacion-barras {
+  background-color: #71726D;
+  color: white;
+  padding: 5rem 0;
+}
+
+.banner-certificacion h1, .banner-certificacion-barras h1 {
   font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   text-align: center;
   margin-bottom: 3rem;
   text-align: center;
 }
 
-.banner-certificacion h3 {
+.banner-certificacion h3, .banner-certificacion-barras h3 {
   text-align: center;
 }
 
-.banner-certificacion p {
+.banner-certificacion p, .banner-certificacion-barras p {
   margin-left: 2rem;
   font-size: 0.8rem;
 }
 
-.banner-certificacion hr {
+.banner-certificacion hr, .banner-certificacion-barras hr {
   width: 90%;
   margin: auto;
   margin-bottom: 3.5rem;
