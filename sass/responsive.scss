@@ -244,6 +244,46 @@ body {
   .tarjetilla-body ul{
     padding-left: 1rem;
   }
+  .box-facelift-02{
+    margin-top: 2rem;
+  }
+  .box-facelift-02 h3, .banner-facelift h3{
+    width: 90%;
+  }
+  .star-img{
+    width: 60%;
+  }
+  .box-button-facelift{
+    flex-direction: column;
+    margin: 5rem 0;
+  }
+  .box-button-01{
+    margin: 1rem 0 2rem 0
+  }
+  .box-button-01 p{
+    margin-right: 0;
+    font-size: 0.8rem;
+  }
+  .banner-certificacion h3, .banner-certificacion h1{
+    width: 90%;
+    margin: auto;
+  }
+  .banner-certificacion hr{
+    margin: 3.5rem auto;
+  }
+  .listado{
+    width: 90%;
+  }
+  .container-scale{
+    width: auto;
+  }
+  .caja-icon{
+    margin-bottom: 2rem;
+  }
+  .box-caja-icon{
+    margin: 7rem 0 5rem 0;
+  }
+
   /*Cafe con proposito*/
   .coffee-image{
     width: 90%;
@@ -564,6 +604,47 @@ body {
     width: 90%;
     margin: auto;
     margin-bottom: 2rem;
+  }
+  .box-facelift-02{
+    margin-top: 2rem;
+  }
+  .box-facelift-02 h3, .banner-facelift h3, .box-facelift h3{
+    width: 90%;
+  }
+  .box-facelift h3{
+    margin: 2rem auto;
+  }
+  .star-img{
+    width: 40%;
+  }
+  .box-button-facelift{
+    flex-direction: column;
+    margin: 5rem 0;
+  }
+  .box-button-01{
+    margin: 1rem 0 2rem 0
+  }
+  .box-button-01 p{
+    margin-right: 0;
+  }
+  .banner-certificacion h3, .banner-certificacion h1{
+    width: 90%;
+    margin: auto;
+  }
+  .banner-certificacion hr{
+    margin: 3.5rem auto;
+  }
+  .listado{
+    width: 90%;
+  }
+  .container-scale{
+    width: auto;
+  }
+  .caja-icon{
+    margin-bottom: 2rem;
+  }
+  .box-caja-icon{
+    margin: 7rem 0 5rem 0;
   }
   /*Cafe con proposito*/
   .coffee-image{
@@ -895,6 +976,47 @@ body {
     margin: auto;
     margin-bottom: 2rem;
   }
+  .box-facelift-02{
+    margin-top: 2rem;
+  }
+  .box-facelift-02 h3, .banner-facelift h3, .box-facelift h3{
+    width: 90%;
+  }
+  .box-facelift h3{
+    margin: 2rem auto;
+  }
+  .star-img{
+    width: 26%;
+  }
+  .box-button-facelift{
+    flex-direction: column;
+    margin: 5rem 0;
+  }
+  .box-button-01{
+    margin: 1rem 0 2rem 0
+  }
+  .box-button-01 p{
+    margin-right: 0;
+  }
+  .banner-certificacion h3, .banner-certificacion h1{
+    width: 90%;
+    margin: auto;
+  }
+  .banner-certificacion hr{
+    margin: 3.5rem auto;
+  }
+  .listado{
+    width: 90%;
+  }
+  .container-scale{
+    width: auto;
+  }
+  .caja-icon{
+    margin-bottom: 2rem;
+  }
+  .box-caja-icon{
+    margin: 7rem 0 5rem 0;
+  }
   /*Cafe con proposito*/
   .coffee-image{
     width: 80%;
@@ -1190,6 +1312,60 @@ body {
   .box-input .form-control{
     margin-bottom: .5rem;
   }
+  /*Facelift*/
+  .card-box{
+    flex-direction: column;
+  }
+  .card-box .tarjetilla{
+    margin-bottom: 2rem;
+  }
+  .box-facelift-02{
+    margin-top: 2rem;
+  }
+  .box-facelift-02 h3, .banner-facelift h3, .box-facelift h3{
+    width: 90%;
+  }
+  .box-facelift h3{
+    margin: 2rem auto;
+  }
+  .star-img{
+    width: 26%;
+  }
+  .box-button-facelift{
+    flex-direction: column;
+    margin: 5rem 0;
+  }
+  .box-button-01{
+    margin: 1rem auto 2rem;
+    width: 60%;
+  }
+  .box-button-01 p{
+    margin-right: 0;
+  }
+  .banner-certificacion h3, .banner-certificacion h1{
+    width: 90%;
+    margin: auto;
+  }
+  .banner-certificacion hr{
+    margin: 3.5rem auto;
+  }
+  .listado{
+    width: 90%;
+  }
+  .container-scale{
+    width: auto;
+  }
+  .caja-icon{
+    margin-bottom: 2rem;
+  }
+  .box-caja-icon{
+    margin: 7rem 0 5rem 0;
+  }
+  .box-button-fcl ul{
+    width: 60%;
+    margin: auto;
+  }
+
   /*Cafe con proposito*/
   .coffee-image{
     width: 80%;
@@ -1517,6 +1693,55 @@ body {
     width: 90%;
     margin: auto;
     margin-bottom: 2rem;
+  }
+  .card-box{
+    flex-direction: column;
+  }
+  .card-box .tarjetilla{
+    margin-bottom: 2rem;
+  }
+  .box-facelift-02{
+    margin-top: 2rem;
+  }
+  .box-facelift-02 h3, .banner-facelift h3, .box-facelift h3{
+    width: 90%;
+  }
+  .box-facelift h3{
+    margin: 2rem auto;
+  }
+  .star-img{
+    width: 26%;
+  }
+  .box-button-facelift{
+    flex-direction: column;
+    margin: 5rem 0;
+  }
+  .box-button-01{
+    margin: 1rem auto 2rem;
+    width: 60%;
+  }
+  .banner-certificacion h3, .banner-certificacion h1{
+    width: 90%;
+    margin: auto;
+  }
+  .banner-certificacion hr{
+    margin: 3.5rem auto;
+  }
+  .listado{
+    width: 90%;
+  }
+  .container-scale{
+    width: auto;
+  }
+  .caja-icon{
+    margin-bottom: 2rem;
+  }
+  .box-caja-icon{
+    margin: 7rem 0 5rem 0;
+  }
+  .box-button-fcl ul{
+    width: 60%;
+    margin: auto;
   }
   /*Cafe con proposito*/
   .coffee-image{
@@ -1853,6 +2078,49 @@ body {
     margin: auto;
     margin-bottom: 2rem;
   }
+  .box-facelift-02{
+    margin-top: 2rem;
+  }
+  .box-facelift-02 h3, .banner-facelift h3, .box-facelift h3{
+    width: 90%;
+  }
+  .box-facelift h3{
+    margin: 2rem auto;
+  }
+  .star-img{
+    width: 26%;
+  }
+  .box-button-facelift{
+    flex-direction: column;
+    margin: 5rem 0;
+  }
+  .box-button-01{
+    margin: 1rem auto 2rem;
+    width: 60%;
+  }
+  .banner-certificacion h3, .banner-certificacion h1{
+    width: 90%;
+    margin: auto;
+  }
+  .banner-certificacion hr{
+    margin: 3.5rem auto;
+  }
+  .listado{
+    width: 90%;
+  }
+  .container-scale{
+    width: auto;
+  }
+  .caja-icon{
+    margin-bottom: 2rem;
+  }
+  .box-caja-icon{
+    margin: 7rem 0 5rem 0;
+  }
+  .box-button-fcl ul{
+    width: 60%;
+    margin: auto;
+  }
   /*Cafe con proposito*/
   .coffee-image{
     width: 80%;
@@ -2174,13 +2442,54 @@ body {
     width: 90%;
   }
   .card-box{
-    flex-direction: column;
     padding: 0;
   }
   .card-box .tarjetilla{
     width: 90%;
+    margin: 0 .3rem 2rem;
+  }
+  .box-facelift-02{
+    margin-top: 2rem;
+  }
+  .box-facelift-02 h3, .banner-facelift h3, .box-facelift h3{
+    width: 90%;
+  }
+  .box-facelift h3{
+    margin: 2rem auto;
+  }
+  .star-img{
+    width: 12%;
+  }
+  .box-button-facelift{
+    flex-direction: column;
+    margin: 5rem 0;
+  }
+  .box-button-01{
+    margin: 1rem auto 2rem;
+    width: 60%;
+  }
+  .banner-certificacion h3, .banner-certificacion h1{
+    width: 90%;
     margin: auto;
+  }
+  .banner-certificacion hr{
+    margin: 3.5rem auto;
+  }
+  .listado{
+    width: 50%;
+  }
+  .container-scale{
+    width: auto;
+  }
+  .caja-icon{
     margin-bottom: 2rem;
+  }
+  .box-caja-icon{
+    margin: 7rem 0 5rem 0;
+  }
+  .box-button-fcl ul{
+    width: 60%;
+    margin: auto;
   }
   /*Cafe con proposito*/
   .coffee-image{

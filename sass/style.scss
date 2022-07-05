@@ -50,6 +50,9 @@ body {
 .text-bold{
   font-weight: 500;
 }
+.text-bolder{
+  font-weight: 700;
+}
 
 ///index.html///
 
@@ -1338,11 +1341,19 @@ textarea.form-control {
 }
 .box-facelift h3{
   font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
+  background-color: $colour-text-medium-pink;
+  padding: 2rem 0;
   color: $colour-text-violet;
   font-weight: 800;
   text-align: center;
   font-size: 1.5rem;
   letter-spacing: .3rem;
+}
+.box-facelift h3 span{
+  font-family: "Now", sans-serif;
+}
+.box-facelift-02{
+  margin: 7rem 0;
 }
 .box-facelift-02, .banner-facelift{
   display: flex;
@@ -1355,7 +1366,7 @@ textarea.form-control {
   color: $colour-text-violet;
   font-size: 1.7rem;
   width: 50%;
-  margin: 0 auto 8rem;
+  margin: 0 auto;
 }
 .star-img{
   width: 5%;
@@ -1373,6 +1384,7 @@ textarea.form-control {
 }
 .banner-facelift{
   padding: 3rem 0;
+  background-color: $colour-text-medium-pink;
 }
 .banner-facelift h3{
   text-align: center;
@@ -1380,29 +1392,49 @@ textarea.form-control {
   color: $colour-text-dark-violet;
   width: 40%;
 }
-.box-button-facelift{
-  margin: 7rem 0;
+.banner-facelift h3 span{
+  font-family: "Now", sans-serif;
+  font-size: 1.5rem;
 }
-.box-button-01{
-  padding: 1rem 2.5rem;
+.box-title-button{
+  padding: 7rem;
+  background-color: $colour-text-medium-pink;
+}
+.box-title-button h1{
+  text-align: center;
+  font-weight: 300;
+  color: $colour-text-grey;
+}
+.box-button-facelift{
+  margin-top: 4rem;
+}
+.box-button-01 a{
+  text-decoration: none;
+}
+.box-button-01 p{
+  padding: 1.5rem 3.3rem;
+  box-shadow: 5px 5px 10px 3px rgba(0,0,0,0.2);
   background-color: $colour-text-gold;
   border-radius: 50px;
   text-align: center;  
   margin-right: 1rem;
   margin-bottom: 1.5rem;
+  color: white;
+  font-size: .9rem;
+  font-weight: 500;
   &:hover{
     background-color: $colour-text-grey;
   }
 }
-.box-button-01 a{
-  color: white;
-  text-decoration: none;
-  color: white;
-  font-size: .9rem;
-  font-weight: 500;
-}
+
 .box-button-fcl ul{
   margin-bottom: 0;
+}
+.img-facelift-01{
+  background-image: url(../img/img-facelift-01.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .banner-certificacion{
   background-color: $colour-text-green;
@@ -1428,28 +1460,104 @@ textarea.form-control {
   margin-bottom: 3.5rem;
 }
 .listado{
-  width: 40%;
+  width: 80%;
   margin: auto;
 }
 .listado li{
   margin-bottom: 1rem;
 }
 .box-caja-icon{
-  margin: 7rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0 3rem 0;
 }
 .caja-icon{
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 3rem;
 }
 .caja-icon h2{
   font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
   color: $colour-text-gold;
   font-size: 1.7rem;
 }
-.font-small{
-  font-size: .7rem;
+.caja-icon p{
+  margin-bottom: 0 !important;
+}
+.font-big{
+  font-size: 1.3rem;
+}
+.caja-money{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  background-color: $colour-text-light-blue;
+  border-radius: 12px;
+  box-shadow: 0px 12px 18px -8px rgba(0,0,0,0.8);
+  padding: 1.3rem 0;
+  margin: 4rem 2rem 0 2rem;
+}
+.caja-money h2{
+  margin-bottom: 0;
+  font-size: 2rem;
+  letter-spacing: 0.4rem;
+  color: $colour-text-grey;
+  font-weight: 300;
+}
+.caja-money p{
+  margin-left: 0;
+  margin-bottom: 0;
+  font-size: 2.5rem;
+  color: $colour-text-gold;
+  font-weight: 700;
+}
+.caja-billete{
+  margin-right: 2rem;
+  box-shadow: 5px 3px 10px 1px rgba(0,0,0,0.4) !important;
+  font-size: 2.5rem;
+  line-height: 2 !important;
+  transform: scale(1);
+  transition: transform 0.3s ease-in;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 50px;
+  box-shadow: 5px 3px 10px 1px rgba(0,0,0,0.2);
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.caja-billete .icon-banknote{
+  color: $colour-text-gold;
+  animation: animated-money 2s infinite linear;
+  position: relative;
 }
 
-.icon-calendar-check-o, .icon-location, .icon-banknote{
+@keyframes animated-money {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(20deg);
+  }
+  50% {
+    transform: rotate(40deg);
+  }
+  75% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.icon-calendar-check-o, .icon-location{
   color: $colour-text-violet;
   font-size: 2.5rem;
   line-height: 2 !important;
@@ -1461,7 +1569,7 @@ textarea.form-control {
   box-shadow: 5px 3px 10px 1px rgba(0,0,0,0.2);
 }
 .container-scale{
-  width: 30%;
+  width: auto;
   margin: auto;
   margin-bottom: 2rem;
   &:hover{
@@ -1469,6 +1577,7 @@ textarea.form-control {
     transition: transform 0.2s ease-in;
   }
 }
+
 
 
 /*Cards*/
