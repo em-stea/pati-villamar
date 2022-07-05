@@ -1597,6 +1597,18 @@ textarea.form-control {
   color: #8F6175;
 }
 
+.box-facelift-02 h4 {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.box-facelift-02 h4 .text-bolder {
+  color: #AF831B;
+}
+
 .star-img {
   width: 5%;
   margin-bottom: 2rem;
