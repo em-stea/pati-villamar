@@ -1590,6 +1590,11 @@ textarea.form-control {
   font-size: 1.7rem;
   width: 50%;
   margin: 0 auto;
+  font-weight: 400;
+}
+
+.box-facelift-02 .text-bolder {
+  color: #8F6175;
 }
 
 .star-img {
@@ -1632,8 +1637,18 @@ textarea.form-control {
 }
 
 .box-title-button h1 {
+  width: 50%;
+  margin: auto;
   text-align: center;
   font-weight: 300;
+  color: #614651;
+}
+
+.box-title-button h4 {
+  font-weight: 300;
+  text-align: center;
+  margin: auto;
+  font-size: 1.3rem;
   color: #71726D;
 }
 
@@ -1736,7 +1751,7 @@ textarea.form-control {
 }
 
 .font-big {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 .caja-money {

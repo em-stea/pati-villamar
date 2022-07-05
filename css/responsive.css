@@ -285,6 +285,10 @@ body {
     margin-bottom: 2rem;
   }
 
+  .box-facelift h3 {
+    padding: 2rem 1rem;
+  }
+
   .box-facelift p {
     width: 90%;
   }
@@ -313,12 +317,12 @@ body {
   }
 
   .star-img {
-    width: 60%;
+    width: 30%;
   }
 
   .box-button-facelift {
     flex-direction: column;
-    margin: 5rem 0;
+    margin: 2rem 0;
   }
 
   .box-button-01 {
@@ -328,6 +332,7 @@ body {
   .box-button-01 p {
     margin-right: 0;
     font-size: 0.8rem;
+    padding: 1.5rem 3rem;
   }
 
   .banner-certificacion h3, .banner-certificacion h1 {
@@ -349,10 +354,29 @@ body {
 
   .caja-icon {
     margin-bottom: 2rem;
+    margin-right: 0;
   }
 
   .box-caja-icon {
-    margin: 7rem 0 5rem 0;
+    margin: 1rem 0 1rem 0;
+    flex-direction: column;
+  }
+
+  .caja-money {
+    flex-direction: column;
+  }
+
+  .caja-billete {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .box-title-button {
+    padding: 7rem 1rem;
+  }
+
+  .box-title-button h1 {
+    width: 90%;
   }
 
   /*Cafe con proposito*/
@@ -763,21 +787,22 @@ body {
     margin-top: 2rem;
   }
 
-  .box-facelift-02 h3, .banner-facelift h3, .box-facelift h3 {
+  .box-facelift-02 h3, .banner-facelift h3 {
     width: 90%;
   }
 
   .box-facelift h3 {
-    margin: 2rem auto;
+    margin: 2rem 0;
+    padding: 2rem 1rem;
   }
 
   .star-img {
-    width: 40%;
+    width: 35%;
   }
 
   .box-button-facelift {
     flex-direction: column;
-    margin: 5rem 0;
+    margin: 1rem 0;
   }
 
   .box-button-01 {
@@ -786,10 +811,17 @@ body {
 
   .box-button-01 p {
     margin-right: 0;
+    font-size: 1rem;
+    padding: 1.5rem 2.3rem;
   }
 
-  .banner-certificacion h3, .banner-certificacion h1 {
+  .banner-certificacion h1 {
     width: 90%;
+    margin: auto;
+  }
+
+  .banner-certificacion h3 {
+    width: 80%;
     margin: auto;
   }
 
@@ -807,10 +839,29 @@ body {
 
   .caja-icon {
     margin-bottom: 2rem;
+    margin-right: 0;
   }
 
   .box-caja-icon {
-    margin: 7rem 0 5rem 0;
+    margin: 1rem 0;
+    flex-direction: column;
+  }
+
+  .caja-money {
+    flex-direction: column;
+  }
+
+  .caja-billete {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .box-title-button {
+    padding: 6rem 1rem;
+  }
+
+  .box-title-button h1 {
+    width: 90%;
   }
 
   /*Cafe con proposito*/
@@ -1231,12 +1282,13 @@ body {
     margin-top: 2rem;
   }
 
-  .box-facelift-02 h3, .banner-facelift h3, .box-facelift h3 {
+  .box-facelift-02 h3, .banner-facelift h3 {
     width: 90%;
   }
 
   .box-facelift h3 {
     margin: 2rem auto;
+    padding: 2rem 1rem;
   }
 
   .star-img {
@@ -1245,7 +1297,7 @@ body {
 
   .box-button-facelift {
     flex-direction: column;
-    margin: 5rem 0;
+    margin: 2rem 0;
   }
 
   .box-button-01 {
@@ -1254,6 +1306,8 @@ body {
 
   .box-button-01 p {
     margin-right: 0;
+    font-size: 1rem;
+    padding: 1.5rem 2.3rem;
   }
 
   .banner-certificacion h3, .banner-certificacion h1 {
@@ -1275,10 +1329,29 @@ body {
 
   .caja-icon {
     margin-bottom: 2rem;
+    margin-right: 0;
   }
 
   .box-caja-icon {
-    margin: 7rem 0 5rem 0;
+    margin: 1rem 0;
+    flex-direction: column;
+  }
+
+  .caja-money {
+    flex-direction: column;
+  }
+
+  .caja-billete {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .box-title-button {
+    padding: 6rem 3rem;
+  }
+
+  .box-title-button h1 {
+    width: 90%;
   }
 
   /*Cafe con proposito*/
@@ -1659,13 +1732,14 @@ body {
 
   .card-box .tarjetilla {
     margin-bottom: 2rem;
+    width: 100%;
   }
 
   .box-facelift-02 {
-    margin-top: 2rem;
+    margin-top: 4rem;
   }
 
-  .box-facelift-02 h3, .banner-facelift h3, .box-facelift h3 {
+  .box-facelift-02 h3, .box-facelift h1, .box-facelift p, .banner-facelift h3 {
     width: 90%;
   }
 
@@ -1684,11 +1758,12 @@ body {
 
   .box-button-01 {
     margin: 1rem auto 2rem;
-    width: 60%;
+    width: 90%;
   }
 
   .box-button-01 p {
     margin-right: 0;
+    font-size: 1rem;
   }
 
   .banner-certificacion h3, .banner-certificacion h1 {
@@ -1710,15 +1785,29 @@ body {
 
   .caja-icon {
     margin-bottom: 2rem;
+    margin-right: 0;
   }
 
   .box-caja-icon {
-    margin: 7rem 0 5rem 0;
+    margin: 1rem 0;
+    flex-direction: column;
   }
 
-  .box-button-fcl ul {
-    width: 60%;
-    margin: auto;
+  .caja-money {
+    flex-direction: column;
+  }
+
+  .caja-billete {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .box-title-button {
+    padding: 6rem 3rem;
+  }
+
+  .box-title-button h1 {
+    width: 90%;
   }
 
   /*Cafe con proposito*/
@@ -2141,10 +2230,10 @@ body {
   }
 
   .box-facelift-02 {
-    margin-top: 2rem;
+    margin-top: 4rem;
   }
 
-  .box-facelift-02 h3, .banner-facelift h3, .box-facelift h3 {
+  .box-facelift-02 h3, .banner-facelift h3 {
     width: 90%;
   }
 
@@ -2163,7 +2252,7 @@ body {
 
   .box-button-01 {
     margin: 1rem auto 2rem;
-    width: 60%;
+    width: 90%;
   }
 
   .banner-certificacion h3, .banner-certificacion h1 {
@@ -2185,15 +2274,28 @@ body {
 
   .caja-icon {
     margin-bottom: 2rem;
+    margin-right: 2rem;
   }
 
   .box-caja-icon {
-    margin: 7rem 0 5rem 0;
+    margin: 1rem 0;
   }
 
-  .box-button-fcl ul {
-    width: 60%;
-    margin: auto;
+  .caja-money {
+    flex-direction: column;
+  }
+
+  .caja-billete {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .box-title-button {
+    padding: 6rem 3rem;
+  }
+
+  .box-title-button h1 {
+    width: 90%;
   }
 
   /*Cafe con proposito*/
@@ -2620,10 +2722,10 @@ body {
   }
 
   .box-facelift-02 {
-    margin-top: 2rem;
+    margin-top: s4rem;
   }
 
-  .box-facelift-02 h3, .banner-facelift h3, .box-facelift h3 {
+  .box-facelift-02 h3, .banner-facelift h3 {
     width: 90%;
   }
 
@@ -2632,7 +2734,7 @@ body {
   }
 
   .star-img {
-    width: 26%;
+    width: 15%;
   }
 
   .box-button-facelift {
@@ -2642,7 +2744,11 @@ body {
 
   .box-button-01 {
     margin: 1rem auto 2rem;
-    width: 60%;
+    width: 90%;
+  }
+
+  .box-button-01 p {
+    font-size: 1rem;
   }
 
   .banner-certificacion h3, .banner-certificacion h1 {
@@ -2664,15 +2770,28 @@ body {
 
   .caja-icon {
     margin-bottom: 2rem;
+    margin-right: 2rem;
   }
 
   .box-caja-icon {
-    margin: 7rem 0 5rem 0;
+    margin: 1rem auto;
   }
 
-  .box-button-fcl ul {
-    width: 60%;
-    margin: auto;
+  .caja-money {
+    flex-direction: column;
+  }
+
+  .caja-billete {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .box-title-button {
+    padding: 6rem 3rem;
+  }
+
+  .box-title-button h1 {
+    width: 90%;
   }
 
   /*Cafe con proposito*/
@@ -3090,10 +3209,10 @@ body {
   }
 
   .box-facelift-02 {
-    margin-top: 2rem;
+    margin-top: 4rem;
   }
 
-  .box-facelift-02 h3, .banner-facelift h3, .box-facelift h3 {
+  .box-facelift-02 h3, .banner-facelift h3 {
     width: 90%;
   }
 
@@ -3137,12 +3256,22 @@ body {
   }
 
   .box-caja-icon {
-    margin: 7rem 0 5rem 0;
+    margin: 2rem auto;
+    padding: 2rem 0 1rem 0;
   }
 
   .box-button-fcl ul {
     width: 60%;
     margin: auto;
+  }
+
+  .box-title-button h1 {
+    width: 80%;
+  }
+
+  .box-button-01 p {
+    font-size: 1.1rem;
+    padding: 1.5rem 2.3rem;
   }
 
   /*Cafe con proposito*/
