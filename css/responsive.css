@@ -18,147 +18,116 @@ body {
     width: 90%;
     margin: auto;
   }
-
   .container-text-home h1 {
     font-size: 2.5rem;
     width: auto;
     margin-bottom: 6rem;
   }
-
   /*Cards*/
   .bg-pink {
     height: auto;
     margin-bottom: 0;
   }
-
   .box-cards-home {
     height: 82rem;
   }
-
   .box-cards-home .row {
     margin-top: 0;
   }
-
   .margin-card {
     margin-right: 0;
   }
-
   .atras-three h5 {
     width: 60%;
   }
-
   /*Testimonios*/
   .wrapper {
     height: 31rem;
   }
-
   .testimonial-text {
     width: auto;
     padding: 71px 38px 30px 38px;
   }
-
   .slider-testimonial {
     width: 90%;
   }
-
   /*Contacto*/
   .text-contact {
     padding: 0 0.9rem;
   }
-
   /*Footer*/
   .bg-footer {
     height: 17rem;
   }
-
   /*Sobre mi*/
   .bg-sobreMi {
     background-size: cover;
     background-position: top center;
     height: 38vh;
   }
-
   .container-text-sobreMi {
     height: 38vh;
   }
-
   .container-text-sobreMi h1 {
     font-size: 1.8rem;
   }
-
   .img-sobremi {
     width: 100%;
   }
-
   .container-sobremi div:nth-child(2) {
     width: auto;
     margin-top: 2rem;
   }
-
   .box-facilitadora h1 {
     font-size: 2rem;
   }
-
   .container-pill {
     flex-direction: column;
   }
-
   .pill {
     width: 90%;
     margin: 0.6rem;
   }
-
   .contenedor-tarjetas-padre {
     height: auto;
     margin-bottom: 41rem;
   }
-
   .botones {
     background-color: #7D9693;
     color: white;
   }
-
   .tarjeta-contenido .agrandar {
     margin-top: 2rem;
   }
-
   .accordion-button {
     font-size: 1.1rem;
   }
-
   .tarjeta {
     margin-bottom: 1.5rem;
   }
-
   .circle {
     margin: auto;
   }
-
   .flex-box-left, .flex-box-right {
     justify-content: center;
     flex-direction: column;
   }
-
   .btn-right {
     margin-left: 0;
   }
-
   .box-left h2, .box-right h2 {
     width: auto;
     text-align: center;
     font-size: 1.1rem;
     margin-top: 1rem;
   }
-
   .modal-dialog {
     margin-top: 15rem;
   }
-
   .box-grafico h1 {
     width: 90%;
     margin: 5rem auto;
   }
-
   .box-image-sobreMi {
     left: 0;
     position: unset;
@@ -166,364 +135,286 @@ body {
     justify-content: center;
     align-items: center;
   }
-
   .img-paty-two {
     width: 90%;
   }
-
   .container-pill-two {
     margin-left: 0;
     flex-wrap: nowrap;
     flex-direction: column;
     margin-top: 4rem;
   }
-
   .box-pill {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
   }
-
   .hover, .actived {
     width: 100%;
   }
-
   /*Barras de Access*/
   .barras-image {
     width: 90%;
     margin-top: 2rem;
   }
-
   .wrapper-carousel {
     padding: 0;
   }
-
   .box-carousel {
     height: 26vh;
     margin-bottom: 20rem;
   }
-
   .carousel-text {
     width: 90%;
     padding: 15px 33px;
   }
-
   .slider-carousel {
     width: 100%;
   }
-
   .back-barras, .back-barras-03 {
     background-color: #AF831B;
     color: white;
   }
-
   .back-barras-02, .back-barras-04 {
     background-color: #D9E1E4;
     color: black !important;
   }
-
   .atras-barras p, .atras-two-barras p {
     width: 90%;
   }
-
   .box-cierre-barras h1 {
     width: 90%;
   }
-
   .bg-suscribe h1 {
     padding: 0 1rem;
   }
-
   .btn-send-coffee {
     width: 80%;
     padding: 14px 62px;
     margin-top: 1rem;
   }
-
   .wrapper-input-suscribe {
     flex-direction: column;
     width: 90%;
   }
-
   .wrapper-input-suscribe .form-control {
     width: 100%;
     margin-top: 0.5rem;
   }
-
   .box-input {
     margin-right: 0;
     width: 90%;
   }
-
   .box-input .form-control {
     margin-bottom: 0.5rem;
   }
-
   .box-question-01 h1, .box-question-02 h4 {
     width: 90%;
   }
-
   .box-question-02 h5, .box-question-02 h3 {
     width: 80%;
     text-align: center;
   }
-
   .box-title-button-barras {
     padding: 7rem 1rem;
   }
-
   .box-title-button-barras h1 {
     width: 90%;
   }
-
   .moon-img {
     width: 40%;
   }
-
   .box-button-barras {
     flex-direction: column;
     margin-top: 0;
   }
-
   /*Facelift*/
   .bg-facelift {
     background-position: top right;
     height: 48vh;
   }
-
   .container-text-facelift h1 {
     width: 90%;
     font-size: 2rem;
   }
-
   .container-text-facelift p {
     width: auto;
   }
-
   .container-text-facelift {
     height: 48vh;
     padding-left: 0.5rem;
   }
-
   .box-facelift h1 {
     width: 90%;
     font-size: 1.8rem;
     margin-bottom: 2rem;
   }
-
   .box-facelift h3 {
     padding: 2rem 1rem;
   }
-
   .box-facelift p {
     width: 90%;
   }
-
   .card-box {
     flex-direction: column;
     padding: 0;
   }
-
   .card-box .tarjetilla {
     width: 90%;
     margin: auto;
     margin-bottom: 2rem;
   }
-
   .tarjetilla-body ul {
     padding-left: 1rem;
   }
-
   .box-facelift-02 {
     margin-top: 2rem;
   }
-
   .box-facelift-02 h3, .banner-facelift h3 {
     width: 90%;
   }
-
   .star-img {
     width: 30%;
   }
-
   .box-button-facelift {
     flex-direction: column;
     margin: 2rem 0;
   }
-
   .box-button-01 {
     margin: 1rem 0 2rem 0;
   }
-
   .box-button-01 p {
     margin-right: 0;
     font-size: 0.9rem;
     padding: 1.5rem 3rem;
   }
-
   .banner-certificacion h3, .banner-certificacion h1 {
     width: 90%;
     margin: auto;
   }
-
   .banner-certificacion hr {
     margin: 3.5rem auto;
   }
-
   .listado {
     width: 90%;
   }
-
   .container-scale {
     width: auto;
   }
-
   .caja-icon {
     margin-bottom: 2rem;
     margin-right: 0;
   }
-
   .box-caja-icon {
     margin: 1rem 0 1rem 0;
     flex-direction: column;
   }
-
   .caja-money {
     flex-direction: column;
   }
-
   .caja-billete {
     margin-right: 0;
     margin-bottom: 2rem;
   }
-
   .box-title-button {
     padding: 7rem 1rem;
   }
-
   .box-title-button h1 {
     width: 90%;
   }
-
   /*Cafe con proposito*/
   .coffee-image {
     width: 90%;
   }
-
   .container-coffee {
     margin: 7rem 0 4rem 0;
   }
-
   .box-coffee {
     width: 100%;
     margin-top: 3rem;
   }
-
   .wrapper-input-cafe {
     flex-direction: column;
     width: 85%;
   }
-
   .wrapper-input-cafe .form-control {
     width: 100%;
   }
-
   .input-coffee {
     width: 100%;
   }
-
   .w-button {
     width: auto;
   }
-
   /*Cocina tus sueños*/
   .container-cocina {
     display: flex;
     flex-direction: column-reverse;
   }
-
   .cocina-image {
     width: 90%;
     margin-top: 2rem;
   }
-
   .box-cocina {
     height: auto;
     margin: 3rem auto;
     width: 90%;
   }
-
   /*Certificaciones*/
   .container-certificaciones {
     height: auto;
   }
-
   .certificaciones-image {
     width: 100%;
   }
-
   .box-certificaciones-page {
     height: 30rem;
   }
-
   .box-certificaciones-page h1 {
     font-size: 2rem;
   }
-
   .box-certificaciones-page h3 {
     width: 90%;
   }
-
   .certificaciones-image {
     height: 20rem;
   }
-
   .btn-suscribe-barras {
     text-align: center;
   }
-
   /*Eneagrama*/
   .container-eneagrama {
     display: flex;
     flex-direction: column-reverse;
     height: auto;
   }
-
   .eneagramas-image {
     height: 18rem;
   }
-
   .box-eneagramas-page {
     padding: 3rem 0;
   }
-
   .box-eneagramas-page h1 {
     font-size: 2.5rem;
   }
-
   .box-eneagramas-page h3, .box-potencia h1, .container-text-eneagramas p {
     width: 90%;
   }
-
   .img-eneagramas-01 {
     width: 90%;
     margin-top: 3rem;
   }
-
   .container-text-eneagramas {
     padding-bottom: 2rem;
   }
-
   .bg-eneagrama {
     height: auto;
   }
-
   .row-eneagrama-03 {
     display: flex;
     flex-direction: column-reverse;
     margin-top: 3rem;
   }
-
   .container-text-eneagramas p {
     margin-bottom: 2rem;
   }
@@ -533,134 +424,106 @@ body {
   .bg-pink {
     height: auto;
   }
-
   .container-text-home h1 {
     font-size: 2.8rem;
     width: 100%;
     padding: 5rem 0.5rem;
   }
-
   .margin-card {
     margin-right: 0;
   }
-
   .box-cards-home .row {
     height: auto;
     margin-top: 0;
   }
-
   .bg-pink {
     margin-bottom: 0;
   }
-
   .wrapper {
     margin-top: 11rem;
     height: 35rem;
   }
-
   .testimonial-text {
     padding: 71px 45px 30px 45px;
   }
-
   .text-contact {
     padding: 0rem 1rem;
   }
-
   /*Sobre mi*/
   .bg-sobreMi {
     background-size: cover;
     background-position: top center;
     height: 38vh;
   }
-
   .container-text-sobreMi {
     height: 38vh;
   }
-
   .container-text-sobreMi h1 {
     font-size: 2.5rem;
   }
-
   .img-sobremi {
     width: 100%;
   }
-
   .container-sobremi div:nth-child(2) {
     width: auto;
     margin-top: 2rem;
   }
-
   .box-facilitadora h1 {
     font-size: 2rem;
     width: 90%;
     margin: auto;
   }
-
   .container-pill {
     flex-direction: column;
   }
-
   .pill {
     width: 90%;
     margin: 0.6rem;
   }
-
   .contenedor-tarjetas-padre {
     height: auto;
     margin-bottom: 41rem;
   }
-
   .botones {
     background-color: #7D9693;
     color: white;
   }
-
   .tarjeta-contenido .agrandar {
     margin-top: 2rem;
   }
-
   .accordion-button {
     font-size: 1.8rem;
   }
-
   .tarjeta {
     margin-bottom: 1.5rem;
   }
-
   .circle {
     margin: auto;
   }
-
   .flex-box-left, .flex-box-right {
     justify-content: center;
     flex-direction: column;
   }
-
   .btn-right, .btn-left {
     margin-left: 0;
     margin-right: 0;
   }
-
   .box-left, .box-right {
     text-align: center;
   }
-
   .box-left h2, .box-right h2 {
     width: auto;
     text-align: center;
     font-size: 1.3rem;
     margin-top: 1rem;
   }
-
   .modal-dialog {
     margin-top: 15rem;
   }
-
   .box-grafico h1 {
     width: 90%;
     margin: 5rem auto;
   }
-
   .box-image-sobreMi {
     left: 0;
     position: unset;
@@ -668,381 +531,300 @@ body {
     justify-content: center;
     align-items: center;
   }
-
   .img-paty-two {
     width: 90%;
   }
-
   .container-pill-two {
     margin-left: 0;
     flex-wrap: nowrap;
     flex-direction: column;
     margin-top: 4rem;
   }
-
   .box-pill {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
   }
-
   .hover, .actived {
     width: 100%;
   }
-
   .box-contacto-sobreMi h1 {
     width: 90%;
     margin: auto;
     margin-bottom: 1rem;
   }
-
   /*Barras de Access*/
   .barras-image {
     width: 90%;
     margin-top: 2rem;
   }
-
   .box-carousel {
     height: 30vh;
     margin-bottom: 7rem;
   }
-
   .carousel-text {
     width: 90%;
     padding: 15px 33px 25px 33px;
   }
-
   .slider-carousel {
     width: 100%;
   }
-
   .back-barras, .back-barras-03 {
     background-color: #AF831B;
     color: white;
   }
-
   .back-barras-02, .back-barras-04 {
     background-color: #D9E1E4;
     color: black !important;
   }
-
   .adelante-barras h1 {
     font-size: 2.5rem;
   }
-
   .atras-barras p, .atras-two-barras p {
     width: 90%;
   }
-
   .box-cierre-barras h1 {
     width: 90%;
   }
-
   .bg-suscribe h1 {
     padding: 0 2rem;
   }
-
   .btn-send-coffee {
     width: auto;
     padding: 14px 62px;
     margin-top: 1rem;
   }
-
   .wrapper-input-suscribe {
     flex-direction: column;
     width: 90%;
   }
-
   .wrapper-input-suscribe .form-control {
     width: 100%;
     margin-top: 0.5rem;
   }
-
   .box-input {
     margin-right: 0;
     width: 90%;
   }
-
   .box-input .form-control {
     margin-bottom: 0.5rem;
   }
-
   .box-question-01 h1, .box-question-02 h4 {
     width: 90%;
   }
-
   .box-question-02 h5, .box-question-02 h3 {
     width: 80%;
     text-align: center;
   }
-
   .box-title-button-barras {
     padding: 7rem 1rem;
   }
-
   .box-title-button-barras h1 {
     width: 90%;
   }
-
   .moon-img {
     width: 40%;
   }
-
   .banner-certificacion-barras {
     padding: 5rem 1rem;
   }
-
   .box-button-barras {
     flex-direction: column;
     margin-top: 0;
   }
-
   /*Facelift*/
   .bg-facelift {
     background-position: top right;
     height: 48vh;
   }
-
   .container-text-facelift h1 {
     width: 90%;
     font-size: 2rem;
   }
-
   .container-text-facelift p {
     width: auto;
   }
-
   .container-text-facelift {
     height: 48vh;
     align-items: flex-end;
     text-align: end;
   }
-
   .box-facelift h1 {
     width: 90%;
     font-size: 1.8rem;
     margin-bottom: 2rem;
   }
-
   .box-facelift p {
     width: 90%;
   }
-
   .card-box {
     flex-direction: column;
     padding: 0;
   }
-
   .card-box .tarjetilla {
     width: 90%;
     margin: auto;
     margin-bottom: 2rem;
   }
-
   .box-facelift-02 {
     margin-top: 2rem;
   }
-
   .box-facelift-02 h3, .banner-facelift h3 {
     width: 90%;
   }
-
   .box-facelift h3 {
     margin: 2rem 0;
     padding: 2rem 1rem;
   }
-
   .star-img {
     width: 35%;
   }
-
   .box-button-facelift {
     flex-direction: column;
     margin: 1rem 0;
   }
-
   .box-button-01 {
     margin: 1rem 0 2rem 0;
   }
-
   .box-button-01 p {
     margin-right: 0;
     font-size: 1rem;
     padding: 1.5rem 2.3rem;
   }
-
   .banner-certificacion h1 {
     width: 90%;
     margin: auto;
   }
-
   .banner-certificacion h3 {
     width: 80%;
     margin: auto;
   }
-
   .banner-certificacion hr {
     margin: 3.5rem auto;
   }
-
   .listado {
     width: 90%;
   }
-
   .container-scale {
     width: auto;
   }
-
   .caja-icon {
     margin-bottom: 2rem;
     margin-right: 0;
   }
-
   .box-caja-icon {
     margin: 1rem 0;
     flex-direction: column;
   }
-
   .caja-money {
     flex-direction: column;
   }
-
   .caja-billete {
     margin-right: 0;
     margin-bottom: 2rem;
   }
-
   .box-title-button {
     padding: 6rem 1rem;
   }
-
   .box-title-button h1 {
     width: 90%;
   }
-
   /*Cafe con proposito*/
   .coffee-image {
     width: 80%;
   }
-
   .container-coffee {
     margin: 7rem 0 4rem 0;
   }
-
   .box-coffee {
     width: 100%;
     margin-top: 3rem;
   }
-
   .wrapper-input-cafe {
     flex-direction: column;
     width: 85%;
   }
-
   .wrapper-input-cafe .form-control {
     width: 100%;
   }
-
   .input-coffee {
     width: 100%;
   }
-
   .w-button {
     width: auto;
   }
-
   /*Cocina tus sueños*/
   .container-cocina {
     display: flex;
     flex-direction: column-reverse;
   }
-
   .cocina-image {
     width: 90%;
     margin-top: 2rem;
   }
-
   .box-cocina {
     height: auto;
     margin: 3rem auto;
     width: 90%;
   }
-
   /*Certificaciones*/
   .container-certificaciones {
     height: auto;
   }
-
   .certificaciones-image {
     width: 100%;
   }
-
   .box-certificaciones-page {
     height: 30rem;
   }
-
   .box-certificaciones-page h1 {
     font-size: 2.8rem;
   }
-
   .box-certificaciones-page h3 {
     width: 90%;
   }
-
   .certificaciones-image {
     height: 20rem;
   }
-
   .btn-suscribe-barras {
     text-align: center;
   }
-
   /*Eneagrama*/
   .container-eneagrama {
     display: flex;
     flex-direction: column-reverse;
     height: auto;
   }
-
   .eneagramas-image {
     height: 25rem;
   }
-
   .box-eneagramas-page {
     padding: 3rem 0;
   }
-
   .box-eneagramas-page h1 {
     font-size: 2.5rem;
   }
-
   .box-eneagramas-page h3, .box-potencia h1, .container-text-eneagramas p {
     width: 90%;
   }
-
   .img-eneagramas-01 {
     width: 90%;
     margin-top: 3rem;
   }
-
   .container-text-eneagramas {
     padding-bottom: 2rem;
   }
-
   .bg-eneagrama {
     height: auto;
   }
-
   .row-eneagrama-03 {
     display: flex;
     flex-direction: column-reverse;
     margin-top: 3rem;
   }
-
   .container-text-eneagramas p {
     margin-bottom: 2rem;
   }
-
   /*Footer*/
   .bg-footer {
     height: 18rem;
@@ -1053,138 +835,109 @@ body {
   .bg-pink {
     height: auto;
   }
-
   .container-text-home h1 {
     font-size: 2.8rem;
     width: 100%;
     padding: 5rem 0.5rem;
   }
-
   .margin-card {
     margin-right: 0;
   }
-
   .box-cards-home .row {
     height: auto;
     margin-top: 0;
   }
-
   .bg-pink {
     margin-bottom: 0;
   }
-
   .adelante h1 {
     font-size: 2.5rem;
   }
-
   .wrapper {
     margin-top: 11rem;
     height: 24rem;
   }
-
   .testimonial-text {
     padding: 71px 30px 30px 30px;
   }
-
   .text-contact {
     padding: 0rem 2rem;
   }
-
   /*Sobre mi*/
   .bg-sobreMi {
     background-size: cover;
     background-position: top center;
     height: 38vh;
   }
-
   .container-text-sobreMi {
     height: 38vh;
   }
-
   .container-text-sobreMi h1 {
     font-size: 2.5rem;
   }
-
   .img-sobremi {
     width: 100%;
   }
-
   .container-sobremi div:nth-child(2) {
     width: auto;
     margin-top: 2rem;
   }
-
   .box-facilitadora h1 {
     font-size: 2rem;
     width: 90%;
     margin: auto;
   }
-
   .container-pill {
     flex-direction: column;
   }
-
   .pill {
     width: 90%;
     margin: 0.6rem;
   }
-
   .contenedor-tarjetas-padre {
     height: auto;
     margin-bottom: 41rem;
   }
-
   .botones {
     background-color: #7D9693;
     color: white;
   }
-
   .tarjeta-contenido .agrandar {
     margin-top: 2rem;
   }
-
   .accordion-button {
     font-size: 1.8rem;
   }
-
   .tarjeta {
     margin-bottom: 1.5rem;
   }
-
   .circle {
     margin: auto;
   }
-
   .flex-box-left, .flex-box-right {
     justify-content: center;
     flex-direction: column;
   }
-
   .btn-right, .btn-left {
     margin-left: 0;
     margin-right: 0;
   }
-
   .box-left, .box-right {
     text-align: center;
   }
-
   .box-left h2, .box-right h2 {
     width: auto;
     text-align: center;
     font-size: 1.3rem;
     margin-top: 1rem;
   }
-
   .modal-dialog {
     margin-top: 15rem;
   }
-
   .box-grafico h1 {
     width: 90%;
     margin: 5rem auto;
   }
-
   .box-image-sobreMi {
     left: 0;
     position: unset;
@@ -1192,377 +945,297 @@ body {
     justify-content: center;
     align-items: center;
   }
-
   .img-paty-two {
     width: 90%;
   }
-
   .container-pill-two {
     margin-left: 0;
     flex-wrap: nowrap;
     flex-direction: column;
     margin-top: 4rem;
   }
-
   .box-pill {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
   }
-
   .hover, .actived {
     width: 100%;
   }
-
   .box-contacto-sobreMi h1 {
     width: 90%;
     margin: auto;
     margin-bottom: 1rem;
   }
-
   /*Barras de Access*/
   .barras-image {
     width: 90%;
     margin-top: 2rem;
   }
-
   .box-carousel {
     height: 21vh;
     margin-bottom: 3rem;
   }
-
   .carousel-text {
     width: 90%;
     padding: 15px 33px;
   }
-
   .slider-carousel {
     width: 100%;
   }
-
   .back-barras, .back-barras-03 {
     background-color: #AF831B;
     color: white;
   }
-
   .back-barras-02, .back-barras-04 {
     background-color: #D9E1E4;
     color: black !important;
   }
-
   .adelante-barras h1 {
     font-size: 2.5rem;
   }
-
   .atras-barras p, .atras-two-barras p {
     width: 90%;
   }
-
   .box-cierre-barras h1 {
     width: 90%;
   }
-
   .bg-suscribe h1 {
     padding: 0 2rem;
   }
-
   .btn-send-coffee {
     width: auto;
     padding: 14px 62px;
     margin-top: 1rem;
   }
-
   .wrapper-input-suscribe {
     flex-direction: column;
     width: 90%;
   }
-
   .wrapper-input-suscribe .form-control {
     width: 100%;
     margin-top: 0.5rem;
   }
-
   .box-input {
     margin-right: 0;
     width: 90%;
   }
-
   .box-input .form-control {
     margin-bottom: 0.5rem;
   }
-
   .box-question-01 h1, .box-question-02 h4 {
     width: 90%;
   }
-
   .box-question-02 h5, .box-question-02 h3 {
     width: 80%;
     text-align: center;
   }
-
   .box-title-button-barras {
     padding: 7rem 1rem;
   }
-
   .box-title-button-barras h1 {
     width: 90%;
   }
-
   .moon-img {
     width: 40%;
   }
-
   .banner-certificacion-barras {
     padding: 5rem 1rem;
   }
-
   .box-button-barras {
     flex-direction: column;
     margin-top: 0;
   }
-
   /*Facelift*/
   .bg-facelift {
     background-position: top right;
     height: 48vh;
   }
-
   .container-text-facelift h1 {
     width: 90%;
     font-size: 2rem;
   }
-
   .container-text-facelift p {
     width: auto;
   }
-
   .container-text-facelift {
     height: 48vh;
     align-items: flex-end;
     text-align: end;
     padding-right: 0.5rem;
   }
-
   .box-facelift h1 {
     width: 90%;
     font-size: 1.8rem;
     margin-bottom: 2rem;
   }
-
   .box-facelift p {
     width: 90%;
   }
-
   .card-box {
     flex-direction: column;
     padding: 0;
   }
-
   .card-box .tarjetilla {
     width: 90%;
     margin: auto;
     margin-bottom: 2rem;
   }
-
   .box-facelift-02 {
     margin-top: 2rem;
   }
-
   .box-facelift-02 h3, .banner-facelift h3 {
     width: 90%;
   }
-
   .box-facelift h3 {
     margin: 2rem auto;
     padding: 2rem 1rem;
   }
-
   .star-img {
     width: 26%;
   }
-
   .box-button-facelift {
     flex-direction: column;
     margin: 2rem 0;
   }
-
   .box-button-01 {
     margin: 1rem 0 2rem 0;
   }
-
   .box-button-01 p {
     margin-right: 0;
     font-size: 1rem;
     padding: 1.5rem 2.3rem;
   }
-
   .banner-certificacion h3, .banner-certificacion h1 {
     width: 90%;
     margin: auto;
   }
-
   .banner-certificacion hr {
     margin: 3.5rem auto;
   }
-
   .listado {
     width: 90%;
   }
-
   .container-scale {
     width: auto;
   }
-
   .caja-icon {
     margin-bottom: 2rem;
     margin-right: 0;
   }
-
   .box-caja-icon {
     margin: 1rem 0;
     flex-direction: column;
   }
-
   .caja-money {
     flex-direction: column;
   }
-
   .caja-billete {
     margin-right: 0;
     margin-bottom: 2rem;
   }
-
   .box-title-button {
     padding: 6rem 3rem;
   }
-
   .box-title-button h1 {
     width: 90%;
   }
-
   /*Cafe con proposito*/
   .coffee-image {
     width: 80%;
   }
-
   .container-coffee {
     margin: 7rem 0 4rem 0;
   }
-
   .box-coffee {
     width: 100%;
     margin-top: 3rem;
   }
-
   .wrapper-input-cafe {
     flex-direction: column;
     width: 85%;
   }
-
   .wrapper-input-cafe .form-control {
     width: 100%;
   }
-
   .input-coffee {
     width: 100%;
   }
-
   .w-button {
     width: auto;
   }
-
   /*Cocina tus sueños*/
   .container-cocina {
     display: flex;
     flex-direction: column-reverse;
   }
-
   .cocina-image {
     width: 90%;
     margin-top: 2rem;
   }
-
   .box-cocina {
     height: auto;
     margin: 3rem auto;
     width: 90%;
   }
-
   /*Certificaciones*/
   .container-certificaciones {
     height: auto;
   }
-
   .certificaciones-image {
     width: 100%;
   }
-
   .box-certificaciones-page {
     height: 30rem;
   }
-
   .box-certificaciones-page h1 {
     font-size: 2.8rem;
   }
-
   .box-certificaciones-page h3 {
     width: 90%;
   }
-
   .certificaciones-image {
     height: 30rem;
   }
-
   .btn-suscribe-barras {
     text-align: center;
   }
-
   /*Eneagrama*/
   .container-eneagrama {
     display: flex;
     flex-direction: column-reverse;
     height: auto;
   }
-
   .eneagramas-image {
     height: 25rem;
   }
-
   .box-eneagramas-page {
     padding: 3rem 0;
   }
-
   .box-eneagramas-page h1 {
     font-size: 2.5rem;
   }
-
   .box-eneagramas-page h3, .box-potencia h1, .container-text-eneagramas p {
     width: 90%;
   }
-
   .img-eneagramas-01 {
     width: 90%;
     margin-top: 3rem;
   }
-
   .container-text-eneagramas {
     padding-bottom: 2rem;
   }
-
   .bg-eneagrama {
     height: auto;
   }
-
   .row-eneagrama-03 {
     display: flex;
     flex-direction: column-reverse;
     margin-top: 3rem;
   }
-
   .container-text-eneagramas p {
     margin-bottom: 2rem;
   }
-
   /*Footer*/
   .bg-footer {
     height: 18rem;
@@ -1573,138 +1246,109 @@ body {
   .bg-pink {
     height: auto;
   }
-
   .container-text-home h1 {
     font-size: 2.8rem;
     width: 100%;
     padding: 5rem 0.5rem;
   }
-
   .margin-card {
     margin-right: 0;
   }
-
   .box-cards-home .row {
     height: auto;
     margin-top: 0;
   }
-
   .bg-pink {
     margin-bottom: 0;
   }
-
   .adelante h1 {
     font-size: 2.5rem;
   }
-
   .wrapper {
     margin-top: 11rem;
     height: 24rem;
   }
-
   .testimonial-text {
     padding: 71px 30px 30px 30px;
   }
-
   .text-contact {
     padding: 0rem 2rem;
   }
-
   /*Sobre mi*/
   .bg-sobreMi {
     background-size: cover;
     background-position: top center;
     height: 38vh;
   }
-
   .container-text-sobreMi {
     height: 38vh;
   }
-
   .container-text-sobreMi h1 {
     font-size: 2.5rem;
   }
-
   .img-sobremi {
     width: 100%;
   }
-
   .container-sobremi div:nth-child(2) {
     width: auto;
     margin-top: 2rem;
   }
-
   .box-facilitadora h1 {
     font-size: 2rem;
     width: 90%;
     margin: auto;
   }
-
   .container-pill {
     flex-direction: column;
   }
-
   .pill {
     width: 90%;
     margin: 0.6rem;
   }
-
   .contenedor-tarjetas-padre {
     height: auto;
     margin-bottom: 41rem;
   }
-
   .botones {
     background-color: #7D9693;
     color: white;
   }
-
   .tarjeta-contenido .agrandar {
     margin-top: 2rem;
   }
-
   .accordion-button {
     font-size: 1.8rem;
   }
-
   .tarjeta {
     margin-bottom: 1.5rem;
   }
-
   .circle {
     margin: auto;
   }
-
   .flex-box-left, .flex-box-right {
     justify-content: center;
     flex-direction: column;
   }
-
   .btn-right, .btn-left {
     margin-left: 0;
     margin-right: 0;
   }
-
   .box-left, .box-right {
     text-align: center;
   }
-
   .box-left h2, .box-right h2 {
     width: auto;
     text-align: center;
     font-size: 1.3rem;
     margin-top: 1rem;
   }
-
   .modal-dialog {
     margin-top: 15rem;
   }
-
   .box-grafico h1 {
     width: 90%;
     margin: 5rem auto;
   }
-
   .box-image-sobreMi {
     left: 0;
     position: unset;
@@ -1712,343 +1356,269 @@ body {
     justify-content: center;
     align-items: center;
   }
-
   .img-paty-two {
     width: 90%;
   }
-
   .container-pill-two {
     margin-left: 0;
     flex-wrap: nowrap;
     flex-direction: column;
     margin-top: 4rem;
   }
-
   .box-pill {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
   }
-
   .hover, .actived {
     width: 100%;
   }
-
   .box-contacto-sobreMi h1 {
     width: 90%;
     margin: auto;
     margin-bottom: 1rem;
   }
-
   /*Barras de Access*/
   .barras-image {
     width: 90%;
     margin-top: 2rem;
   }
-
   .box-carousel {
     height: 31vh;
     margin-bottom: 3rem;
   }
-
   .carousel-text {
     width: 90%;
     padding: 15px 33px;
   }
-
   .slider-carousel {
     width: 100%;
   }
-
   .back-barras, .back-barras-03 {
     background-color: #AF831B;
     color: white;
   }
-
   .back-barras-02, .back-barras-04 {
     background-color: #D9E1E4;
     color: black !important;
   }
-
   .adelante-barras h1 {
     font-size: 2.5rem;
   }
-
   .atras-barras p, .atras-two-barras p {
     width: 80%;
   }
-
   .box-cierre-barras h1 {
     width: 90%;
   }
-
   .bg-suscribe h1 {
     padding: 0 2rem;
   }
-
   .btn-send-coffee {
     width: auto;
     padding: 14px 62px;
     margin-top: 1rem;
   }
-
   .wrapper-input-suscribe {
     flex-direction: column;
     width: 90%;
   }
-
   .wrapper-input-suscribe .form-control {
     width: 100%;
     margin-top: 0.5rem;
   }
-
   .box-input {
     margin-right: 0;
     width: 90%;
   }
-
   .box-input .form-control {
     margin-bottom: 0.5rem;
   }
-
   .box-question-01 h1, .box-question-02 h4 {
     width: 90%;
   }
-
   .box-question-02 h5, .box-question-02 h3 {
     width: 80%;
     text-align: center;
   }
-
   .box-title-button-barras {
     padding: 7rem 1rem;
   }
-
   .box-title-button-barras h1 {
     width: 90%;
   }
-
   .moon-img {
     width: 40%;
   }
-
   .banner-certificacion-barras {
     padding: 5rem 1rem;
   }
-
   .box-button-barras {
     flex-direction: column;
     margin-top: 0;
   }
-
   /*Facelift*/
   .card-box {
     flex-direction: column;
   }
-
   .card-box .tarjetilla {
     margin-bottom: 2rem;
     width: 100%;
   }
-
   .box-facelift-02 {
     margin-top: 4rem;
   }
-
   .box-facelift-02 h3, .box-facelift h1, .box-facelift p, .banner-facelift h3 {
     width: 90%;
   }
-
   .box-facelift h3 {
     margin: 2rem auto;
   }
-
   .star-img {
     width: 26%;
   }
-
   .box-button-facelift {
     flex-direction: column;
     margin: 5rem 0;
   }
-
   .box-button-01 {
     margin: 1rem auto 2rem;
     width: 90%;
   }
-
   .box-button-01 p {
     margin-right: 0;
     font-size: 1rem;
   }
-
   .banner-certificacion h3, .banner-certificacion h1 {
     width: 90%;
     margin: auto;
   }
-
   .banner-certificacion hr {
     margin: 3.5rem auto;
   }
-
   .listado {
     width: 90%;
   }
-
   .container-scale {
     width: auto;
   }
-
   .caja-icon {
     margin-bottom: 2rem;
     margin-right: 0;
   }
-
   .box-caja-icon {
     margin: 1rem 0;
     flex-direction: column;
   }
-
   .caja-money {
     flex-direction: column;
   }
-
   .caja-billete {
     margin-right: 0;
     margin-bottom: 2rem;
   }
-
   .box-title-button {
     padding: 6rem 3rem;
   }
-
   .box-title-button h1 {
     width: 90%;
   }
-
   /*Cafe con proposito*/
   .coffee-image {
     width: 80%;
   }
-
   .container-coffee {
     margin: 7rem 0 4rem 0;
   }
-
   .box-coffee {
     width: 100%;
     margin-top: 3rem;
   }
-
   .wrapper-input-cafe {
     flex-direction: column;
     width: 85%;
   }
-
   .wrapper-input-cafe .form-control {
     width: 100%;
   }
-
   .input-coffee {
     width: 100%;
   }
-
   /*Cocina tus sueños*/
   .container-cocina {
     display: flex;
     flex-direction: column-reverse;
   }
-
   .cocina-image {
     width: 90%;
     margin-top: 2rem;
   }
-
   .box-cocina {
     height: auto;
     margin: 3rem auto;
     width: 90%;
   }
-
   .w-button {
     width: auto;
   }
-
   /*Certificaciones*/
   .container-certificaciones {
     height: auto;
   }
-
   .certificaciones-image {
     width: 100%;
   }
-
   .box-certificaciones-page {
     height: 30rem;
   }
-
   .box-certificaciones-page h1 {
     font-size: 3rem;
   }
-
   .box-certificaciones-page h3 {
     width: 90%;
   }
-
   .certificaciones-image {
     height: 30rem;
   }
-
   .btn-suscribe-barras {
     text-align: center;
   }
-
   /*Eneagrama*/
   .container-eneagrama {
     display: flex;
     flex-direction: column-reverse;
     height: auto;
   }
-
   .eneagramas-image {
     height: 31rem;
   }
-
   .box-eneagramas-page {
     padding: 3rem 0;
   }
-
   .box-eneagramas-page h1 {
     font-size: 2.5rem;
   }
-
   .box-eneagramas-page h3, .box-potencia h1, .container-text-eneagramas p {
     width: 90%;
   }
-
   .img-eneagramas-01 {
     width: 90%;
     margin-top: 3rem;
   }
-
   .container-text-eneagramas {
     padding-bottom: 2rem;
   }
-
   .bg-eneagrama {
     height: auto;
   }
-
   .row-eneagrama-03 {
     display: flex;
     flex-direction: column-reverse;
     margin-top: 3rem;
   }
-
   .container-text-eneagramas p {
     margin-bottom: 2rem;
   }
-
   /*Footer*/
   .bg-footer {
     height: 18rem;
@@ -2059,138 +1629,109 @@ body {
   .bg-pink {
     height: auto;
   }
-
   .container-text-home h1 {
     font-size: 2.8rem;
     width: 100%;
     padding: 5rem 0.5rem;
   }
-
   .margin-card {
     margin-right: 0;
   }
-
   .box-cards-home .row {
     height: auto;
     margin-top: 0;
   }
-
   .bg-pink {
     margin-bottom: 0;
   }
-
   .adelante h1 {
     font-size: 2.5rem;
   }
-
   .wrapper {
     margin-top: 11rem;
     height: 24rem;
   }
-
   .testimonial-text {
     padding: 71px 30px 30px 30px;
   }
-
   .text-contact {
     padding: 0rem 2rem;
   }
-
   /*Sobre mi*/
   .bg-sobreMi {
     background-size: cover;
     background-position: top center;
     height: 38vh;
   }
-
   .container-text-sobreMi {
     height: 38vh;
   }
-
   .container-text-sobreMi h1 {
     font-size: 2.5rem;
   }
-
   .img-sobremi {
     width: 100%;
   }
-
   .container-sobremi div:nth-child(2) {
     width: auto;
     margin-top: 2rem;
   }
-
   .box-facilitadora h1 {
     font-size: 2rem;
     width: 90%;
     margin: auto;
   }
-
   .container-pill {
     flex-direction: column;
   }
-
   .pill {
     width: 90%;
     margin: 0.6rem;
   }
-
   .contenedor-tarjetas-padre {
     height: auto;
     margin-bottom: 41rem;
   }
-
   .botones {
     background-color: #7D9693;
     color: white;
   }
-
   .tarjeta-contenido .agrandar {
     margin-top: 2rem;
   }
-
   .accordion-button {
     font-size: 1.8rem;
   }
-
   .tarjeta {
     margin-bottom: 1.5rem;
   }
-
   .circle {
     margin: auto;
   }
-
   .flex-box-left, .flex-box-right {
     justify-content: center;
     flex-direction: column;
   }
-
   .btn-right, .btn-left {
     margin-left: 0;
     margin-right: 0;
   }
-
   .box-left, .box-right {
     text-align: center;
   }
-
   .box-left h2, .box-right h2 {
     width: auto;
     text-align: center;
     font-size: 1.3rem;
     margin-top: 1rem;
   }
-
   .modal-dialog {
     margin-top: 15rem;
   }
-
   .box-grafico h1 {
     width: 90%;
     margin: 5rem auto;
   }
-
   .box-image-sobreMi {
     left: 0;
     position: unset;
@@ -2198,379 +1739,297 @@ body {
     justify-content: center;
     align-items: center;
   }
-
   .img-paty-two {
     width: 90%;
   }
-
   .container-pill-two {
     margin-left: 0;
     flex-wrap: nowrap;
     flex-direction: column;
     margin-top: 4rem;
   }
-
   .box-pill {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
   }
-
   .hover, .actived {
     width: 100%;
   }
-
   .box-contacto-sobreMi h1 {
     width: 90%;
     margin: auto;
     margin-bottom: 1rem;
   }
-
   /*Barras de Access*/
   .barras-image {
     width: 80%;
     margin-top: 2rem;
   }
-
   .box-carousel {
     height: 41vh;
     margin-bottom: 0;
   }
-
   .carousel-text {
     width: 90%;
     padding: 15px 33px;
   }
-
   .slider-carousel {
     width: 100%;
   }
-
   .back-barras, .back-barras-03 {
     background-color: #AF831B;
     color: white;
   }
-
   .back-barras-02, .back-barras-04 {
     background-color: #D9E1E4;
     color: black !important;
   }
-
   .adelante-barras h1 {
     font-size: 2.5rem;
   }
-
   .atras-barras p, .atras-two-barras p {
     width: 80%;
   }
-
   .box-cierre-barras h1 {
     width: 90%;
   }
-
   .bg-suscribe h1 {
     padding: 0 2rem;
   }
-
   .btn-send-coffee {
     width: auto;
     padding: 14px 62px;
     margin-top: 1rem;
   }
-
   .wrapper-input-suscribe {
     flex-direction: column;
     width: 90%;
   }
-
   .wrapper-input-suscribe .form-control {
     width: 100%;
     margin-top: 0.5rem;
   }
-
   .box-input {
     margin-right: 0;
     width: 90%;
   }
-
   .box-input .form-control {
     margin-bottom: 0.5rem;
   }
-
   .box-question-01 h1, .box-question-02 h4 {
     width: 90%;
   }
-
   .box-question-02 h5, .box-question-02 h3 {
     width: 80%;
     text-align: center;
   }
-
   .box-title-button-barras {
     padding: 7rem 1rem;
   }
-
   .box-title-button-barras h1 {
     width: 90%;
   }
-
   .moon-img {
     width: 20%;
   }
-
   .banner-certificacion-barras {
     padding: 5rem 1rem;
   }
-
   .box-button-barras {
     flex-direction: column;
     margin-top: 0;
   }
-
   /*Facelift*/
   .bg-facelift {
     background-position: top right;
     height: 56vh;
   }
-
   .container-text-facelift h1 {
     width: 90%;
     font-size: 3rem;
   }
-
   .container-text-facelift p {
     width: auto;
   }
-
   .container-text-facelift {
     height: 56vh;
   }
-
   .box-facelift h1 {
     width: 90%;
     font-size: 1.8rem;
     margin-bottom: 2rem;
   }
-
   .box-facelift p {
     width: 90%;
   }
-
   .card-box {
     flex-direction: column;
     padding: 0;
   }
-
   .card-box .tarjetilla {
     width: 90%;
     margin: auto;
     margin-bottom: 2rem;
   }
-
   .card-box {
     flex-direction: column;
   }
-
   .card-box .tarjetilla {
     margin-bottom: 2rem;
   }
-
   .box-facelift-02 {
     margin-top: 4rem;
   }
-
   .box-facelift-02 h3, .banner-facelift h3 {
     width: 90%;
   }
-
   .box-facelift h3 {
     margin: 2rem auto;
   }
-
   .star-img {
     width: 26%;
   }
-
   .box-button-facelift {
     flex-direction: column;
     margin: 5rem 0;
   }
-
   .box-button-01 {
     margin: 1rem auto 2rem;
     width: 90%;
   }
-
   .banner-certificacion h3, .banner-certificacion h1 {
     width: 90%;
     margin: auto;
   }
-
   .banner-certificacion hr {
     margin: 3.5rem auto;
   }
-
   .listado {
     width: 90%;
   }
-
   .container-scale {
     width: auto;
   }
-
   .caja-icon {
     margin-bottom: 2rem;
     margin-right: 2rem;
   }
-
   .box-caja-icon {
     margin: 1rem 0;
   }
-
   .caja-money {
     flex-direction: column;
   }
-
   .caja-billete {
     margin-right: 0;
     margin-bottom: 2rem;
   }
-
   .box-title-button {
     padding: 6rem 3rem;
   }
-
   .box-title-button h1 {
     width: 90%;
   }
-
   /*Cafe con proposito*/
   .coffee-image {
     width: 80%;
   }
-
   .container-coffee {
     margin: 7rem 0 4rem 0;
   }
-
   .box-coffee {
     width: 100%;
     margin-top: 3rem;
   }
-
   .wrapper-input-cafe {
     flex-direction: column;
     width: 85%;
   }
-
   .wrapper-input-cafe .form-control {
     width: 100%;
   }
-
   .input-coffee {
     width: 100%;
   }
-
   .w-button {
     width: auto;
   }
-
   /*Cocina tus sueños*/
   .container-cocina {
     display: flex;
     flex-direction: column-reverse;
   }
-
   .cocina-image {
     width: 90%;
     margin-top: 2rem;
   }
-
   .box-cocina {
     height: auto;
     margin: 3rem auto;
     width: 90%;
   }
-
   .box-cocina h1 {
     font-size: 3rem;
   }
-
   /*Certificaciones*/
   .container-certificaciones {
     height: auto;
   }
-
   .certificaciones-image {
     width: 100%;
   }
-
   .box-certificaciones-page {
     height: 30rem;
   }
-
   .box-certificaciones-page h1 {
     font-size: 3rem;
   }
-
   .box-certificaciones-page h3 {
     width: 90%;
   }
-
   .certificaciones-image {
     height: 30rem;
   }
-
   .btn-suscribe-barras {
     text-align: center;
   }
-
   /*Eneagrama*/
   .container-eneagrama {
     display: flex;
     flex-direction: column-reverse;
     height: auto;
   }
-
   .eneagramas-image {
     height: 35rem;
   }
-
   .box-eneagramas-page {
     padding: 3rem 0;
   }
-
   .box-eneagramas-page h1 {
     font-size: 3.5rem;
   }
-
   .box-eneagramas-page h3, .box-potencia h1, .container-text-eneagramas p {
     width: 90%;
   }
-
   .img-eneagramas-01 {
     width: 90%;
     margin-top: 3rem;
   }
-
   .container-text-eneagramas {
     padding-bottom: 2rem;
   }
-
   .bg-eneagrama {
     height: auto;
   }
-
   .row-eneagrama-03 {
     display: flex;
     flex-direction: column-reverse;
     margin-top: 3rem;
   }
-
   .container-text-eneagramas p {
     margin-bottom: 2rem;
   }
-
   /*Footer*/
   .bg-footer {
     height: 18rem;
@@ -2581,146 +2040,115 @@ body {
   .img-home {
     height: 44rem;
   }
-
   .bg-pink {
     height: auto;
   }
-
   .container-text-home h1 {
     font-size: 3.8rem;
     width: 100%;
     padding: 5rem 0.5rem;
   }
-
   .margin-card {
     margin-right: 0;
   }
-
   .box-cards-home .row {
     height: auto;
     margin-top: 0;
   }
-
   .bg-pink {
     margin-bottom: 0;
   }
-
   .adelante h1 {
     font-size: 3.1rem;
   }
-
   .atras-three h5 {
     width: auto;
   }
-
   .wrapper {
     margin-top: 11rem;
     height: 20rem;
   }
-
   .testimonial-text {
     padding: 71px 30px 30px 30px;
   }
-
   .text-contact {
     padding: 0rem 2rem;
   }
-
   /*Sobre mi*/
   .bg-sobreMi {
     background-size: cover;
     background-position: top center;
     height: 38vh;
   }
-
   .container-text-sobreMi {
     height: 38vh;
   }
-
   .container-text-sobreMi h1 {
     font-size: 2.5rem;
   }
-
   .img-sobremi {
     width: 80%;
   }
-
   .container-sobremi div:nth-child(2) {
     width: auto;
     margin-top: 2rem;
   }
-
   .box-facilitadora h1 {
     font-size: 2rem;
     width: 90%;
     margin: auto;
   }
-
   .container-pill {
     flex-direction: column;
   }
-
   .pill {
     width: 90%;
     margin: 0.6rem;
   }
-
   .contenedor-tarjetas-padre {
     height: auto;
     margin-bottom: 41rem;
   }
-
   .botones {
     background-color: #7D9693;
     color: white;
   }
-
   .tarjeta-contenido .agrandar {
     margin-top: 2rem;
   }
-
   .accordion-button {
     font-size: 1.8rem;
   }
-
   .tarjeta {
     margin-bottom: 1.5rem;
   }
-
   .circle {
     margin: auto;
   }
-
   .flex-box-left, .flex-box-right {
     justify-content: center;
     flex-direction: column;
   }
-
   .btn-right, .btn-left {
     margin-left: 0;
     margin-right: 0;
   }
-
   .box-left, .box-right {
     text-align: center;
   }
-
   .box-left h2, .box-right h2 {
     width: auto;
     text-align: center;
     font-size: 1.3rem;
     margin-top: 1rem;
   }
-
   .modal-dialog {
     margin-top: 15rem;
   }
-
   .box-grafico h1 {
     width: 90%;
     margin: 5rem auto;
   }
-
   .box-image-sobreMi {
     left: 0;
     position: unset;
@@ -2728,384 +2156,301 @@ body {
     justify-content: center;
     align-items: center;
   }
-
   .img-paty-two {
     width: 90%;
   }
-
   .container-pill-two {
     margin-left: 0;
     flex-wrap: nowrap;
     flex-direction: column;
     margin-top: 4rem;
   }
-
   .box-pill {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
   }
-
   .hover, .actived {
     width: 100%;
   }
-
   .box-contacto-sobreMi h1 {
     width: 90%;
     margin: auto;
     margin-bottom: 1rem;
   }
-
   /*Barras de Access*/
   .barras-image {
     width: 80%;
     margin-top: 2rem;
   }
-
   .box-carousel {
     height: 33vh;
     margin-bottom: 2rem;
   }
-
   .carousel-text {
     width: 90%;
     padding: 15px 33px;
   }
-
   .slider-carousel {
     width: 100%;
   }
-
   .back-barras, .back-barras-03 {
     background-color: #AF831B;
     color: white;
   }
-
   .back-barras-02, .back-barras-04 {
     background-color: #D9E1E4;
     color: black !important;
   }
-
   .adelante-barras h1 {
     font-size: 3rem;
   }
-
   .atras-barras p, .atras-two-barras p {
     width: 80%;
   }
-
   .box-cierre-barras h1 {
     width: 90%;
   }
-
   .bg-suscribe h1 {
     padding: 0 2rem;
   }
-
   .btn-send-coffee {
     width: auto;
     padding: 14px 62px;
     margin-top: 1rem;
   }
-
   .wrapper-input-suscribe {
     flex-direction: column;
     width: 90%;
   }
-
   .wrapper-input-suscribe .form-control {
     width: 100%;
     margin-top: 0.5rem;
   }
-
   .box-input {
     margin-right: 0;
     width: 90%;
   }
-
   .box-input .form-control {
     margin-bottom: 0.5rem;
   }
-
   .box-question-01 h1, .box-question-02 h4 {
     width: 90%;
   }
-
   .box-question-02 h5, .box-question-02 h3 {
     width: 80%;
     text-align: center;
   }
-
   .box-title-button-barras {
     padding: 7rem 1rem;
   }
-
   .box-title-button-barras h1 {
     width: 90%;
   }
-
   .moon-img {
     width: 20%;
   }
-
   .banner-certificacion-barras {
     padding: 5rem 1rem;
   }
-
   .box-button-barras {
     flex-direction: column;
     margin-top: 0;
   }
-
   /*Facelift*/
   .bg-facelift {
     background-position: top right;
     height: 56vh;
   }
-
   .container-text-facelift h1 {
     width: 90%;
     font-size: 3rem;
   }
-
   .container-text-facelift p {
     width: auto;
   }
-
   .container-text-facelift {
     height: 56vh;
   }
-
   .box-facelift h1 {
     width: 90%;
     font-size: 1.8rem;
     margin-bottom: 2rem;
   }
-
   .box-facelift p {
     width: 90%;
   }
-
   .card-box {
     flex-direction: column;
     padding: 0;
   }
-
   .card-box .tarjetilla {
     width: 90%;
     margin: auto;
     margin-bottom: 2rem;
   }
-
   .box-facelift-02 {
     margin-top: s4rem;
   }
-
   .box-facelift-02 h3, .banner-facelift h3 {
     width: 90%;
   }
-
   .box-facelift h3 {
     margin: 2rem auto;
   }
-
   .star-img {
     width: 15%;
   }
-
   .box-button-facelift {
     flex-direction: column;
     margin: 5rem 0;
   }
-
   .box-button-01 {
     margin: 1rem auto 2rem;
     width: 90%;
   }
-
   .box-button-01 p {
     font-size: 1rem;
   }
-
   .banner-certificacion h3, .banner-certificacion h1 {
     width: 90%;
     margin: auto;
   }
-
   .banner-certificacion hr {
     margin: 3.5rem auto;
   }
-
   .listado {
     width: 90%;
   }
-
   .container-scale {
     width: auto;
   }
-
   .caja-icon {
     margin-bottom: 2rem;
     margin-right: 2rem;
   }
-
   .box-caja-icon {
     margin: 1rem auto;
   }
-
   .caja-money {
     flex-direction: column;
   }
-
   .caja-billete {
     margin-right: 0;
     margin-bottom: 2rem;
   }
-
   .box-title-button {
     padding: 6rem 3rem;
   }
-
   .box-title-button h1 {
     width: 90%;
   }
-
   /*Cafe con proposito*/
   .coffee-image {
     width: 80%;
   }
-
   .container-coffee {
     margin: 7rem 0 4rem 0;
   }
-
   .box-coffee {
     width: 100%;
     margin-top: 3rem;
   }
-
   .box-coffee h1 {
     font-size: 3rem;
   }
-
   .box-coffee p {
     width: 80%;
     text-align: center;
   }
-
   .wrapper-input-cafe {
     flex-direction: column;
     width: 50%;
   }
-
   .wrapper-input-cafe .form-control {
     width: 100%;
   }
-
   .input-coffee {
     width: 100%;
   }
-
   .w-button {
     width: auto;
   }
-
   /*Cocina tus sueños*/
   .container-cocina {
     display: flex;
     flex-direction: column-reverse;
   }
-
   .cocina-image {
     width: 90%;
     margin-top: 2rem;
   }
-
   .box-cocina {
     height: auto;
     margin: 3rem auto;
     width: 90%;
   }
-
   .box-cocina h1 {
     font-size: 3rem;
   }
-
   /*Certificaciones*/
   .container-certificaciones {
     height: auto;
   }
-
   .certificaciones-image {
     width: 100%;
   }
-
   .box-certificaciones-page {
     height: 30rem;
   }
-
   .box-certificaciones-page h1 {
     font-size: 4rem;
   }
-
   .box-certificaciones-page h3 {
     width: 90%;
   }
-
   .certificaciones-image {
     height: 38rem;
   }
-
   .btn-suscribe-barras {
     text-align: center;
   }
-
   /*Eneagrama*/
   .container-eneagrama {
     display: flex;
     flex-direction: column-reverse;
     height: auto;
   }
-
   .eneagramas-image {
     height: 44rem;
   }
-
   .box-eneagramas-page {
     padding: 3rem 0;
   }
-
   .box-eneagramas-page h1 {
     font-size: 4rem;
   }
-
   .box-eneagramas-page h3, .box-potencia h1, .container-text-eneagramas p {
     width: 90%;
   }
-
   .img-eneagramas-01 {
     width: 90%;
     margin-top: 3rem;
   }
-
   .container-text-eneagramas {
     padding-bottom: 2rem;
   }
-
   .bg-eneagrama {
     height: auto;
   }
-
   .row-eneagrama-03 {
     display: flex;
     flex-direction: column-reverse;
     margin-top: 3rem;
   }
-
   .container-text-eneagramas p {
     margin-bottom: 2rem;
   }
-
   /*Footer*/
   .bg-footer {
     height: 18rem;
@@ -3116,127 +2461,100 @@ body {
   .img-home {
     height: 24rem;
   }
-
   .bg-pink {
     height: auto;
     padding-bottom: 5rem;
   }
-
   .container-text-home h1 {
     font-size: 3.8rem;
     width: 100%;
     padding: 0rem 0.5rem;
   }
-
   .margin-card {
     margin-right: 0;
   }
-
   .box-cards-home .row {
     height: auto;
     margin-top: 0;
   }
-
   .bg-pink {
     margin-bottom: 0;
   }
-
   .adelante h1 {
     width: 90%;
     font-size: 1.5rem;
   }
-
   .atras-three h5 {
     width: 80%;
   }
-
   .wrapper {
     margin-top: 11rem;
     height: 20rem;
   }
-
   .testimonial-text {
     padding: 71px 30px 30px 30px;
   }
-
   .text-contact {
     padding: 0rem 2rem;
   }
-
   /*Sobre mi*/
   .bg-sobreMi {
     background-size: cover;
     background-position: top center;
     height: 38vh;
   }
-
   .container-text-sobreMi {
     height: 38vh;
   }
-
   .container-text-sobreMi h1 {
     font-size: 2.5rem;
   }
-
   .img-sobremi {
     width: 80%;
   }
-
   .container-sobremi div:nth-child(2) {
     width: auto;
     margin-top: 2rem;
   }
-
   .box-facilitadora h1 {
     font-size: 2rem;
     width: 90%;
     margin: auto;
   }
-
   .container-pill {
     flex-direction: column;
   }
-
   .pill {
     width: 70%;
     margin: 0.6rem;
   }
-
   .contenedor-tarjetas-padre {
     height: auto;
     margin-bottom: 41rem;
   }
-
   .botones {
     background-color: #7D9693;
     color: white;
   }
-
   .tarjeta-contenido .agrandar {
     margin-top: 2rem;
   }
-
   .accordion-button {
     font-size: 1.8rem;
   }
-
   .tarjeta {
     margin-bottom: 1.5rem;
   }
-
   .box-left h2, .box-right h2 {
     width: 75%;
   }
-
   .modal-dialog {
     margin-top: 15rem;
   }
-
   .box-grafico h1 {
     width: 90%;
     margin: 5rem auto;
   }
-
   .box-image-sobreMi {
     left: 0;
     position: unset;
@@ -3244,303 +2562,238 @@ body {
     justify-content: center;
     align-items: center;
   }
-
   .img-paty-two {
     width: 90%;
   }
-
   .container-pill-two {
     margin-left: 0;
     flex-wrap: nowrap;
     flex-direction: column;
     margin-top: 4rem;
   }
-
   .box-pill {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
   }
-
   .hover, .actived {
     width: 100%;
   }
-
   .box-contacto-sobreMi h1 {
     width: 90%;
     margin: auto;
     margin-bottom: 1rem;
   }
-
   /*Barras de Access*/
   .barras-image {
     width: 80%;
     margin: 2rem 0;
   }
-
   .box-carousel {
     height: 30rem;
     margin-bottom: 0;
   }
-
   .wrapper-carousel {
     padding: 0;
   }
-
   .carousel-text {
     width: 90%;
     padding: 15px 33px;
   }
-
   .slider-carousel {
     width: 100%;
   }
-
   .back-barras, .back-barras-03 {
     background-color: #AF831B;
     color: white;
   }
-
   .back-barras-02, .back-barras-04 {
     background-color: #D9E1E4;
     color: black !important;
   }
-
   .adelante-barras h1 {
     font-size: 3rem;
   }
-
   .atras-barras p, .atras-two-barras p {
     width: 80%;
   }
-
   .atras-barras ul {
     width: 80%;
   }
-
   .box-cierre-barras h1 {
     width: 90%;
   }
-
   .bg-suscribe h1 {
     padding: 0 2rem;
   }
-
   .btn-send-coffee {
     width: auto;
     margin-top: 1rem;
   }
-
   .wrapper-input-suscribe {
     flex-direction: row;
     width: 80%;
   }
-
   .wrapper-input-suscribe .form-control {
     width: 90%;
     margin-top: 0.5rem;
   }
-
   .box-input {
     margin-right: 0;
     width: 90%;
   }
-
   .box-input .form-control {
     margin-bottom: 1rem;
   }
-
   .box-question-01 h1, .box-question-02 h4 {
     width: 90%;
   }
-
   .box-question-02 h5, .box-question-02 h3 {
     width: 80%;
     text-align: center;
   }
-
   .box-title-button-barras {
     padding: 7rem 1rem;
   }
-
   .box-title-button-barras h1 {
     width: 90%;
   }
-
   .moon-img {
     width: 20%;
   }
-
   .banner-certificacion-barras {
     padding: 5rem 1rem;
   }
-
   .box-button-barras {
     flex-direction: column;
     margin-top: 0;
   }
-
   /*Facelift*/
   .bg-facelift {
     background-position: top right;
     height: 56vh;
   }
-
   .container-text-facelift h1 {
     width: 90%;
     font-size: 4rem;
   }
-
   .container-text-facelift {
     height: 56vh;
   }
-
   .box-facelift h1 {
     width: 90%;
     font-size: 1.8rem;
     margin-bottom: 2rem;
   }
-
   .box-facelift p {
     width: 90%;
   }
-
   .card-box {
     padding: 0;
   }
-
   .card-box .tarjetilla {
     width: 90%;
     margin: 0 0.3rem 2rem;
   }
-
   .box-facelift-02 {
     margin-top: 4rem;
   }
-
   .box-facelift-02 h3, .banner-facelift h3 {
     width: 90%;
   }
-
   .box-facelift h3 {
     margin: 2rem auto;
   }
-
   .star-img {
     width: 12%;
   }
-
   .box-button-facelift {
     flex-direction: column;
     margin: 5rem 0;
   }
-
   .box-button-01 {
     margin: 1rem auto 2rem;
     width: 60%;
   }
-
   .banner-certificacion h3, .banner-certificacion h1 {
     width: 90%;
     margin: auto;
   }
-
   .banner-certificacion hr {
     margin: 3.5rem auto;
   }
-
   .listado {
     width: 80%;
   }
-
   .container-scale {
     width: auto;
   }
-
   .caja-icon {
     margin-bottom: 2rem;
   }
-
   .box-caja-icon {
     margin: 2rem auto;
     padding: 2rem 0 1rem 0;
   }
-
   .box-button-fcl ul {
     width: 60%;
     margin: auto;
   }
-
   .box-title-button h1 {
     width: 80%;
   }
-
   .box-button-01 p {
     font-size: 1.1rem;
     padding: 1.5rem 2.3rem;
   }
-
   /*Cafe con proposito*/
   .coffee-image {
     width: 80%;
   }
-
   .container-coffee {
     margin: 7rem 0 4rem 0;
   }
-
   .box-coffee {
     width: 100%;
     margin-top: 3rem;
   }
-
   .box-coffee h1 {
     font-size: 3rem;
   }
-
   .box-coffee p {
     width: 80%;
     text-align: center;
   }
-
   .wrapper-input-cafe {
     flex-direction: column;
     width: 50%;
   }
-
   .wrapper-input-cafe .form-control {
     width: 100%;
   }
-
   .input-coffee {
     width: 100%;
   }
-
   .w-button {
     width: auto;
   }
-
   /*Cocina tus sueños*/
   .container-cocina {
     display: flex;
     flex-direction: column-reverse;
   }
-
   .cocina-image {
     width: 90%;
     margin-top: 2rem;
   }
-
   .box-cocina {
     height: auto;
     margin: 3rem auto;
     width: 90%;
   }
-
   .box-cocina h1 {
     font-size: 3rem;
   }
-
   /*Footer*/
   .bg-footer {
     height: 18rem;
@@ -3553,78 +2806,61 @@ body {
     background-position: top center;
     height: 38vh;
   }
-
   .container-text-sobreMi {
     height: 38vh;
   }
-
   .container-text-sobreMi h1 {
     font-size: 4.5rem;
   }
-
   .img-sobremi {
     width: 80%;
   }
-
   .container-sobremi div:nth-child(2) {
     width: 50%;
     margin-top: 2rem;
   }
-
   .tarjeta:hover {
     height: 600px !important;
   }
-
   .box-facilitadora h1 {
     font-size: 2rem;
     width: 90%;
     margin: auto;
   }
-
   .container-pill {
     flex-direction: row;
   }
-
   .pill {
     width: 21%;
     margin: 0.6rem;
   }
-
   .contenedor-tarjetas-padre {
     height: auto;
     margin-bottom: 2rem;
   }
-
   .botones {
     background-color: #7D9693;
     color: white;
   }
-
   .tarjeta-contenido .agrandar {
     margin-top: 2rem;
   }
-
   .accordion-button {
     font-size: 1.8rem;
   }
-
   .tarjeta {
     margin-bottom: 1.5rem;
   }
-
   .box-left h2, .box-right h2 {
     width: 75%;
   }
-
   .modal-dialog {
     margin-top: 15rem;
   }
-
   .box-grafico h1 {
     width: 90%;
     margin: 5rem auto;
   }
-
   .box-image-sobreMi {
     left: 0;
     position: unset;
@@ -3632,141 +2868,112 @@ body {
     justify-content: center;
     align-items: center;
   }
-
   .img-paty-two {
     width: 40%;
   }
-
   .container-pill-two {
     margin-left: 0;
     flex-wrap: nowrap;
     flex-direction: column;
     margin-top: 4rem;
   }
-
   .box-pill {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
   }
-
   .hover, .actived {
     width: 100%;
   }
-
   .box-contacto-sobreMi h1 {
     width: 90%;
     margin: auto;
     margin-bottom: 1rem;
   }
-
   /*Barras de Access*/
   .barras-image {
     width: 80%;
     margin: 2rem 0;
   }
-
   .box-carousel {
     height: 38rem;
     margin-bottom: 0;
   }
-
   .wrapper-carousel {
     padding: 0;
   }
-
   .carousel-text {
     width: 90%;
     padding: 15px 33px;
   }
-
   .slider-carousel {
     width: 100%;
   }
-
   .back-barras, .back-barras-03 {
     background-color: #AF831B;
     color: white;
   }
-
   .back-barras-02, .back-barras-04 {
     background-color: #D9E1E4;
     color: black !important;
   }
-
   .adelante-barras h1 {
     font-size: 3rem;
   }
-
   .atras-barras p, .atras-two-barras p {
     width: 80%;
   }
-
   .atras-barras ul {
     width: 80%;
   }
-
   .box-cierre-barras h1 {
     width: 50%;
   }
-
   .bg-suscribe h1 {
     padding: 0 2rem;
   }
-
   .btn-send-coffee {
     width: auto;
     margin-top: 1rem;
   }
-
   .wrapper-input-suscribe {
     flex-direction: row;
     width: 80%;
   }
-
   .wrapper-input-suscribe .form-control {
     width: 90%;
     margin-top: 0.5rem;
   }
-
   .box-input {
     margin-right: 0;
     width: 90%;
   }
-
   .box-input .form-control {
     margin-bottom: 1rem;
   }
-
   /*Facelift*/
   .bg-facelift {
     background-position: top right;
     height: 56vh;
   }
-
   .container-text-facelift h1 {
     width: 90%;
     font-size: 4rem;
   }
-
   .container-text-facelift {
     height: 56vh;
   }
-
   .box-facelift h1 {
     width: 90%;
     font-size: 1.8rem;
     margin-bottom: 2rem;
   }
-
   .box-facelift p {
     width: 90%;
   }
-
   .card-box {
     padding: 0 1rem 8rem 1rem;
   }
-
   .card-box .tarjetilla {
     width: 80%;
     margin-right: 1rem;
@@ -3778,44 +2985,35 @@ body {
   .container-pill {
     flex-direction: row;
   }
-
   .pill {
     width: 21%;
     margin: 0.6rem;
   }
-
   .contenedor-tarjetas-padre {
     height: auto;
     margin-bottom: 2rem;
   }
-
   .botones {
     background-color: #7D9693;
     color: white;
   }
-
   .box-left h2, .box-right h2 {
     width: 75%;
   }
-
   .modal-dialog {
     margin-top: 15rem;
   }
-
   .box-grafico h1 {
     width: 90%;
     margin: 5rem auto;
   }
-
   .box-image-sobreMi {
     position: absolute;
     left: 38%;
   }
-
   .img-paty-two {
     width: 40%;
   }
-
   .container-pill-two {
     margin-left: 11rem;
     margin-top: 8rem;
@@ -3823,130 +3021,103 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
   }
-
   .box-pill {
     position: relative;
     margin-bottom: 1.5em;
     padding: 0;
     margin-right: 15rem;
   }
-
   .hover, .actived {
     width: 300px;
   }
-
   .box-contacto-sobreMi h1 {
     width: 90%;
     margin: auto;
     margin-bottom: 1rem;
   }
-
   /*Barras de Access*/
   .barras-image {
     margin: 2rem 0;
   }
-
   .box-carousel {
     height: 38rem;
     margin-bottom: 0;
   }
-
   .wrapper-carousel {
     padding: 0;
   }
-
   .carousel-text {
     width: 90%;
     padding: 15px 33px;
   }
-
   .slider-carousel {
     width: 100%;
   }
-
   .back-barras, .back-barras-03 {
     background-color: #AF831B;
     color: white;
   }
-
   .back-barras-02, .back-barras-04 {
     background-color: #D9E1E4;
     color: black !important;
   }
-
   .adelante-barras h1 {
     font-size: 3rem;
   }
-
   .atras-barras p, .atras-two-barras p {
     width: 80%;
   }
-
   .atras-barras ul {
     width: 80%;
   }
-
   .box-cierre-barras h1 {
     width: 60%;
   }
-
   .bg-suscribe h1 {
     padding: 0 2rem;
   }
-
   .btn-send-coffee {
     width: auto;
     margin-top: 1rem;
   }
-
   .wrapper-input-suscribe {
     flex-direction: row;
     width: 50%;
   }
-
   .wrapper-input-suscribe .form-control {
     width: 90%;
     margin-top: 0.5rem;
   }
-
   .box-input {
     margin-right: 0;
     width: 90%;
   }
-
   .box-input .form-control {
     margin-bottom: 1rem;
   }
-
   /*Facelift*/
   .bg-facelift {
     background-position: top right;
     height: 90vh;
   }
-
   .container-text-facelift h1 {
     width: 90%;
     font-size: 4rem;
   }
-
   .container-text-facelift {
     height: 90vh;
   }
-
   .box-facelift h1 {
     width: 55%;
     font-size: 1.8rem;
     margin-bottom: 2rem;
   }
-
   .box-facelift p {
     width: 55%;
   }
-
   .card-box {
     justify-content: center;
   }
-
   .card-box .tarjetilla {
     width: 21rem;
     margin-right: 2rem;
@@ -3958,44 +3129,35 @@ body {
   .container-pill {
     flex-direction: row;
   }
-
   .pill {
     width: 21%;
     margin: 0.6rem;
   }
-
   .contenedor-tarjetas-padre {
     height: auto;
     margin-bottom: 2rem;
   }
-
   .botones {
     background-color: #7D9693;
     color: white;
   }
-
   .box-left h2, .box-right h2 {
     width: 75%;
   }
-
   .modal-dialog {
     margin-top: 15rem;
   }
-
   .box-grafico h1 {
     width: 90%;
     margin: 5rem auto;
   }
-
   .box-image-sobreMi {
     position: absolute;
     left: 41%;
   }
-
   .img-paty-two {
     width: 40%;
   }
-
   .container-pill-two {
     margin-left: 13rem;
     margin-top: 8rem;
@@ -4003,18 +3165,15 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
   }
-
   .box-pill {
     position: relative;
     margin-bottom: 1.5em;
     padding: 0;
     margin-right: 15rem;
   }
-
   .hover, .actived {
     width: 300px;
   }
-
   .box-contacto-sobreMi h1 {
     width: 90%;
     margin: auto;
@@ -4027,11 +3186,9 @@ body {
     position: absolute;
     left: 41%;
   }
-
   .img-paty-two {
     width: 40%;
   }
-
   .container-pill-two {
     margin-left: 18rem;
     margin-right: 3rem;
@@ -4040,7 +3197,6 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
   }
-
   .box-pill {
     position: relative;
     margin-bottom: 1.5em;
@@ -4054,11 +3210,9 @@ body {
     position: absolute;
     left: 41%;
   }
-
   .img-paty-two {
     width: 40%;
   }
-
   .container-pill-two {
     margin-left: 19rem;
     margin-right: 4rem;
@@ -4067,7 +3221,6 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
   }
-
   .box-pill {
     position: relative;
     margin-bottom: 1.5em;
@@ -4081,11 +3234,9 @@ body {
     position: absolute;
     left: 41%;
   }
-
   .img-paty-two {
     width: 50%;
   }
-
   .container-pill-two {
     margin-left: 20rem;
     margin-right: 5rem;
@@ -4094,14 +3245,12 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
   }
-
   .box-pill {
     position: relative;
     margin-bottom: 1.5em;
     padding: 0;
     margin-right: 15rem;
   }
-
   .box-grafico {
     padding: 3rem 0 15rem 0;
   }
@@ -4112,11 +3261,9 @@ body {
     position: absolute;
     left: 41%;
   }
-
   .img-paty-two {
     width: 50%;
   }
-
   .container-pill-two {
     margin-left: 25rem;
     margin-right: 7rem;
@@ -4125,14 +3272,12 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
   }
-
   .box-pill {
     position: relative;
     margin-bottom: 1.5em;
     padding: 0;
     margin-right: 15rem;
   }
-
   .box-grafico {
     padding: 3rem 0 15rem 0;
   }
@@ -4143,53 +3288,42 @@ body {
     height: auto;
     padding-bottom: 5rem;
   }
-
   .container-text-home h1 {
     font-size: 3rem;
     width: 100%;
     padding: 0rem 0.5rem;
   }
-
   .margin-card {
     margin-right: 0;
   }
-
   .box-cards-home .row {
     height: auto;
     margin-top: 0;
   }
-
   .bg-pink {
     margin-bottom: 9rem;
   }
-
   .adelante h1 {
     width: 90%;
     font-size: 2rem;
   }
-
   .atras-three h5 {
     width: 60%;
   }
-
   .wrapper {
     margin-top: 11rem;
     height: 18rem;
   }
-
   .testimonial-text {
     padding: 71px 30px 30px 30px;
   }
-
   .text-contact {
     padding: 0rem 2rem;
   }
-
   /*Barras*/
   .container-barras {
     height: 90vh;
   }
-
   /*Footer*/
   .bg-footer {
     height: 18rem;
@@ -4202,52 +3336,41 @@ body {
     padding-bottom: 5rem;
     margin-bottom: 9rem;
   }
-
   .container-text-home h1 {
     width: 70%;
     padding: 0rem 0.5rem;
   }
-
   .margin-card {
     margin-right: 0;
   }
-
   .box-cards-home .row {
     height: auto;
     margin-top: 0;
   }
-
   .bg-pink {
     margin-bottom: 0;
   }
-
   .adelante h1 {
     width: 90%;
     font-size: 2rem;
   }
-
   .atras-three h5 {
     width: 60%;
   }
-
   .wrapper {
     margin-top: 11rem;
     height: 18rem;
   }
-
   .testimonial-text {
     padding: 71px 30px 30px 30px;
   }
-
   .text-contact {
     padding: 0rem 2rem;
   }
-
   /*Barras*/
   .container-barras {
     height: 90vh;
   }
-
   /*Footer*/
   .bg-footer {
     height: 18rem;
@@ -4260,34 +3383,27 @@ body {
     background-color: white;
     padding: 14px 0;
   }
-
   .navbar-nav {
     align-items: flex-start;
     margin-left: 0.3em;
     margin-top: 1em;
   }
-
   .dropdown-toggle {
     text-align: start;
   }
-
   .dropdown-menu {
     text-align: start;
   }
-
   .nav-link {
     margin-right: 6px;
   }
-
   /*Proximamente*/
   .bg-gold-proximamente, .bg-green-proximamente, .bg-pink-proximamente {
     height: 75vh;
   }
-
   .bg-green-proximamente p {
     padding: 0 2rem;
   }
-
   .text-oneness {
     width: 90%;
   }
@@ -4308,16 +3424,13 @@ body {
     width: 55px;
     height: 55px;
   }
-
   .icon-minus-one-card {
     margin-top: 2rem;
   }
-
   .icon-plus-one-card {
     position: absolute;
     bottom: 6rem;
   }
-
   .front-view, .back-view {
     font-size: 1.5rem;
     text-decoration: none;
@@ -4327,7 +3440,6 @@ body {
     padding: 1rem 2rem;
     display: block;
   }
-
   .front-view {
     font-size: 1.5rem;
     text-decoration: none;
@@ -4337,7 +3449,6 @@ body {
     padding: 1rem 2rem;
     margin-top: 2rem;
   }
-
   .back-view-two {
     font-size: 1.5rem;
     text-decoration: none;
@@ -4347,89 +3458,73 @@ body {
     padding: 1rem 2rem;
     display: block;
   }
-
   /*card-02*/
   .icon-plus-two-card {
     position: absolute;
     bottom: 55px;
     color: white;
   }
-
   .icon-minus-two-card {
     margin-top: 3rem;
     color: white;
   }
-
   /*card-03*/
   .icon-plus-three-card {
     position: absolute;
     bottom: 55px;
     color: white;
   }
-
   .icon-minus-three-card {
     margin-top: 3rem;
     color: white;
   }
-
   .button-rounded {
     width: 83%;
     margin-bottom: 3rem;
   }
-
   .adelante h1, .atras h1, .atras-two h1, .atras-three h1 {
     width: 80%;
     text-align: center;
   }
-
   .bg-contactame {
     padding: 5rem 0;
   }
-
   .wrapper-input {
     flex-direction: column;
     align-items: center;
   }
-
   .wrapper-input div {
     width: 85%;
   }
-
   /*Barras de Access*/
   .icon-plus-one,
 .icon-minus-one {
     margin-top: 1rem;
     color: #7D9693;
   }
-
   /*hover-02*/
   .icon-plus-two {
     position: absolute;
     bottom: 30px;
     color: white;
   }
-
   .icon-minus-two {
     color: #7D9693;
   }
-
   /*hover-03*/
   .icon-plus-three {
     margin-top: 1rem;
     color: #7D9693;
   }
-
   .icon-minus-three {
     margin-top: 3rem;
     color: #7D9693;
   }
-
   /*hover-04*/
   .icon-plus-four {
     margin-top: 1rem;
     color: #7D9693;
   }
-
   .icon-minus-four {
     margin-top: 3rem;
     color: #7D9693;
@@ -4442,7 +3537,6 @@ body {
 .icon-minus {
     display: none;
   }
-
   /*card-01*/
   .adelante,
 .atras {
@@ -4458,15 +3552,12 @@ body {
     align-items: center;
     justify-content: center;
   }
-
   .atras {
     transform: rotateY(180deg);
   }
-
   .tarjeta-wrap:hover .tarjeta-one {
     transform: rotateY(180deg);
   }
-
   /*card-02*/
   .atras-two {
     width: 100%;
@@ -4482,11 +3573,9 @@ body {
     justify-content: center;
     transform: rotateY(180deg);
   }
-
   .atras-two {
     transform: rotateY(180deg);
   }
-
   /*card-03*/
   .atras-three {
     width: 100%;
@@ -4502,25 +3591,20 @@ body {
     justify-content: center;
     transform: rotateY(180deg);
   }
-
   .atras-three {
     transform: rotateY(180deg);
   }
-
   /*Sobre mi*/
   .contenedor-tarjetas-padre {
     height: auto;
   }
-
   .bg-initiatives h1 {
     font-size: 2.5rem;
   }
-
   .tarjeta {
     width: auto;
     height: 308px;
   }
-
   /*Barras*/
   .adelante-barras,
 .atras-barras {
@@ -4536,19 +3620,15 @@ body {
     align-items: center;
     justify-content: center;
   }
-
   .atras-barras {
     transform: rotateY(180deg);
   }
-
   .tarjeta-wrap:hover .tarjeta-barras {
     transform: rotateY(180deg);
   }
-
   .tarjeta-wrap:hover .tarjeta-one-barras {
     transform: rotateY(180deg);
   }
-
   .atras-two-barras {
     width: 100%;
     height: 100%;
@@ -4563,11 +3643,9 @@ body {
     justify-content: center;
     transform: rotateY(180deg);
   }
-
   .atras-two-barras {
     transform: rotateY(180deg);
   }
-
   .atras-three-barras {
     width: 100%;
     height: 100%;
@@ -4582,7 +3660,6 @@ body {
     justify-content: center;
     transform: rotateY(180deg);
   }
-
   .atras-three-barras {
     transform: rotateY(180deg);
   }
@@ -4599,7 +3676,6 @@ body {
   .navbar-brand {
     display: none;
   }
-
   .navbar-nav {
     align-items: left;
   }
