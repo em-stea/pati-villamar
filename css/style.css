@@ -1542,19 +1542,20 @@ textarea.form-control {
 
 /*Cierre barras*/
 .box-cierre-barras {
+  background-color: #7D9693;
   padding: 5rem 0;
   text-align: center;
 }
 
 .box-cierre-barras h1 {
   font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
-  color: #614651;
+  color: white;
   font-size: 2rem;
   margin: auto;
 }
 
 .box-cierre-barras p {
-  color: #7D9693;
+  color: white;
   font-weight: 700;
   font-size: 1.3rem;
 }
