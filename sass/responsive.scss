@@ -420,6 +420,10 @@ body {
   .container-text-eneagramas p{
     margin-bottom: 2rem;
   }
+  /*Popup*/
+  .pop-up h2{
+    font-size: 1.2rem;
+  }
 }
 @media screen and (min-width: 301px) and (max-width: 425px) {
   /*Home*/
@@ -3132,6 +3136,10 @@ body {
     margin-right: 2rem;
     margin-bottom: 2rem;
   }
+  /*Popup*/
+  .popup-dialog{
+    margin-top: 12rem !important;
+  }
 }
 @media screen and (min-width: 1801px) and (max-width: 1817px){
   /*Sobre mi*/
@@ -3188,6 +3196,10 @@ body {
     margin: auto;
     margin-bottom: 1rem;
   }
+  /*Popup*/
+  .popup-dialog{
+    margin-top: 12rem !important;
+  }
 }
 @media screen and (min-width: 1818px) and (max-width: 1953px){
   /*Sobre mi*/
@@ -3212,6 +3224,10 @@ body {
     padding: 0;
     margin-right: 15rem;
   }
+  /*Popup*/
+  .popup-dialog{
+    margin-top: 12rem !important;
+  }
 }
 @media screen and (min-width: 1954px) and (max-width: 1990px){
   /*Sobre mi*/
@@ -3235,6 +3251,10 @@ body {
     margin-bottom: 1.5em;
     padding: 0;
     margin-right: 15rem;
+  }
+  /*Popup*/
+  .popup-dialog{
+    margin-top: 12rem !important;
   }
 }
 @media screen and (min-width: 1991px) and (max-width: 2010px){
@@ -3263,6 +3283,10 @@ body {
   .box-grafico{
     padding: 3rem 0 15rem 0;
   }
+  /*Popup*/
+  .popup-dialog{
+    margin-top: 12rem !important;
+  }
 }
 @media screen and (min-width: 2011px) and (max-width: 2100px){
   /*Sobre mi*/
@@ -3289,6 +3313,10 @@ body {
   }
   .box-grafico{
     padding: 3rem 0 15rem 0;
+  }
+  /*Popup*/
+  .popup-dialog{
+    margin-top: 15rem !important;
   }
 }
 @media screen and (min-width: 1001px) and (max-width: 2500px) {

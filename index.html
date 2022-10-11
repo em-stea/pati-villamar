@@ -45,14 +45,7 @@
 
     <!--Estilos Plugin Super Simple Slider Testimonios-->
     <link rel="stylesheet" href="sss/sss.css" />
-
-    <!--JQuery-->
-    <script
-      src="https://code.jquery.com/jquery-2.2.4.min.js"
-      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-      crossorigin="anonymous"
-    ></script>
-
+    
     <!--Script Plugin Super Simple Slider-->
     <script src="sss/sss.js"></script>
 
@@ -95,6 +88,12 @@
   })(window,document,'script','dataLayer','GTM-TSNW7HL');</script>
   <!-- End Google Tag Manager -->
 
+  <script>
+    $(document).ready(function()
+    {
+       $("#mostrarmodal").modal("show");
+    });
+  </script>
   </head>
   <body>
 
@@ -104,6 +103,24 @@
     <!-- End Google Tag Manager (noscript) -->
     
     <header>
+      <div class="modal fade" id="mostrarmodal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h3>Cabecera de la ventana</h3>
+            </div>
+            <div class="modal-body">
+                <h4>Texto de la ventana</h4>
+                Mas texto en la ventana.   
+            </div>
+            <div class="modal-footer">
+              <a href="#" data-dismiss="modal" class="btn btn-danger">Cerrar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!--Navbar-->
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
@@ -582,6 +599,36 @@
       </div>
     </footer>
 
+    <!-- Modal -->
+    <div class="modal" id="Modal" tabindex="-1">
+      <div class="modal-dialog popup-dialog">
+        <div class="modal-content popup-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body pop-up">
+            <h2>Maratón de Barras de Access</h2>
+            <p>   
+              <span class="icon-calendar-check-o calendario-02"></span>
+              <span class="text-bold"> 13 de Octubre</span> - Quito
+            </p>
+            <hr>
+            <h2>Certificación en Barras de Access</h2>
+            <p>
+              <span class="icon-calendar-check-o calendario-02"></span>
+              <span class="text-bold">16 de Octubre</span>  - Quito
+            </p>
+            <p>
+              <span class="icon-calendar-check-o calendario-02"></span>
+              <span  class="text-bold"> 26 de Octubre</span> - Guayaquil
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
     <!--Bootstrap JS-->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
@@ -625,6 +672,22 @@
 
     <!--Click event-->
     <script src="js/click-card.js"></script>
+
+    <!--JQuery-->
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"
+    ></script>
+
+    <!--script para carga de modal -->
+    <script> 
+      $(document).ready(function()
+      {
+         $("#Modal").modal("show");
+      });
+   </script>
+   
 
   </body>
 </html>

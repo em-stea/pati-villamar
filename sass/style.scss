@@ -1666,7 +1666,7 @@ textarea.form-control {
   }
 }
 
-.icon-calendar-check-o, .icon-location{
+.calendario, .icon-location{
   color: $colour-text-violet;
   font-size: 2.5rem;
   line-height: 2 !important;
@@ -1760,4 +1760,20 @@ textarea.form-control {
   padding-right: 3rem;
   border-radius: 1rem 0 0 1rem;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42);
+}
+
+/*Popup*/
+.popup-content{
+  border: none;
+}
+.pop-up h2{
+  font-family: "Now", sans-serif;
+  font-size: 1.8rem;
+  color: $colour-text-gold;
+  margin-bottom: 1rem;
+}
+.calendario-02{
+  color: $colour-text-green;
+  font-size: 1.5rem;
+  padding: 1rem 1rem 1rem 0rem;
 }
