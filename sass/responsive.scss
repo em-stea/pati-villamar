@@ -424,6 +424,12 @@ body {
   .pop-up h2{
     font-size: 1.2rem;
   }
+  .popup-dialog{
+    margin-top: 8rem !important;
+  }
+  .pop-up{
+    height: 30vh;
+  }
 }
 @media screen and (min-width: 301px) and (max-width: 425px) {
   /*Home*/
@@ -835,6 +841,10 @@ body {
   /*Footer*/
   .bg-footer{
     height: 18rem;
+  }
+  /*Pop up*/
+  .popup-dialog{
+    margin-top: 4rem !important;
   }
 }
 @media screen and (min-width: 426px) and (max-width: 500px) {
@@ -1248,6 +1258,10 @@ body {
   .bg-footer{
     height: 18rem;
   }
+  /*Pop up*/
+  .popup-dialog{
+    margin-top: 5rem !important;
+  }
 }
 @media screen and (min-width: 451px) and (max-width: 540px) {
   /*Home*/
@@ -1632,6 +1646,10 @@ body {
   /*Footer*/
   .bg-footer{
     height: 18rem;
+  }
+  /*Pop up*/
+  .popup-dialog{
+    margin-top: 5rem !important;
   }
   
 }
@@ -2045,6 +2063,10 @@ body {
   /*Footer*/
   .bg-footer{
     height: 18rem;
+  }
+  /*Pop up*/
+  .popup-dialog{
+    margin-top: 5rem !important;
   }
 }
 @media screen and (min-width: 601px) and (max-width: 765px) {
@@ -2467,6 +2489,10 @@ body {
   .bg-footer{
     height: 18rem;
   }
+  /*Pop up*/
+  .popup-dialog{
+    margin-top: 5rem !important;
+  }
 }
 @media screen and (min-width: 766px) and (max-width: 1000px) {
   /*Home*/
@@ -2810,6 +2836,10 @@ body {
   .bg-footer{
     height: 18rem;
   }
+  /*Pop up*/
+  .popup-dialog{
+    margin-top: 5rem !important;
+  }
 }
 @media screen and (min-width: 1001px) and (max-width: 1254px){
   /*Sobre mi*/
@@ -2991,6 +3021,10 @@ body {
     margin-right: 1rem;
     margin-bottom: 2rem;
   }
+  /*Pop up*/
+  .popup-dialog{
+    margin-top: 5rem !important;
+  }
 }
 @media screen and (min-width: 1255px) and (max-width: 1800px){
   /*Sobre mi*/
@@ -3138,7 +3172,7 @@ body {
   }
   /*Popup*/
   .popup-dialog{
-    margin-top: 12rem !important;
+    margin-top: 3rem !important;
   }
 }
 @media screen and (min-width: 1801px) and (max-width: 1817px){
@@ -3226,7 +3260,7 @@ body {
   }
   /*Popup*/
   .popup-dialog{
-    margin-top: 12rem !important;
+    margin-top: 5rem !important;
   }
 }
 @media screen and (min-width: 1954px) and (max-width: 1990px){
@@ -3254,7 +3288,7 @@ body {
   }
   /*Popup*/
   .popup-dialog{
-    margin-top: 12rem !important;
+    margin-top: 5rem !important;
   }
 }
 @media screen and (min-width: 1991px) and (max-width: 2010px){
@@ -3285,7 +3319,7 @@ body {
   }
   /*Popup*/
   .popup-dialog{
-    margin-top: 12rem !important;
+    margin-top: 5rem !important;
   }
 }
 @media screen and (min-width: 2011px) and (max-width: 2100px){
@@ -3316,7 +3350,7 @@ body {
   }
   /*Popup*/
   .popup-dialog{
-    margin-top: 15rem !important;
+    margin-top: 5rem !important;
   }
 }
 @media screen and (min-width: 1001px) and (max-width: 2500px) {
@@ -3412,6 +3446,10 @@ body {
   /*Footer*/
   .bg-footer{
     height: 18rem;
+  }
+  /*Popup*/
+  .popup-dialog{
+    margin-top: 5rem !important;
   }
 }
 

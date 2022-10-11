@@ -26,7 +26,7 @@
 }
 @font-face {
   font-family: "MADE Bon Voyage";
-  src: url("../fonts/made-bon-voyage-regular.ttf") format("truetype");;
+  src: url("../fonts/made-bon-voyage-regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -1770,6 +1770,16 @@ textarea.form-control {
 }
 
 /*Popup*/
+.pop-up{
+  height: 70vh;
+}
+.img-popup{
+ background-image: url(../img/popup.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: contain;
+ height: 100%;
+}
 .popup-content{
   border: none;
 }
@@ -1783,4 +1793,25 @@ textarea.form-control {
   color: $colour-text-green;
   font-size: 1.5rem;
   padding: 1rem 1rem 1rem 0rem;
+}
+.box-whatsapp-popup{
+  background: #41e960;
+  width: 80%;
+  margin: auto;
+  border-radius: 50px;
+  margin-bottom: 1rem;
+  &:hover{
+    background: $colour-text-gold;
+  }
+}
+.icon-whatsapp-popup {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  padding: 0.7rem;
+  display: flex;
+  justify-content: center;
+  &:hover{
+    color: white;
+  }
 }
