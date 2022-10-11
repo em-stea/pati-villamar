@@ -1797,12 +1797,21 @@ textarea.form-control {
 .box-whatsapp-popup{
   background: #41e960;
   width: 80%;
+  color: white;
   margin: auto;
   border-radius: 50px;
   margin-bottom: 1rem;
   &:hover{
     background: $colour-text-gold;
   }
+}
+.box-whatsapp-popup p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  font-weight: 800;
+  letter-spacing: 2px;
 }
 .icon-whatsapp-popup {
   font-size: 1.5rem;
