@@ -1780,8 +1780,12 @@ textarea.form-control {
  background-size: contain;
  height: 100%;
 }
+.pop-up-header{
+  border-bottom: none;
+}
 .popup-content{
   border: none;
+  background-color: transparent;
 }
 .pop-up h2{
   font-family: "Now", sans-serif;

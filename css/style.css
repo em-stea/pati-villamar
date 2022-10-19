@@ -2074,8 +2074,13 @@ textarea.form-control {
   height: 100%;
 }
 
+.pop-up-header {
+  border-bottom: none;
+}
+
 .popup-content {
   border: none;
+  background-color: transparent;
 }
 
 .pop-up h2 {
