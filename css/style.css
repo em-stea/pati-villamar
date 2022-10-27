@@ -1090,26 +1090,89 @@ textarea.form-control {
 }
 
 /*Encuentros*/
+.container-encuentros {
+  background-color: #FFFBF9;
+}
+
+.encuentros-image {
+  width: 50%;
+  overflow: hidden;
+  margin-left: 7rem;
+}
+
 .bg-pink-proximamente {
   background-color: #FFFBF9;
+}
+
+.box-encuentros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
   height: 90vh;
-  overflow-x: hidden;
+  width: 70%;
+  margin-right: 10rem;
+}
+
+.box-encuentros h1 {
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
+  color: #7D9693;
   text-align: center;
+}
+
+.box-encuentros p {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.container-box-day {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  width: 40%;
+  margin: 4rem auto;
 }
 
-.bg-pink-proximamente h1 {
-  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
-  color: black;
-  font-size: 3rem;
+.row-box-day {
+  margin-top: 0.5rem;
+  background-color: #EEEEEE;
+  border-radius: 6px;
+  padding: 0.7rem 3rem;
 }
 
-.bg-pink-proximamente p {
-  width: 50%;
-  text-align: center;
-  margin: 0 auto;
+.box-day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+  padding: 1rem 3.5rem;
+}
+
+.box-day p {
+  font-size: 17px;
+  margin-bottom: 0.3rem;
+  color: #AF831B;
+}
+
+.box-day h3 {
+  margin-bottom: 0;
+  font-weight: 900;
+}
+
+.box-text-day {
+  margin: auto;
+}
+
+.box-text-day h5 {
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.box-text-day h5:nth-child(2) {
+  font-size: 1rem;
+  font-weight: normal;
+  margin-top: 0.5rem;
 }
 
 /*Certificaciones*/

@@ -428,6 +428,34 @@ body {
   .pop-up {
     height: 30vh;
   }
+  /*Encuentros*/
+  .container-encuentros {
+    display: flex;
+  }
+  .box-encuentros {
+    margin-right: auto;
+    width: 90%;
+    height: 48vh;
+  }
+  .encuentros-image {
+    margin-top: 3rem;
+    margin-left: 0;
+    width: 90%;
+  }
+  .container-box-day {
+    width: 90%;
+    margin: 0rem auto 4rem;
+  }
+  .row-box-day {
+    padding: 1.4rem;
+  }
+  .box-text-day h5 {
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .box-day {
+    margin: auto;
+  }
 }
 @media screen and (min-width: 301px) and (max-width: 425px) {
   /*Home*/
@@ -842,6 +870,34 @@ body {
   /*Pop up*/
   .popup-dialog {
     margin-top: 4rem !important;
+  }
+  /*Encuentros*/
+  .container-encuentros {
+    display: flex;
+  }
+  .box-encuentros {
+    margin-right: auto;
+    width: 90%;
+    height: 48vh;
+  }
+  .encuentros-image {
+    margin-top: 3rem;
+    margin-left: 0;
+    width: 90%;
+  }
+  .container-box-day {
+    width: 90%;
+    margin: 0rem auto 4rem;
+  }
+  .row-box-day {
+    padding: 1.4rem;
+  }
+  .box-text-day h5 {
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .box-day {
+    margin: auto;
   }
 }
 @media screen and (min-width: 426px) and (max-width: 500px) {
@@ -1258,6 +1314,34 @@ body {
   .popup-dialog {
     margin-top: 5rem !important;
   }
+  /*Encuentros*/
+  .container-encuentros {
+    display: flex;
+  }
+  .box-encuentros {
+    margin-right: auto;
+    width: 90%;
+    height: 48vh;
+  }
+  .encuentros-image {
+    margin-top: 3rem;
+    margin-left: 0;
+    width: 90%;
+  }
+  .container-box-day {
+    width: 90%;
+    margin: 0rem auto 4rem;
+  }
+  .row-box-day {
+    padding: 1.4rem;
+  }
+  .box-text-day h5 {
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .box-day {
+    margin: auto;
+  }
 }
 @media screen and (min-width: 451px) and (max-width: 540px) {
   /*Home*/
@@ -1644,6 +1728,34 @@ body {
   /*Pop up*/
   .popup-dialog {
     margin-top: 5rem !important;
+  }
+  /*Encuentros*/
+  .container-encuentros {
+    display: flex;
+  }
+  .box-encuentros {
+    margin-right: auto;
+    width: 90%;
+    height: 48vh;
+  }
+  .encuentros-image {
+    margin-top: 3rem;
+    margin-left: 0;
+    width: 90%;
+  }
+  .container-box-day {
+    width: 90%;
+    margin: 0rem auto 4rem;
+  }
+  .row-box-day {
+    padding: 1.4rem;
+  }
+  .box-text-day h5 {
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .box-day {
+    margin: auto;
   }
 }
 @media screen and (min-width: 541px) and (max-width: 600px) {
@@ -2059,6 +2171,34 @@ body {
   /*Pop up*/
   .popup-dialog {
     margin-top: 5rem !important;
+  }
+  /*Encuentros*/
+  .container-encuentros {
+    display: flex;
+  }
+  .box-encuentros {
+    margin-right: auto;
+    width: 90%;
+    height: 48vh;
+  }
+  .encuentros-image {
+    margin-top: 3rem;
+    margin-left: 0;
+    width: 90%;
+  }
+  .container-box-day {
+    width: 90%;
+    margin: 0rem auto 4rem;
+  }
+  .row-box-day {
+    padding: 1.4rem;
+  }
+  .box-text-day h5 {
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .box-day {
+    margin: auto;
   }
 }
 @media screen and (min-width: 601px) and (max-width: 765px) {
@@ -2485,6 +2625,34 @@ body {
   .popup-dialog {
     margin-top: 5rem !important;
   }
+  /*Encuentros*/
+  .container-encuentros {
+    display: flex;
+  }
+  .box-encuentros {
+    margin-right: auto;
+    width: 90%;
+    height: 48vh;
+  }
+  .encuentros-image {
+    margin-top: 3rem;
+    margin-left: 0;
+    width: 90%;
+  }
+  .container-box-day {
+    width: 90%;
+    margin: 0rem auto 4rem;
+  }
+  .row-box-day {
+    padding: 1.4rem;
+  }
+  .box-text-day h5 {
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .box-day {
+    margin: auto;
+  }
 }
 @media screen and (min-width: 766px) and (max-width: 1000px) {
   /*Home*/
@@ -2832,6 +3000,24 @@ body {
   .popup-dialog {
     margin-top: 5rem !important;
   }
+  /*Encuentros*/
+  .encuentros-image {
+    margin-top: 3rem;
+    margin-left: 0;
+    width: 90%;
+  }
+  .container-box-day {
+    width: 90%;
+    margin: 3rem auto 4rem;
+  }
+  .row-box-day {
+    padding: 1.4rem;
+    width: 75%;
+    margin: 0.5rem auto;
+  }
+  .box-day {
+    margin: auto;
+  }
 }
 @media screen and (min-width: 1001px) and (max-width: 1254px) {
   /*Sobre mi*/
@@ -3016,6 +3202,24 @@ body {
   /*Pop up*/
   .popup-dialog {
     margin-top: 5rem !important;
+  }
+  /*Encuentros*/
+  .encuentros-image {
+    margin-top: 3rem;
+    margin-left: 0;
+    width: 90%;
+  }
+  .container-box-day {
+    width: 90%;
+    margin: 3rem auto 4rem;
+  }
+  .row-box-day {
+    padding: 1.4rem;
+    width: 75%;
+    margin: 0.5rem auto;
+  }
+  .box-day {
+    margin: auto;
   }
 }
 @media screen and (min-width: 1255px) and (max-width: 1800px) {
