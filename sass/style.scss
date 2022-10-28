@@ -970,7 +970,7 @@ textarea.form-control {
   margin-top: .5rem;
   background-color: #EEEEEE;
   border-radius: 6px;
-  padding: .7rem 3rem;
+  padding: 1rem 3rem;
 }
 .box-day{
   display: flex;
@@ -1000,6 +1000,40 @@ textarea.form-control {
   font-size: 1rem;
   font-weight: normal;
   margin-top: .5rem;
+}
+.box-whatsapp-encuentros{
+  background: #41e960;
+  width: 70%;
+  color: white;
+  border-radius: 50px;
+  margin-top: 1rem;
+  &:hover{
+    background: $colour-text-green;
+    box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.1);
+  }
+}
+.box-whatsapp-encuentros p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-family: "Now", sans-serif;
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+.icon-whatsapp-encuentros {
+  font-size: 1.3rem;
+  color: white;
+  text-decoration: none;
+  padding: 0.7rem;
+  display: flex;
+  justify-content: center;
+  &:hover{
+    color: white;
+  }
 }
 
 /*Certificaciones*/

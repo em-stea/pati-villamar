@@ -449,7 +449,7 @@ body {
     margin: 0rem auto 4rem;
   }
   .row-box-day{
-    padding: 1.4rem;
+    padding: 1.4rem .5rem;
   }
   .box-text-day h5{
     text-align: center;
@@ -457,6 +457,13 @@ body {
   }
   .box-day{
     margin: auto;
+  }
+  .box-whatsapp-encuentros{
+    margin: 1rem auto;
+    width: 100%;
+  }
+  .box-text-day h5:nth-child(2){
+    padding-top: .5rem;
   }
 }
 @media screen and (min-width: 301px) and (max-width: 425px) {
@@ -902,6 +909,13 @@ body {
   .box-day{
     margin: auto;
   }
+  .box-whatsapp-encuentros{
+    margin: 1rem auto;
+    width: 100%;
+  }
+  .box-text-day h5:nth-child(2){
+    padding-top: .5rem;
+  }
 }
 @media screen and (min-width: 426px) and (max-width: 500px) {
   /*Home*/
@@ -1346,6 +1360,13 @@ body {
   .box-day{
     margin: auto;
   }
+  .box-whatsapp-encuentros{
+    margin: 1rem auto;
+    width: 100%;
+  }
+  .box-text-day h5:nth-child(2){
+    padding-top: .5rem;
+  }
 }
 @media screen and (min-width: 451px) and (max-width: 540px) {
   /*Home*/
@@ -1763,7 +1784,13 @@ body {
   .box-day{
     margin: auto;
   }
-  
+  .box-whatsapp-encuentros{
+    margin: 1rem auto;
+    width: 100%;
+  }
+  .box-text-day h5:nth-child(2){
+    padding-top: .5rem;
+  }
 }
 @media screen and (min-width: 541px) and (max-width: 600px) {
   /*Home*/
@@ -2207,6 +2234,13 @@ body {
   }
   .box-day{
     margin: auto;
+  }
+  .box-whatsapp-encuentros{
+    margin: 1rem auto;
+    width: 100%;
+  }
+  .box-text-day h5:nth-child(2){
+    padding-top: .5rem;
   }
 }
 @media screen and (min-width: 601px) and (max-width: 765px) {
@@ -2660,6 +2694,14 @@ body {
   }
   .box-day{
     margin: auto;
+  }
+  .box-whatsapp-encuentros{
+    margin: 1rem auto;
+    width: 80%;
+    padding: .3rem 0;
+  }
+  .box-text-day h5:nth-child(2){
+    padding-top: .5rem;
   }
 }
 @media screen and (min-width: 766px) and (max-width: 1000px) {
@@ -3377,6 +3419,19 @@ body {
   /*Popup*/
   .popup-dialog{
     margin-top: 3rem !important;
+  }
+  /*Encuentros*/
+  .container-box-day{
+    width: 60%;
+    margin: 3rem auto 4rem;
+  }
+  .row-box-day{
+    padding: 1.4rem;
+    width: 75%;
+    margin: .5rem auto;
+  }
+  .box-day{
+    margin: auto;
   }
 }
 @media screen and (min-width: 1801px) and (max-width: 1817px){
