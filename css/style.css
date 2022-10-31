@@ -116,6 +116,10 @@ body {
   font-weight: 500;
 }
 
+.single-button-nav {
+  margin-right: 37px;
+}
+
 .bg-pink {
   background-color: #FFFBF9;
   height: 90vh;
@@ -1102,6 +1106,18 @@ textarea.form-control {
 
 .bg-pink-proximamente {
   background-color: #FFFBF9;
+  height: 90vh;
+  overflow-x: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #A4798D;
+}
+
+.bg-pink-proximamente h1 {
+  font-family: "MADE Bon Voyage", "JulesColossal-Light", Serif;
+  font-size: 3rem;
 }
 
 .box-encuentros {
@@ -1175,9 +1191,41 @@ textarea.form-control {
   margin-top: 0.5rem;
 }
 
+.box-botones-encuentros {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+}
+
+.link-encuentros {
+  background: #D4B8B5;
+  width: 50%;
+  border-radius: 50px;
+  padding: 0.7rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.link-encuentros:hover {
+  background: #A4798D;
+  color: white;
+  box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.1);
+}
+
+.link-encuentros a {
+  text-decoration: none;
+  color: #614651;
+  font-size: 0.9rem;
+  padding: 0.7rem;
+}
+.link-encuentros a:hover {
+  color: white;
+}
+
 .box-whatsapp-encuentros {
   background: #41e960;
-  width: 70%;
+  width: 50%;
   color: white;
   border-radius: 50px;
   margin-top: 1rem;
